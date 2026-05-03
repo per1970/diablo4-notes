@@ -3,52 +3,56 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * Site: Diablo 4 Season 13 Notes
+ * Vault: C:\Users\perkr\OneDrive\Documents\Obsidian\Games\Diablo 4
  */
+
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "D4 Season 13 Notes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    analytics: null,
+    locale: "en-GB",
+    baseUrl: "per1970.github.io/diablo4-notes", // ← change to your actual GitHub Pages URL
+    ignorePatterns: [
+      "private",
+      "Templates",
+      ".obsidian",
+      "**/*.canvas",
+    ],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Cinzel",         // Fantasy/gothic feel fitting Diablo
+        body: "Source Sans Pro",  // Clean readable body text
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f5f0e8",        // Parchment background
+          lightgray: "#e0d8cc",
+          gray: "#9e8f7a",
+          darkgray: "#3d2b1f",
+          dark: "#1a0a00",
+          secondary: "#8b1a1a",    // Deep red — Diablo theme
+          tertiary: "#c0392b",
+          highlight: "rgba(139, 26, 26, 0.12)",
+          textHighlight: "#fff176",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1a0e0a",        // Very dark background
+          lightgray: "#2a1a12",
+          gray: "#6b4f3a",
+          darkgray: "#c8b89a",
+          dark: "#f0e6d3",
+          secondary: "#c0392b",    // Diablo red
+          tertiary: "#e74c3c",
+          highlight: "rgba(192, 57, 43, 0.15)",
+          textHighlight: "#b34700",
         },
       },
     },
@@ -57,7 +61,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
+        priority: ["frontmatter", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
@@ -69,11 +73,16 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({
+        markdownLinkResolution: "shortest",
+        prettyLinks: true,
+      }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [
+      Plugin.RemoveDrafts(),
+    ],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
@@ -86,10 +95,7 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
-      Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
     ],
   },
 }
