@@ -2,578 +2,880 @@
 
 // ============================================================
 // D4 Notes — Quartz v4 custom.scss
-// Drop this file into: quartz/styles/custom.scss
-//
-// ALSO update quartz.config.ts typography + colors (see
-// instructions at the bottom of this file).
+// Written against actual generated HTML from public/index.html
+// Install: replace quartz/quartz/styles/custom.scss
 // ============================================================
+// NOTE: Fonts (Cinzel, Source Sans 3) are loaded automatically
+// by Quartz via quartz.config.ts — no @import needed here.
 
-// ── CSS Custom Properties ───────────────────────────────────
-// These sit on :root and are available everywhere.
+// ── Design tokens ─────────────────────────────────────────────
 :root {
-  --parchment-bg:      oklch(97% 0.012 80);
-  --parchment-surface: oklch(95% 0.014 78);
-  --parchment-raised:  oklch(92% 0.016 76);
-  --parchment-hover:   oklch(89% 0.018 76);
+  --d4-bg:        oklch(97% 0.012 80);    // warm parchment
+  --d4-surface:   oklch(95% 0.014 78);    // slightly darker surface
+  --d4-raised:    oklch(92% 0.016 76);    // cards, inputs
+  --d4-hover:     oklch(89% 0.018 76);    // hover states
 
-  --border-color:      oklch(82% 0.018 75);
-  --border-mid:        oklch(74% 0.022 72);
+  --d4-border:    oklch(82% 0.018 75);    // subtle borders
+  --d4-border-mid:oklch(74% 0.022 72);    // stronger borders
 
-  --text-primary:      oklch(22% 0.016 45);
-  --text-muted:        oklch(38% 0.014 50);
-  --text-faint:        oklch(55% 0.012 55);
+  --d4-text:      oklch(22% 0.016 45);    // main text
+  --d4-muted:     oklch(38% 0.014 50);    // secondary text
+  --d4-faint:     oklch(55% 0.012 55);    // timestamps, meta
 
-  --crimson:           oklch(40% 0.2 22);
-  --crimson-dim:       oklch(50% 0.16 22);
-  --gold:              oklch(38% 0.14 55);
-  --gold-dim:          oklch(46% 0.12 58);
-  --gold-faint:        oklch(62% 0.09 62);
+  --d4-crimson:   oklch(40% 0.2 22);      // accent red
+  --d4-crimson-d: oklch(50% 0.16 22);     // dimmer red
+  --d4-gold:      oklch(38% 0.14 55);     // gold/amber
+  --d4-gold-d:    oklch(46% 0.12 58);     // dimmer gold
+  --d4-gold-f:    oklch(62% 0.09 62);     // faint gold
 
-  --font-display:      'Cinzel', 'Times New Roman', serif;
-  --font-body:         'Source Sans 3', sans-serif;
+  --d4-display:   'Cinzel', 'Times New Roman', serif;
+  --d4-body:      'Source Sans 3', sans-serif;
 }
 
-// ── Global body & background ─────────────────────────────────
+// ── Body ──────────────────────────────────────────────────────
 body {
-  background-color: var(--parchment-bg) !important;
-  color: var(--text-primary) !important;
-  font-family: var(--font-body) !important;
+  background-color: var(--d4-bg) !important;
+  color: var(--d4-text) !important;
+  font-family: var(--d4-body) !important;
   font-size: 17px !important;
   line-height: 1.7 !important;
   -webkit-font-smoothing: antialiased;
 }
 
-// ── Page layout shell ────────────────────────────────────────
-// Quartz wraps everything in #quartz-body > .page
-// Left panel = .left; right panel = .right; center = .center
+// ── Overall page wrapper: #quartz-root.page ───────────────────
 .page {
-  background-color: var(--parchment-bg) !important;
+  background-color: var(--d4-bg) !important;
 }
 
-// ── Left sidebar ─────────────────────────────────────────────
-.left.sidebar {
-  background-color: var(--parchment-surface) !important;
-  border-right: 1px solid var(--border-color) !important;
+// ── Fixed top bar: #quartz-body > .page-header ───────────────
+// Quartz renders header[] components inside div.page-header
+// We fix it to the top of the viewport as a proper navbar.
+.page-header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 200 !important;
+  height: 52px !important;
+  background: oklch(96% 0.013 78 / 0.97) !important;
+  backdrop-filter: blur(8px) !important;
+  border-bottom: 1px solid var(--d4-border) !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 20px !important;
+  gap: 16px !important;
+  margin: 0 !important;
 }
 
-// Explorer (file tree)
-.explorer {
-  background: transparent !important;
-}
-
-// Explorer folder/file labels
-.explorer .folder-title,
-.explorer li > a,
-.explorer li > span {
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  color: var(--text-muted) !important;
-  font-family: var(--font-body) !important;
-}
-
-.explorer li > a:hover {
-  color: var(--gold) !important;
-}
-
-// Explorer section headers
-.explorer > .folder-outer > .folder-title {
-  font-family: var(--font-display) !important;
-  font-size: 10px !important;
-  letter-spacing: 0.16em !important;
+// Site title inside top bar
+.page-header h2.page-title {
+  font-family: var(--d4-display) !important;
+  font-size: 0.9rem !important;
   font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
   text-transform: uppercase !important;
-  color: var(--crimson) !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+  margin: 0 !important;
 }
 
-// ── Right sidebar (TOC) ──────────────────────────────────────
-.right.sidebar {
-  background-color: var(--parchment-surface) !important;
-  border-left: 1px solid var(--border-color) !important;
+.page-header h2.page-title a {
+  color: var(--d4-gold) !important;
+  text-decoration: none !important;
 }
 
-// TOC label
-#toc-content > ul {
-  border-left: 1px solid var(--border-color) !important;
+// Search pushed to far right of top bar
+.page-header .flex-component {
+  margin-left: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex-shrink: 0 !important;
 }
 
-.toc-header {
-  font-family: var(--font-display) !important;
-  font-size: 10px !important;
-  letter-spacing: 0.16em !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  color: var(--crimson) !important;
+.page-header .search {
+  width: 220px !important;
 }
 
-// TOC links
-#toc-content a {
+.page-header .search > .search-button {
+  background-color: var(--d4-raised) !important;
+  border: 1px solid var(--d4-border) !important;
+  border-radius: 5px !important;
+  width: 100% !important;
+  height: 30px !important;
   font-size: 13px !important;
-  color: var(--text-muted) !important;
+  padding: 0 12px 0 8px !important;
 }
 
-#toc-content a:hover,
-#toc-content li.is-active > a {
-  color: var(--gold) !important;
+.page-header .search > .search-button > p {
+  color: var(--d4-faint) !important;
+  font-size: 13px !important;
 }
 
-// ── Top / header bar ─────────────────────────────────────────
-header,
-.navbar,
-#quartz-header {
-  background-color: oklch(96% 0.013 80 / 0.97) !important;
-  border-bottom: 1px solid var(--border-color) !important;
-  backdrop-filter: blur(8px);
+// Hide dark/reader mode icons from top bar entirely
+.page-header button.darkmode,
+.page-header button.readermode {
+  display: none !important;
 }
 
-// Site title in header
-.page-title {
-  font-family: var(--font-display) !important;
-  font-size: 15px !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.08em !important;
-  color: var(--gold) !important;
+// Push everything below the fixed bar
+#quartz-body {
+  margin-top: 52px !important;
 }
 
-// ── Search bar ───────────────────────────────────────────────
-#search-bar,
-.search-bar input,
-button#search-icon {
-  background: var(--parchment-raised) !important;
-  border-color: var(--border-color) !important;
-  color: var(--text-primary) !important;
-  font-family: var(--font-body) !important;
-  font-size: 14px !important;
+// Sidebar must start below the top bar, flush with screen edge
+.left.sidebar,
+.right.sidebar {
+  top: 52px !important;
+  height: calc(100vh - 52px) !important;
 }
 
-// ── Breadcrumbs ──────────────────────────────────────────────
-.breadcrumb-container,
-nav.breadcrumb {
-  font-size: 14px !important;
-  color: var(--text-faint) !important;
+// Left sidebar: flush with left edge, no extra margin
+.page > #quartz-body {
+  padding-left: 0 !important;
 }
 
-.breadcrumb-container a,
-nav.breadcrumb a {
-  color: var(--text-muted) !important;
+// Hide article h1 from bleeding into the top bar area
+body[data-slug="index"] h1.article-title {
+  display: none !important;
+}
+
+// ── Left sidebar ────────────────────────────────────────
+.left.sidebar {
+  background-color: var(--d4-surface) !important;
+  border-right: 1px solid var(--d4-border) !important;
+  padding-top: 1.2rem !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+// Hide the Explorer toggle button
+button.desktop-explorer,
+button.mobile-explorer {
+  display: none !important;
+}
+
+// Always show explorer content
+.explorer-content {
+  display: block !important;
+  visibility: visible !important;
+  transform: none !important;
+  opacity: 1 !important;
+  max-height: none !important;
+  overflow-y: auto !important;
+}
+
+// Hide folder collapse arrows
+.folder-icon,
+.folder-container > svg {
+  display: none !important;
+}
+
+// Explorer file links — no wrapping, compact
+.explorer-content ul li > a {
+  font-size: 13.5px !important;
+  font-weight: 400 !important;
+  color: var(--d4-muted) !important;
+  opacity: 1 !important;
+  text-decoration: none !important;
   white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: block !important;
+  padding: 4px 18px !important;
+  border-left: 2px solid transparent !important;
+  transition: all 0.15s ease !important;
 }
 
-.breadcrumb-container a:hover,
-nav.breadcrumb a:hover {
-  color: var(--gold) !important;
+.explorer-content ul li > a:hover,
+.explorer-content ul li > a.active {
+  color: var(--d4-gold) !important;
+  border-left-color: var(--d4-gold) !important;
+  background: var(--d4-hover) !important;
+  opacity: 1 !important;
 }
 
-.breadcrumb-container span,
-nav.breadcrumb span {
-  white-space: nowrap !important;
+// Folder indent line
+.folder-outer > ul {
+  border-left-color: var(--d4-border) !important;
+  margin-left: 18px !important;
+  padding-left: 0 !important;
 }
 
-// ── Article / page title ─────────────────────────────────────
-article h1,
-.article-title,
-h1.article-title {
-  font-family: var(--font-display) !important;
-  font-size: 2.1rem !important;
+// ── Explorer toggle button ────────────────────────────────────
+button.title-button.desktop-explorer h2,
+button.desktop-explorer h2 {
+  font-family: var(--d4-display) !important;
+  font-size: 10px !important;
   font-weight: 700 !important;
-  color: var(--gold) !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: var(--d4-crimson) !important;
+}
+
+button.title-button.desktop-explorer {
+  padding: 6px 0 !important;
+  border-bottom: 1px solid var(--d4-border) !important;
+  width: 100% !important;
+  margin-bottom: 4px !important;
+}
+
+// Explorer toggle fold icon
+button.desktop-explorer svg,
+button.mobile-explorer svg {
+  stroke: var(--d4-crimson) !important;
+}
+
+// Folder section labels — crimson uppercase like mockup sidebar-section-label
+.folder-container {
+  padding: 14px 18px 5px !important;
+}
+
+.folder-container div > button span.folder-title {
+  font-family: var(--d4-display) !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.16em !important;
+  text-transform: uppercase !important;
+  color: var(--d4-crimson) !important;
+  line-height: 1.5rem !important;
+}
+
+.folder-container div > button:hover span.folder-title {
+  color: var(--d4-crimson) !important;
+}
+
+.folder-container div > button:hover span.folder-title {
+  color: var(--d4-gold) !important;
+}
+
+// Folder icon chevrons
+.folder-icon,
+.folder-container svg {
+  color: var(--d4-crimson) !important;
+  stroke: var(--d4-crimson) !important;
+}
+
+// Folder indent line
+.folder-outer > ul {
+  border-left-color: var(--d4-border) !important;
+}
+
+// Mobile sidebar background
+.page > #quartz-body .sidebar.left:has(.explorer) {
+  background-color: var(--d4-surface) !important;
+}
+
+// ── Right sidebar: div.right.sidebar ──────────────────────────
+.right.sidebar {
+  background-color: var(--d4-surface) !important;
+  border-left: 1px solid var(--d4-border) !important;
+}
+
+// TOC header button: button.toc-header h3
+button.toc-header h3 {
+  font-family: var(--d4-display) !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: var(--d4-crimson) !important;
+}
+
+button.toc-header svg {
+  stroke: var(--d4-crimson) !important;
+}
+
+// TOC links: ul.toc-content.overflow li > a
+ul.toc-content.overflow li > a {
+  font-size: 13px !important;
+  color: var(--d4-muted) !important;
+  opacity: 1 !important;
+  text-decoration: none !important;
+}
+
+ul.toc-content.overflow li > a:hover,
+ul.toc-content.overflow li > a.in-view {
+  color: var(--d4-gold) !important;
+  opacity: 1 !important;
+}
+
+// ── Search button: .search > button.search-button ─────────────
+.search > .search-button {
+  background-color: var(--d4-raised) !important;
+  border-color: var(--d4-border) !important;
+  font-family: var(--d4-body) !important;
+  font-size: 14px !important;
+  border-radius: 4px !important;
+}
+
+.search > .search-button > p {
+  color: var(--d4-faint) !important;
+}
+
+.search > .search-button svg .search-path {
+  stroke: var(--d4-muted) !important;
+}
+
+// Search modal input
+input.search-bar {
+  background: var(--d4-bg) !important;
+  color: var(--d4-text) !important;
+  border-color: var(--d4-border) !important;
+  font-family: var(--d4-body) !important;
+  font-size: 16px !important;
+}
+
+.search-space > * {
+  background: var(--d4-bg) !important;
+}
+
+.result-card {
+  border-bottom-color: var(--d4-border) !important;
+  background: var(--d4-bg) !important;
+}
+
+.result-card:hover,
+.result-card:focus,
+.result-card.focus {
+  background: var(--d4-hover) !important;
+}
+
+// Darkmode / readermode button icons
+button.darkmode svg,
+button.readermode svg {
+  fill: var(--d4-muted) !important;
+  color: var(--d4-muted) !important;
+}
+
+// ── Page header area: .page-header ───────────────────────────
+// Article title: h1.article-title (inside .page-header > .popover-hint)
+h1.article-title {
+  font-family: var(--d4-display) !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  color: var(--d4-gold) !important;
   letter-spacing: 0.03em !important;
   line-height: 1.2 !important;
-  border-bottom: 1px solid var(--border-color) !important;
+  border-bottom: 1px solid var(--d4-border) !important;
   padding-bottom: 14px !important;
-  margin-bottom: 24px !important;
+  margin-bottom: 20px !important;
+  margin-top: 0 !important;
   text-wrap: balance;
 }
 
-// ── Article headings ─────────────────────────────────────────
-article h2,
-.article-content h2 {
-  font-family: var(--font-display) !important;
-  font-size: 1.25rem !important;
-  font-weight: 600 !important;
-  color: var(--text-primary) !important;
-  letter-spacing: 0.04em !important;
-  border-bottom: none !important;
-  border-left: 3px solid var(--crimson) !important;
-  padding-left: 14px !important;
-  padding-bottom: 0 !important;
-  margin-top: 40px !important;
-  margin-bottom: 14px !important;
+// Content meta: p.content-meta (date + read time)
+p.content-meta {
+  font-size: 13px !important;
+  color: var(--d4-faint) !important;
 }
 
-article h3,
-.article-content h3 {
-  font-family: var(--font-display) !important;
+p.content-meta time,
+p.content-meta span {
+  color: var(--d4-faint) !important;
+}
+
+// Hide tags and meta on index page — body has data-slug="index" on home page
+body[data-slug="index"] ul.tags,
+body[data-slug="index"] p.content-meta {
+  display: none !important;
+}
+
+// Tags: ul.tags > li > a.internal.tag-link
+ul.tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 8px 0 16px !important;
+}
+
+ul.tags > li {
+  margin: 0 !important;
+}
+
+ul.tags > li > a.internal.tag-link {
+  background: var(--d4-raised) !important;
+  border: 1px solid var(--d4-border) !important;
+  border-radius: 4px !important;
+  color: var(--d4-muted) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  padding: 2px 8px !important;
+  text-transform: uppercase !important;
+  white-space: nowrap !important;
+  text-decoration: none !important;
+  // Remove Quartz's "#" prefix on tag links
+  &::before { content: "" !important; }
+}
+
+ul.tags > li > a.internal.tag-link:hover {
+  border-color: var(--d4-gold-f) !important;
+  color: var(--d4-gold) !important;
+  background: var(--d4-hover) !important;
+}
+
+// ── Article content ───────────────────────────────────────────
+// article.popover-hint
+
+article h2 {
+  font-family: var(--d4-display) !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  color: var(--d4-text) !important;
+  letter-spacing: 0.04em !important;
+  border-bottom: 1px solid var(--d4-border) !important;
+  padding-bottom: 8px !important;
+  margin-top: 36px !important;
+  margin-bottom: 12px !important;
+}
+
+article h3 {
+  font-family: var(--d4-display) !important;
   font-size: 1rem !important;
   font-weight: 600 !important;
-  color: var(--gold-dim) !important;
+  color: var(--d4-gold-d) !important;
   letter-spacing: 0.05em !important;
-  margin-top: 28px !important;
-  margin-bottom: 10px !important;
+  margin-top: 24px !important;
+  margin-bottom: 8px !important;
 }
 
-// ── Body text ────────────────────────────────────────────────
-article p,
-.article-content p {
+article p {
   font-size: 17px !important;
   line-height: 1.7 !important;
-  color: var(--text-primary) !important;
-  margin-bottom: 14px !important;
+  color: var(--d4-text) !important;
+  margin-bottom: 12px !important;
 }
 
-article strong { color: var(--text-primary) !important; font-weight: 700 !important; }
-article em { color: var(--gold-dim) !important; }
+article li {
+  font-size: 17px !important;
+  color: var(--d4-text) !important;
+  margin-bottom: 5px !important;
+}
 
-// ── Links ────────────────────────────────────────────────────
+article ul li::marker { color: var(--d4-crimson) !important; }
+article ol li::marker { color: var(--d4-gold) !important; font-weight: 700 !important; }
+
+article strong { color: var(--d4-text) !important; font-weight: 700 !important; }
+article em { color: var(--d4-gold-d) !important; }
+
+// ── Links ─────────────────────────────────────────────────────
+// All links default to gold; hover to crimson
 a {
-  color: var(--gold) !important;
+  color: var(--d4-gold) !important;
   text-decoration: none !important;
 }
 
 a:hover {
-  color: var(--crimson) !important;
+  color: var(--d4-crimson) !important;
 }
 
-// Internal wiki links (Quartz specific)
+// Internal wiki links — Quartz adds highlight bg; we strip it
 a.internal {
-  color: var(--gold) !important;
-  border-bottom: 1px solid var(--gold-faint) !important;
+  color: var(--d4-gold) !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid var(--d4-gold-f) !important;
+  line-height: inherit !important;
 }
 
 a.internal:hover {
-  color: var(--crimson) !important;
-  border-bottom-color: var(--crimson-dim) !important;
+  color: var(--d4-crimson) !important;
+  border-bottom-color: var(--d4-crimson-d) !important;
 }
 
-// ── Lists ────────────────────────────────────────────────────
-article ul li::marker,
-.article-content ul li::marker {
-  color: var(--crimson) !important;
+.callout[data-callout="d4-section"] .callout-content li::marker {
+  content: none !important;
+  display: none !important;
 }
-
-article ol li::marker,
-.article-content ol li::marker {
-  color: var(--gold) !important;
+a.internal.alias {
+  color: var(--d4-gold) !important;
   font-weight: 600 !important;
 }
 
-article li,
-.article-content li {
-  font-size: 17px !important;
-  margin-bottom: 6px !important;
+// External links
+a.external {
+  color: var(--d4-gold) !important;
 }
 
-// ── Blockquotes / callouts ───────────────────────────────────
+a.external:hover {
+  color: var(--d4-crimson) !important;
+}
+
+// External icon SVG
+a.external .external-icon path {
+  fill: var(--d4-gold-f) !important;
+}
+
+// ── Blockquotes ───────────────────────────────────────────────
 blockquote {
-  background: oklch(92% 0.025 70) !important;
-  border-left: 3px solid var(--crimson) !important;
+  background: oklch(93% 0.02 70) !important;
+  border-left: 3px solid var(--d4-crimson) !important;
   border-radius: 0 4px 4px 0 !important;
-  padding: 12px 18px !important;
-  margin: 20px 0 !important;
-  color: var(--text-muted) !important;
+  padding: 10px 16px !important;
+  padding-left: 16px !important;
+  margin: 16px 0 !important;
+  color: var(--d4-muted) !important;
   font-size: 15px !important;
 }
 
-// Quartz callout blocks (.callout)
+// ── Callouts: blockquote.callout ──────────────────────────────
+// Default callout appearance
 .callout {
-  border-left: 3px solid var(--crimson) !important;
-  background: oklch(93% 0.03 75) !important;
+  background-color: var(--d4-surface) !important;
+  border: 1px solid var(--d4-border) !important;
+  border-left: 3px solid var(--d4-crimson) !important;
   border-radius: 0 6px 6px 0 !important;
 }
 
 .callout-title {
-  font-family: var(--font-display) !important;
+  color: var(--d4-crimson) !important;
+  padding: 10px 0 !important;
+}
+
+.callout-title-inner {
+  font-family: var(--d4-display) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+}
+
+.callout-title-inner > p {
+  color: var(--d4-crimson) !important;
+  font-family: var(--d4-display) !important;
   font-size: 12px !important;
   letter-spacing: 0.08em !important;
-  font-weight: 700 !important;
-  color: var(--crimson) !important;
+  margin: 0 !important;
 }
 
-// Warning callouts
+// Warning callout
 .callout[data-callout="warning"],
 .callout[data-callout="caution"] {
-  border-left-color: oklch(58% 0.16 70) !important;
-  background: oklch(93% 0.04 75) !important;
+  border-left-color: oklch(55% 0.16 70) !important;
+  background-color: oklch(95% 0.03 75) !important;
 }
 
-// ── Tables ───────────────────────────────────────────────────
-table {
-  width: 100% !important;
-  border-collapse: collapse !important;
-  font-size: 15px !important;
-  margin: 20px 0 !important;
-}
-
-thead tr {
-  background: oklch(88% 0.03 55) !important;
-  border-bottom: 1px solid var(--border-mid) !important;
-}
-
-thead th {
-  font-family: var(--font-display) !important;
-  font-size: 11px !important;
-  letter-spacing: 0.1em !important;
-  text-transform: uppercase !important;
-  color: var(--gold) !important;
-  font-weight: 600 !important;
-  padding: 9px 12px !important;
-  text-align: left !important;
-  white-space: nowrap !important;
-}
-
-tbody tr {
-  border-bottom: 1px solid var(--border-color) !important;
-  transition: background 150ms ease !important;
-}
-
-tbody tr:nth-child(even) {
-  background: oklch(93% 0.016 78) !important;
-}
-
-tbody tr:hover {
-  background: var(--parchment-hover) !important;
-}
-
-td {
-  padding: 7px 12px !important;
-  color: var(--text-muted) !important;
-  vertical-align: top !important;
-}
-
-td strong { color: var(--text-primary) !important; }
-
-// ── Tags ────────────────────────────────────────────────────
-.tags > li > a::before,
-a.tag-link::before {
-  content: none !important;
-}
-
-.tags > li > a,
-a.tag-link {
-  background: var(--parchment-raised) !important;
-  border: 1px solid var(--border-color) !important;
-  border-radius: 4px !important;
-  color: var(--text-muted) !important;
-  font-size: 12px !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.04em !important;
-  padding: 3px 9px !important;
-  text-transform: uppercase !important;
-  white-space: nowrap !important;
-  text-decoration: none !important;
-}
-
-.tags > li > a:hover,
-a.tag-link:hover {
-  border-color: var(--gold-faint) !important;
-  color: var(--gold) !important;
-}
-
-// ── Code ────────────────────────────────────────────────────
-code,
-:not(pre) > code {
-  background: var(--parchment-raised) !important;
-  border: 1px solid var(--border-color) !important;
-  border-radius: 4px !important;
-  color: var(--gold-dim) !important;
-  font-size: 13px !important;
-  padding: 1px 6px !important;
-}
-
-pre {
-  background: var(--parchment-surface) !important;
-  border: 1px solid var(--border-color) !important;
-  border-radius: 6px !important;
-  padding: 16px 20px !important;
-  font-size: 14px !important;
-  overflow-x: auto !important;
-}
-
-// ── d4-hero callout ─────────────────────────────────────────
+// ── d4-hero callout (index page hero block) ───────────────────
+// blockquote.callout.d4-hero[data-callout="d4-hero"]
 .callout[data-callout="d4-hero"] {
-  background: oklch(20% 0.04 30) !important;
-  border: none !important;
+  background: oklch(93% 0.025 70) !important;
+  border: 1px solid var(--d4-border-mid) !important;
+  border-left: 3px solid var(--d4-crimson) !important;
   border-radius: 6px !important;
-  padding: 36px 40px !important;
-  margin-bottom: 32px !important;
+  padding: 28px 36px !important;
+  margin-bottom: 28px !important;
   text-align: center !important;
-  box-shadow: inset 0 0 0 1px var(--border-mid) !important;
-}
-
-.callout[data-callout="d4-hero"] .callout-title {
-  display: flex !important;
-  justify-content: center !important;
-  padding: 0 !important;
-  margin: 0 0 8px 0 !important;
-  border: none !important;
 }
 
 .callout[data-callout="d4-hero"] .callout-icon {
   display: none !important;
 }
 
-.callout[data-callout="d4-hero"] .callout-title-inner {
-  font-family: var(--font-display) !important;
-  font-size: 2rem !important;
-  font-weight: 700 !important;
-  color: var(--gold) !important;
-  letter-spacing: 0.06em !important;
-  line-height: 1.2 !important;
-  text-transform: none !important;
+.callout[data-callout="d4-hero"] .callout-title {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 0 0 8px 0 !important;
+  border: none !important;
 }
 
 .callout[data-callout="d4-hero"] .callout-title-inner p {
-  font-family: var(--font-display) !important;
-  font-size: 2rem !important;
+  font-family: var(--d4-display) !important;
+  font-size: 1.8rem !important;
   font-weight: 700 !important;
-  color: var(--gold) !important;
-  margin: 0 !important;
+  color: var(--d4-gold) !important;
+  letter-spacing: 0.06em !important;
+  line-height: 1.2 !important;
   text-transform: none !important;
-}
-
-.callout[data-callout="d4-hero"] .callout-content {
-  display: block !important;
+  margin: 0 !important;
 }
 
 .callout[data-callout="d4-hero"] .callout-content p {
   font-size: 13px !important;
-  color: oklch(65% 0.02 60) !important;
-  letter-spacing: 0.08em !important;
+  color: var(--d4-faint) !important;
+  letter-spacing: 0.1em !important;
   text-transform: uppercase !important;
   margin: 0 !important;
 }
 
-// ── d4-section callout ───────────────────────────────────────
+// ── d4-section callout — no outer box, just label + card grid ─
 .callout[data-callout="d4-section"] {
-  background: var(--parchment-surface) !important;
-  border: 1px solid var(--border-color) !important;
-  border-left: 3px solid var(--crimson) !important;
-  border-radius: 6px !important;
-  padding: 20px 24px !important;
-  margin-bottom: 20px !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 28px !important;
+  overflow: visible !important;
+  box-shadow: none !important;
 }
 
-.callout[data-callout="d4-section"] .callout-title {
-  font-family: var(--font-display) !important;
-  font-size: 1.1rem !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.04em !important;
-  color: var(--text-primary) !important;
-  padding-bottom: 10px !important;
-  margin-bottom: 10px !important;
-  border-bottom: 1px solid var(--border-color) !important;
-}
-
-.callout[data-callout="d4-section"] .callout-icon,
-.callout[data-callout="d4-section"] .fold-callout-icon {
+.callout[data-callout="d4-section"] .callout-icon {
   display: none !important;
+}
+
+// Title becomes a standalone section label ABOVE the box
+.callout[data-callout="d4-section"] .callout-title {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 0 8px 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.callout[data-callout="d4-section"] .callout-title::after {
+  content: '' !important;
+  flex: 1 !important;
+  height: 1px !important;
+  background: linear-gradient(to right, var(--d4-border-mid), transparent) !important;
+}
+
+.callout[data-callout="d4-section"] .callout-title-inner p {
+  font-family: var(--d4-display) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: var(--d4-crimson) !important;
+  margin: 0 !important;
+  white-space: nowrap !important;
+}
+
+// Content area inside the card — transform list items into individual cards
+.callout[data-callout="d4-section"] .callout-content {
+  padding: 0 !important;
+}
+
+.callout[data-callout="d4-section"] .callout-content ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+  gap: 8px !important;
+  padding: 4px !important;
+}
+
+// Each list item becomes a card
+.callout[data-callout="d4-section"] .callout-content li {
+  font-size: 14px !important;
+  color: var(--d4-muted) !important;
+  margin: 0 !important;
+  background: var(--d4-bg) !important;
+  border: 1px solid var(--d4-border) !important;
+  border-radius: 6px !important;
+  padding: 12px 14px !important;
+  line-height: 1.5 !important;
+  transition: border-color 0.15s, background 0.15s !important;
+}
+
+.callout[data-callout="d4-section"] .callout-content li:hover {
+  border-color: var(--d4-border-mid) !important;
+  background: var(--d4-raised) !important;
+}
+
+// Link inside card = card title (bold, dark)
+.callout[data-callout="d4-section"] .callout-content li a {
+  display: block !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: var(--d4-text) !important;
+  border-bottom: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin-bottom: 4px !important;
+  line-height: 1.35 !important;
+  text-decoration: none !important;
+}
+
+.callout[data-callout="d4-section"] .callout-content li a:hover {
+  color: var(--d4-gold) !important;
+  border-bottom: none !important;
+}
+
+// "— description" text after the link rendered as muted text
+// Quartz renders: <a>Title</a> — description as a text node
+// We target the li itself for the muted color, link overrides to dark
+.callout[data-callout="d4-section"] .callout-content li,
+.callout[data-callout="d4-section"] .callout-content p {
+  color: var(--d4-muted) !important;
+  font-size: 13px !important;
 }
 
 .callout[data-callout="d4-section"] .callout-content li {
   font-size: 15px !important;
-  margin-bottom: 8px !important;
-  color: var(--text-muted) !important;
+  color: var(--d4-muted) !important;
+  margin-bottom: 7px !important;
+  line-height: 1.5 !important;
 }
 
 .callout[data-callout="d4-section"] .callout-content a {
-  color: var(--gold) !important;
-  border-bottom: 1px solid var(--gold-faint) !important;
+  color: var(--d4-gold) !important;
+  font-weight: 600 !important;
+  border-bottom: 1px solid var(--d4-gold-f) !important;
+  background: transparent !important;
+  padding: 0 !important;
 }
 
 .callout[data-callout="d4-section"] .callout-content a:hover {
-  color: var(--crimson) !important;
+  color: var(--d4-crimson) !important;
+  border-bottom-color: var(--d4-crimson-d) !important;
 }
 
-// ── Footer ──────────────────────────────────────────────────
+// ── Tables: div.table-container > table ───────────────────────
+.table-container {
+  overflow-x: auto !important;
+}
+
+.table-container table {
+  font-size: 15px !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+
+.table-container thead tr {
+  background: oklch(89% 0.03 58) !important;
+}
+
+.table-container thead th,
+th {
+  font-family: var(--d4-display) !important;
+  font-size: 11px !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: var(--d4-gold) !important;
+  font-weight: 700 !important;
+  padding: 9px 12px !important;
+  white-space: nowrap !important;
+  border-bottom: 2px solid var(--d4-border-mid) !important;
+}
+
+.table-container tbody tr {
+  border-bottom: 1px solid var(--d4-border) !important;
+  transition: background 150ms ease !important;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background: oklch(94% 0.014 78) !important;
+}
+
+.table-container tbody tr:hover {
+  background: var(--d4-hover) !important;
+}
+
+.table-container td,
+td {
+  padding: 7px 12px !important;
+  color: var(--d4-muted) !important;
+  vertical-align: top !important;
+}
+
+.table-container td strong,
+td strong {
+  color: var(--d4-text) !important;
+}
+
+// ── Breadcrumbs: .breadcrumb-container ────────────────────────
+.breadcrumb-container {
+  font-size: 13px !important;
+  flex-wrap: wrap !important;
+}
+
+.breadcrumb-element p {
+  color: var(--d4-faint) !important;
+  font-size: 13px !important;
+  white-space: nowrap !important;
+}
+
+.breadcrumb-element a {
+  color: var(--d4-muted) !important;
+  white-space: nowrap !important;
+  text-decoration: none !important;
+  background: transparent !important;
+  border-bottom: none !important;
+}
+
+.breadcrumb-element a:hover {
+  color: var(--d4-gold) !important;
+}
+
+// ── Code ──────────────────────────────────────────────────────
+code {
+  background: var(--d4-raised) !important;
+  border: 1px solid var(--d4-border) !important;
+  border-radius: 4px !important;
+  color: var(--d4-gold-d) !important;
+  font-size: 13px !important;
+  padding: 1px 6px !important;
+}
+
+pre {
+  background: var(--d4-surface) !important;
+  border: 1px solid var(--d4-border) !important;
+  border-radius: 6px !important;
+}
+
+pre > code {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+// ── Footer ────────────────────────────────────────────────────
 footer {
-  background: var(--parchment-surface) !important;
-  border-top: 1px solid var(--border-color) !important;
-  color: var(--text-faint) !important;
+  background: var(--d4-surface) !important;
+  border-top: 1px solid var(--d4-border) !important;
+  color: var(--d4-faint) !important;
   font-size: 13px !important;
 }
 
-footer a {
-  color: var(--text-faint) !important;
+footer p { color: var(--d4-faint) !important; font-size: 13px !important; }
+footer a { color: var(--d4-faint) !important; text-decoration: none !important; }
+footer a:hover { color: var(--d4-gold) !important; }
+footer ul { list-style: none !important; }
+
+// ── Navigation progress bar ───────────────────────────────────
+.navigation-progress {
+  background: linear-gradient(to right, var(--d4-crimson), var(--d4-gold)) !important;
+  height: 2px !important;
 }
 
-footer a:hover {
-  color: var(--gold) !important;
+// ── Backlinks ─────────────────────────────────────────────────
+.backlinks h3 {
+  font-family: var(--d4-display) !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: var(--d4-crimson) !important;
 }
 
-// ── Scrollbar ───────────────────────────────────────────────
+.backlinks ul li a {
+  font-size: 14px !important;
+  color: var(--d4-gold) !important;
+}
+
+// ── Scrollbar ─────────────────────────────────────────────────
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--parchment-bg); }
-::-webkit-scrollbar-thumb { background: var(--border-mid); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--gold-faint); }
+::-webkit-scrollbar-track { background: var(--d4-bg); }
+::-webkit-scrollbar-thumb { background: var(--d4-border-mid); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--d4-gold-f); }
 
-// ── Dark mode override ───────────────────────────────────────
-// If Quartz's dark mode toggle is enabled, these prevent it
-// from fighting our parchment theme. Remove if you want to
-// support dark mode too.
+// ── Force parchment on dark mode toggle ───────────────────────
+// Quartz sets saved-theme="dark" on <html> when toggled.
+// These rules keep the parchment look regardless.
 [saved-theme="dark"] body,
 [saved-theme="dark"] .page {
-  background-color: var(--parchment-bg) !important;
-  color: var(--text-primary) !important;
+  background-color: var(--d4-bg) !important;
+  color: var(--d4-text) !important;
 }
 
-// ============================================================
-// INSTALLATION INSTRUCTIONS
-// ============================================================
-//
-// STEP 1 — Copy this file
-//   Replace the contents of:
-//   quartz/styles/custom.scss
-//   with this file.
-//
-// STEP 2 — Update quartz.config.ts typography
-//   In the theme section of your quartz.config.ts, set:
-//
-//   theme: {
-//     fontOrigin: "googleFonts",
-//     cdnCaching: true,
-//     typography: {
-//       header: "Cinzel",
-//       body: "Source Sans 3",
-//       code: "JetBrains Mono",   // or your preferred mono
-//     },
-//     colors: {
-//       lightMode: {
-//         light:       "#f9f6f0",   // parchment bg
-//         lightgray:   "#e8e2d8",   // borders
-//         gray:        "#9a9080",   // muted text
-//         darkgray:    "#3a3228",   // body text
-//         dark:        "#1a1510",   // headings
-//         secondary:   "#7a2020",   // crimson (links, accents)
-//         tertiary:    "#5a4a28",   // gold (hover)
-//         highlight:   "rgba(180,140,80,0.12)", // selection bg
-//         textHighlight: "#ffeaa0", // search highlight
-//       },
-//       darkMode: {
-//         // Keep these if you want dark mode to still work
-//         // alongside this CSS, or just duplicate light values
-//         // to force light mode everywhere.
-//         light:       "#f9f6f0",
-//         lightgray:   "#e8e2d8",
-//         gray:        "#9a9080",
-//         darkgray:    "#3a3228",
-//         dark:        "#1a1510",
-//         secondary:   "#7a2020",
-//         tertiary:    "#5a4a28",
-//         highlight:   "rgba(180,140,80,0.12)",
-//         textHighlight: "#ffeaa0",
-//       },
-//     },
-//   },
-//
-// STEP 3 — Build & deploy
-//   npx quartz build
-//   npx quartz sync       (pushes to GitHub → auto-deploys)
-//
-// STEP 4 — Fine-tune (optional)
-//   Use browser DevTools on your live site to find any
-//   remaining class names that need overriding and add them
-//   here. Quartz component styles are !important-resistant,
-//   so you may need !important on some rules (already done
-//   for the main ones above).
-//
-// ============================================================
-
+[saved-theme="dark"] .left.sidebar,
+[saved-theme="dark"] .right.sidebar {
+  background-color: var(--d4-surface) !important;
+}
