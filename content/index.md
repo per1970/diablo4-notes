@@ -18,6 +18,7 @@ date: 2026-05-03
 > [!d4-section] Endgame Systems
 > - [[War Plans - Group Play Mechanics]] — How War Plans work, the Command Table in Temis, Activity Skill Trees, and the current group-play credit bug
 > - [[War Plans - Activity Tree Leveling Resources]] — Best external guides (Maxroll, KeenGamer, AOEAH) with reading order
+> - [[Guide - War Plans Best Nodes]] — Best node paths per activity tree (Helltide, Pit, NMD, Undercity, Lair Bosses, Infernal Hordes, Whispers); tier ratings and respec warnings
 > - [[Infernal Hordes - Boon and Bane Choices]] — Tier list of Boons/Banes, Chaos Wave priority, Aether spending strategy
 
 > [!d4-section] Nightmare Dungeons
@@ -34,6 +35,7 @@ date: 2026-05-03
 > - [[Gold Farming - Season 13]] — Best money grind, why to stop salvaging, optimal War Plan loop
 > - [[Whisper Caches - Chaos vs Mystery]] — Cache types and the Grim Mysteries War Plan perk
 > - [[Horadric Cube - Boss Trophy Amalgamation]] — Why direct boss runs beat Amalgamation in S13
+> - [[Guide - Talisman Charms and Seals]] — Six-slot Seal chase, Set Charm stat targets, Unique Charm crafting, Mythic Seal sources, and gold from surplus
 
 ## Quick Reference: Key S13 Changes
 
