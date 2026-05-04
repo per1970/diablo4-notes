@@ -1,6 +1,6 @@
 ---
 title: Horadric Cube – All Recipes Reference
-description: Complete recipe reference for the Horadric Cube in Diablo 4 Season 13 / Lord of Hatred. Covers all gear modification, item transmutation, charm, rune, and Mythic crafting recipes.
+description: Complete recipe reference for the Horadric Cube in Diablo 4 Season 13 / Lord of Hatred. Covers all gear modification, item transmutation, charm, rune, and Mythic crafting recipes with full material costs.
 tags:
   - diablo4
   - season13
@@ -22,73 +22,82 @@ date: 2026-05-05
 
 ## Crafting Materials
 
-There are 8 primary Cube materials. All Primordial Dust variants are **account-bound** and stored in the materials tab (cannot be traded).
+All Primordial Dust variants are **account-bound** and stored in the materials tab (cannot be traded).
 
 | Material | Rarity | Use | Source |
 |---|---|---|---|
-| Filled Horadric Resin | Magic | Crafting Talisman spells and Seals | Salvaging Talisman spells and Seals |
-| Raw Ur Dust | Common | Most transmutations | Elite monsters, War Plans Cube loot, Whispering Tree chests |
-| Coarse Ur Dust | Magic | Transmutations that **add** affixes | War Plans Cube loot, Whispering Tree chests, elite monsters |
-| Refined Ur Dust | Rare | Transmutations that **change or remove** affixes | War Plans Cube loot, Whispering Tree chests, elite monsters |
-| Unpredictable Ur Dust | Legendary | General item transmutation | War Plans Cube loot, Whispering Tree chests, elite monsters |
-| Pure Ur Dust | Legendary | Transmutations that **create Legendary** items | War Plans Cube loot, Whispering Tree chests, elite monsters |
-| Improved Ur Dust | Unique | Transmutations that **create Unique** items | War Plans Cube loot, Whispering Tree chests, elite monsters |
-| Tuned Ur Dust | Unique | Rerolling Unique property values | War Plans Cube loot, Whispering Tree chests, elite monsters |
+| Infused Horadric Resin | Magic | Crafting Talisman spells and Seals | Salvaging Talisman spells and Seals |
+| Raw Primordial Dust | Common | Base cost for most recipes | Elite monsters, War Plans Cube loot, Whispering Tree chests |
+| Coarse Primordial Dust | Magic | Adding affixes | War Plans Cube loot, Whispering Tree chests, elite monsters |
+| Refined Primordial Dust | Rare | Changing or removing affixes | War Plans Cube loot, Whispering Tree chests, elite monsters |
+| Volatile Primordial Dust | Legendary | Transfiguring items | War Plans Cube loot, Whispering Tree chests, elite monsters |
+| Pure Primordial Dust | Legendary | Creating Legendary items | War Plans Cube loot, Whispering Tree chests, elite monsters |
+| Enhanced Primordial Dust | Unique | Creating Unique items | War Plans Cube loot, Whispering Tree chests, elite monsters |
+| Attuned Primordial Dust | Unique | Rerolling Unique property values | War Plans Cube loot, Whispering Tree chests, elite monsters |
+| Enhanced Primordial Essence | Unique | Crafting Unique Charms | War Plans Cube loot, Whispering Tree chests, elite monsters |
 
 ### Tuning Prisms
-Optional consumables stored in inventory (not materials tab). They **narrow the RNG** of recipe outcomes — e.g. an Aggressive Tuning Prism biases results toward offensive affixes, Adept's Prism toward Skill Ranks or Core Stats. Tuning Prisms are **freely tradeable** (unlike dust). Found throughout Sanctuary as drops.
+Consumables stored in inventory (not materials tab). They **narrow the RNG** of recipe outcomes — e.g. an Aggressive Tuning Prism biases results toward offensive affixes, Adept's Prism toward Skill Ranks or Core Stats. Tuning Prisms are **freely tradeable** (unlike dust). Found throughout Sanctuary as drops.
+
+> ⚠️ Note: Tuning Prism is **Required** (not optional) for Focused Reroll and Remove Affix.
 
 ---
 
 ## Gear Modification Recipes
 
-These recipes alter the affixes on an existing item.
-
-| Recipe | Effect | Notes |
-|---|---|---|
-| **Add Affix** | Adds a random affix to the item | Max 4 affixes per item. Use Tuning Prism to bias toward a category. A Greater Common item can be built up to a 4-affix Rare Ancestral this way. |
-| **Chaotic Reroll** | Replaces a randomly selected affix with another of the same category | Tuning Prism can specify which affix to replace. |
-| **Focused Reroll** | Replaces a chosen affix with another from the same category | More controlled than Chaotic. Tuning Prism can further guide the result. |
-| **Remove Affix** | Removes a random affix from the item | Tuning Prism allows specifying which affix to remove. Use to clear a bad roll before adding a better one. |
-| **Transmute Item** | Grants a random bonus modification | May render the item unmodifiable (similar to Holy items from S11). Use Tuning Prism to slightly increase chance of surviving multiple transmutations. |
-| **Reroll Unique Property** | Rerolls the % value of a Greater Unique's unique power | Low-cost way to improve a Unique that has good affixes but a low-value unique effect. Costs Tuned Ur Dust. |
+| Recipe | Materials | Effect | Notes |
+|---|---|---|---|
+| **Add Affix** | 1x Non-Unique Item, 1x Coarse Primordial Dust, 5x Raw Primordial Dust, 1x Tuning Prism (Optional) | Adds a random affix to the item | Max 4 affixes per item. Start from a white item and keep adding to raise quality up to Rare. Use Tuning Prism to bias toward a stat category. |
+| **Chaotic Reroll** | 1x Magic/Rare/Legendary item, 1x Refined Primordial Dust, 15x Raw Primordial Dust, 1x Tuning Prism (Optional) | Randomly rerolls one affix within the same category | A Defensive affix will always reroll into another Defensive affix. Risk of losing a good roll. |
+| **Focused Reroll** | 1x Magic/Rare/Legendary item, 1x Refined Primordial Dust, 15x Raw Primordial Dust, 1x Tuning Prism (**Required**) | Rerolls a chosen affix within the same category | More controlled than Chaotic. Tuning Prism is mandatory — used to specify which affix to target. |
+| **Remove Affix** | 1x Magic or Rare item only, 1x Refined Primordial Dust, 15x Raw Primordial Dust, 1x Tuning Prism (**Required**) | Removes a specific affix from the item | Only works on Magic or Rare items — **not Legendary**. Good for high-quality base items before upgrading to Legendary. |
+| **Transfigure Item** | 1x Legendary/Unique/Mythic item, 1x Volatile Primordial Dust, 1x Tuning Prism (Optional) | Adds a powerful random modifier to the item | Once transfigured, the item **cannot be modified further**. Use as a final step on a near-perfect item only. |
+| **Unique Power Reroll** | 1x **Ancestral** Unique item only, 1x Attuned Primordial Dust, 1x Tuning Prism (Optional) | Rerolls the % value of the Unique's power | Only works on Ancestral Uniques. Good for a Unique with great affixes but a weak power value. |
 
 ---
 
 ## Item Transmutation Recipes
 
-These recipes change an item into a different item.
-
-| Recipe | Input | Output | Notes |
+| Recipe | Materials | Output | Notes |
 |---|---|---|---|
-| **3-to-1 Transmutation** | 3 identical items (same type/rarity) — gear, talisman, or rune | 1 random new item of the same type | Core recycling loop for excess drops. |
-| **Recycle Unique (3-to-1)** | 3 copies of the same Unique (gear or talisman) | A new version of that same Unique | Key S13 loop — Unique affixes now roll randomly, so this lets you reroll a bad roll. Requires 3 copies. |
-| **Upgrade to Unique** | 1 Greater Common item + Enhanced Primordial Dust + Raw Primordial Dust | A random Unique of the same slot | Inefficient as a primary strategy (large Unique pool per slot). Better for filling gaps than chasing specific Uniques. |
-| **Upgrade to Legendary** | 1 Rare item | 1 Legendary with a random Legendary power | Use Greater Legendaries as input to potentially get Greater Aspect versions. Good for filling Aspect gaps. |
-| **Reroll Set Charm** | 1 Set Charm | A different Charm from the same Set | Use to convert duplicates into missing Set pieces and complete set bonuses. |
-| **Create Unique Charm** | Target Unique item + 3× any Unique Charms + Enhanced Primordial Dust | Unique Charm (Unique power active without equipping the item) | Expensive but build-defining. The Unique's power carries over; attributes/affixes do not. Frees up a gear slot. Priority targets: Banish Lord's Talisman, Red Blessing, Spiritborn key-passive amulets. |
-| **3-to-1 Charm Transmutation** | 3 Charms of the same Rarity | 1 random new Charm | For Set Charms: input any 3 Set Charms → random Charm from **any** Set. Use to complete 5-piece sets from duplicates. |
-| **Fusion** | Multiple copies of the same item | Upgraded version of that item | Upgrades the item quality/tier. |
+| **3-to-1 Transmutation** | 3x items of the same type and rarity | 1 random new item of the same type | Core recycling loop for excess drops. Works on gear, talismans, and runes. |
+| **Recycle Uniques** | 3x copies of the same Unique item | A new version of that same Unique with rerolled affixes | Key S13 loop — Unique affixes now roll randomly. Use to chase a better roll. |
+| **Upgrade to Unique** | 1x Common item, 1x Enhanced Primordial Dust, 10x Raw Primordial Dust | A random Unique of the same slot | Outcome is random. An accessory will always become the same item category. Inefficient for chasing specific Uniques — use boss farming instead. |
+| **Upgrade to Legendary** | 1x Rare item, 1x Pure Primordial Dust, 10x Raw Primordial Dust, 1x Tuning Prism (Optional) | A Legendary with a random Legendary power (can roll Ancestral) | Use Greater Rare items as input to potentially get Greater Aspect versions. |
+| **Reroll Set Charm** | 1x Set Charm, 25x Raw Primordial Dust, 50x Infused Horadric Resin | A different Charm within the same Set | Use to convert duplicates into missing Set pieces and activate set bonuses. Good for min-maxing skill levels. |
+| **Craft Unique Charm** | 1x Ancestral Unique item, 3x any Unique Charm, 1x Enhanced Primordial Essence, 50x Raw Primordial Dust, 100x Infused Horadric Resin | A Unique Charm (Unique power active without equipping the item) | One of the most expensive crafts. Random outcome — the Unique's power carries over but attributes/affixes do not. Frees up a gear slot. Priority targets: Banish Lord's Talisman, Red Blessing, Spiritborn key-passive amulets. |
+| **Amalgamation** | 5x items of the same type and rarity | An upgraded variant | **Does not work for gear** — talismans and runes only. |
 
 ---
 
 ## Rune Crafting Recipes
 
-### Amalgamation (Random Upgrade)
-Combine lower-tier runes into a higher-tier rune. The output is random within the tier — good for generating trade stock or filling gaps.
+### Random Upgrade (Amalgamation)
+Combine lower-tier runes into a higher-tier rune. Output is random within the tier.
 
 | Input | Output |
 |---|---|
 | 5× Magic Runes | 1× random Rare Rune |
 | 5× Rare Runes | 1× random Legendary Rune |
-| 5× Boss-exclusive loot | 1× random Unique from that boss's loot pool |
 
-### Targeted Legendary Rune Craft
-Craft a **specific** Legendary Rune. Expensive but bypasses drop RNG entirely.
+### Targeted Legendary Rune Recipes
+Craft a **specific** Legendary Rune by name. Expensive but bypasses drop RNG entirely.
 
-**Cost:** 1 specific Magic Rune (as core) + 5 Rare Runes + 5 Legendary Runes of the same category (Invocation or Ritual)
+**Formula:** 1x specific Magic Rune (core) + 5x Rare Runes + 5x Legendary Runes of the matching category (Invocation or Ritual)
 
-> 💡 Only use this when you have a large material stockpile. Trading for the rune you need is often more efficient if your resources are limited.
+| Legendary Rune | Core Magic Rune | Legendary Rune Category |
+|---|---|---|
+| Bac | Prid | Invocation |
+| Igni | Teb | Invocation |
+| Tam | Ner | Invocation |
+| Yul | Ur | Invocation |
+| Eom | Tzic | Ritual |
+| Jah | Cem | Ritual |
+| Ohm | Qua | Ritual |
+| Vex | Gar | Ritual |
+| Yom | Kry | Ritual |
+
+> 💡 Only use targeted crafting when you have a large rune stockpile. Trading for the rune you need is often more efficient if resources are limited.
 
 ---
 
@@ -115,20 +124,21 @@ Blizzard has confirmed **undocumented recipes** exist — ingredients found in u
 - **Kurast Undercity** with *Tribute of Ingenuity* grants significantly more Cube materials on completion. Combine with the rightmost final node in the Dungeon Skill Tree for further amplification.
 - **War Plans** Cube loot nodes are the primary reliable source for Rare and above dust tiers.
 - **Whispering Tree** chests offer a *Material Gathering* option for targeted Cube material acquisition.
-- **Difficulty matters:** Rare dust drop rates increase significantly at higher Torment tiers. Farm T10+ for Improved and Tuned Ur Dust.
+- **Difficulty matters:** Rare dust drop rates increase significantly at higher Torment tiers. Farm T10+ for Attuned and Enhanced Primordial Dust.
 - All Primordial Dust is **auto-picked up** and stored in the materials tab.
-- Only **Kullean Tuning Prisms** are freely tradeable — all dust variants are account-bound.
+- Only **Tuning Prisms** are freely tradeable — all dust variants are account-bound.
 
 ---
 
 ## Recommended Usage Sequence
 
 1. **Farm items** with good base stats / affixes as crafting bases.
-2. **Use Add/Reroll/Remove** recipes to fix bad affix rolls on near-finished Ancestral gear.
+2. **Add Affix** to build up white/magic items, then use **Focused Reroll / Remove Affix** to fine-tune on Rare items.
 3. **Recycle duplicate Uniques** (3-to-1) to reroll random affix combos until you get a usable roll.
-4. **Create Unique Charms** for build-defining Uniques to free up gear slots.
-5. **Complete Set Charms** via 3-to-1 Charm transmutation using duplicates.
-6. **Craft Legendary Runes** via targeted recipes once you have a large rune stockpile.
-7. **Transfigure** as a final step on a near-perfect item — treat it as a bonus, not a primary strategy.
+4. **Upgrade to Legendary** to fill missing Aspect slots using Rare bases.
+5. **Create Unique Charms** for build-defining Uniques to free up gear slots.
+6. **Complete Set Charms** via Reroll Set Charm using duplicates.
+7. **Craft Legendary Runes** via targeted recipes once you have a large rune stockpile.
+8. **Transfigure** as an absolute final step on a perfected item — cannot be undone.
 
 > The Cube is an **optimization tool**, not an acquisition tool. Use boss target farming to get specific Uniques first; use the Cube to perfect them afterward.
