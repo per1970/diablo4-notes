@@ -35,6 +35,7 @@ date: 2026-05-03
 > - [[Gold Farming - Season 13]] — Best money grind, why to stop salvaging, optimal War Plan loop
 > - [[Whisper Caches - Chaos vs Mystery]] — Cache types and the Grim Mysteries War Plan perk
 > - [[Horadric Cube - Boss Trophy Amalgamation]] — Why direct boss runs beat Amalgamation in S13
+> - [[Reference - Horadric Cube Recipes]] — All gear modification, item transmutation, charm, rune, and Mythic crafting recipes; materials table and farming tips
 > - [[Guide - Talisman Charms and Seals]] — Six-slot Seal chase, Set Charm stat targets, Unique Charm crafting, Mythic Seal sources, and gold from surplus
 
 ## Quick Reference: Key S13 Changes
