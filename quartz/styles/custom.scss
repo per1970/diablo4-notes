@@ -1,3 +1,477 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================================
+// D4 Notes — Quartz v4 custom.scss
+// Drop this file into: quartz/styles/custom.scss
+//
+// ALSO update quartz.config.ts typography + colors (see
+// instructions at the bottom of this file).
+// ============================================================
+
+// ── CSS Custom Properties ───────────────────────────────────
+// These sit on :root and are available everywhere.
+:root {
+  --parchment-bg:      oklch(97% 0.012 80);
+  --parchment-surface: oklch(95% 0.014 78);
+  --parchment-raised:  oklch(92% 0.016 76);
+  --parchment-hover:   oklch(89% 0.018 76);
+
+  --border-color:      oklch(82% 0.018 75);
+  --border-mid:        oklch(74% 0.022 72);
+
+  --text-primary:      oklch(22% 0.016 45);
+  --text-muted:        oklch(38% 0.014 50);
+  --text-faint:        oklch(55% 0.012 55);
+
+  --crimson:           oklch(40% 0.2 22);
+  --crimson-dim:       oklch(50% 0.16 22);
+  --gold:              oklch(38% 0.14 55);
+  --gold-dim:          oklch(46% 0.12 58);
+  --gold-faint:        oklch(62% 0.09 62);
+
+  --font-display:      'Cinzel', 'Times New Roman', serif;
+  --font-body:         'Source Sans 3', sans-serif;
+}
+
+// ── Global body & background ─────────────────────────────────
+body {
+  background-color: var(--parchment-bg) !important;
+  color: var(--text-primary) !important;
+  font-family: var(--font-body) !important;
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ── Page layout shell ────────────────────────────────────────
+// Quartz wraps everything in #quartz-body > .page
+// Left panel = .left; right panel = .right; center = .center
+.page {
+  background-color: var(--parchment-bg) !important;
+}
+
+// ── Left sidebar ─────────────────────────────────────────────
+.left.sidebar {
+  background-color: var(--parchment-surface) !important;
+  border-right: 1px solid var(--border-color) !important;
+}
+
+// Explorer (file tree)
+.explorer {
+  background: transparent !important;
+}
+
+// Explorer folder/file labels
+.explorer .folder-title,
+.explorer li > a,
+.explorer li > span {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: var(--text-muted) !important;
+  font-family: var(--font-body) !important;
+}
+
+.explorer li > a:hover {
+  color: var(--gold) !important;
+}
+
+// Explorer section headers
+.explorer > .folder-outer > .folder-title {
+  font-family: var(--font-display) !important;
+  font-size: 10px !important;
+  letter-spacing: 0.16em !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  color: var(--crimson) !important;
+}
+
+// ── Right sidebar (TOC) ──────────────────────────────────────
+.right.sidebar {
+  background-color: var(--parchment-surface) !important;
+  border-left: 1px solid var(--border-color) !important;
+}
+
+// TOC label
+#toc-content > ul {
+  border-left: 1px solid var(--border-color) !important;
+}
+
+.toc-header {
+  font-family: var(--font-display) !important;
+  font-size: 10px !important;
+  letter-spacing: 0.16em !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  color: var(--crimson) !important;
+}
+
+// TOC links
+#toc-content a {
+  font-size: 13px !important;
+  color: var(--text-muted) !important;
+}
+
+#toc-content a:hover,
+#toc-content li.is-active > a {
+  color: var(--gold) !important;
+}
+
+// ── Top / header bar ─────────────────────────────────────────
+header,
+.navbar,
+#quartz-header {
+  background-color: oklch(96% 0.013 80 / 0.97) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  backdrop-filter: blur(8px);
+}
+
+// Site title in header
+.page-title {
+  font-family: var(--font-display) !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  color: var(--gold) !important;
+}
+
+// ── Search bar ───────────────────────────────────────────────
+#search-bar,
+.search-bar input,
+button#search-icon {
+  background: var(--parchment-raised) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-primary) !important;
+  font-family: var(--font-body) !important;
+  font-size: 14px !important;
+}
+
+// ── Breadcrumbs ──────────────────────────────────────────────
+.breadcrumb-container,
+nav.breadcrumb {
+  font-size: 14px !important;
+  color: var(--text-faint) !important;
+}
+
+.breadcrumb-container a,
+nav.breadcrumb a {
+  color: var(--text-muted) !important;
+  white-space: nowrap !important;
+}
+
+.breadcrumb-container a:hover,
+nav.breadcrumb a:hover {
+  color: var(--gold) !important;
+}
+
+.breadcrumb-container span,
+nav.breadcrumb span {
+  white-space: nowrap !important;
+}
+
+// ── Article / page title ─────────────────────────────────────
+article h1,
+.article-title,
+h1.article-title {
+  font-family: var(--font-display) !important;
+  font-size: 2.1rem !important;
+  font-weight: 700 !important;
+  color: var(--gold) !important;
+  letter-spacing: 0.03em !important;
+  line-height: 1.2 !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding-bottom: 14px !important;
+  margin-bottom: 24px !important;
+  text-wrap: balance;
+}
+
+// ── Article headings ─────────────────────────────────────────
+article h2,
+.article-content h2 {
+  font-family: var(--font-display) !important;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: var(--text-primary) !important;
+  letter-spacing: 0.04em !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding-bottom: 8px !important;
+  margin-top: 40px !important;
+  margin-bottom: 14px !important;
+}
+
+article h3,
+.article-content h3 {
+  font-family: var(--font-display) !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: var(--gold-dim) !important;
+  letter-spacing: 0.05em !important;
+  margin-top: 28px !important;
+  margin-bottom: 10px !important;
+}
+
+// ── Body text ────────────────────────────────────────────────
+article p,
+.article-content p {
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+  color: var(--text-primary) !important;
+  margin-bottom: 14px !important;
+}
+
+article strong { color: var(--text-primary) !important; font-weight: 700 !important; }
+article em { color: var(--gold-dim) !important; }
+
+// ── Links ────────────────────────────────────────────────────
+a {
+  color: var(--gold) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--crimson) !important;
+}
+
+// Internal wiki links (Quartz specific)
+a.internal {
+  color: var(--gold) !important;
+  border-bottom: 1px solid var(--gold-faint) !important;
+}
+
+a.internal:hover {
+  color: var(--crimson) !important;
+  border-bottom-color: var(--crimson-dim) !important;
+}
+
+// ── Lists ────────────────────────────────────────────────────
+article ul li::marker,
+.article-content ul li::marker {
+  color: var(--crimson) !important;
+}
+
+article ol li::marker,
+.article-content ol li::marker {
+  color: var(--gold) !important;
+  font-weight: 600 !important;
+}
+
+article li,
+.article-content li {
+  font-size: 17px !important;
+  margin-bottom: 6px !important;
+}
+
+// ── Blockquotes / callouts ───────────────────────────────────
+blockquote {
+  background: oklch(92% 0.025 70) !important;
+  border-left: 3px solid var(--crimson) !important;
+  border-radius: 0 4px 4px 0 !important;
+  padding: 12px 18px !important;
+  margin: 20px 0 !important;
+  color: var(--text-muted) !important;
+  font-size: 15px !important;
+}
+
+// Quartz callout blocks (.callout)
+.callout {
+  border-left: 3px solid var(--crimson) !important;
+  background: oklch(93% 0.03 75) !important;
+  border-radius: 0 6px 6px 0 !important;
+}
+
+.callout-title {
+  font-family: var(--font-display) !important;
+  font-size: 12px !important;
+  letter-spacing: 0.08em !important;
+  font-weight: 700 !important;
+  color: var(--crimson) !important;
+}
+
+// Warning callouts
+.callout[data-callout="warning"],
+.callout[data-callout="caution"] {
+  border-left-color: oklch(58% 0.16 70) !important;
+  background: oklch(93% 0.04 75) !important;
+}
+
+// ── Tables ───────────────────────────────────────────────────
+table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  font-size: 15px !important;
+  margin: 20px 0 !important;
+}
+
+thead tr {
+  background: oklch(88% 0.03 55) !important;
+  border-bottom: 1px solid var(--border-mid) !important;
+}
+
+thead th {
+  font-family: var(--font-display) !important;
+  font-size: 11px !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: var(--gold) !important;
+  font-weight: 600 !important;
+  padding: 9px 12px !important;
+  text-align: left !important;
+  white-space: nowrap !important;
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--border-color) !important;
+  transition: background 150ms ease !important;
+}
+
+tbody tr:nth-child(even) {
+  background: oklch(93% 0.016 78) !important;
+}
+
+tbody tr:hover {
+  background: var(--parchment-hover) !important;
+}
+
+td {
+  padding: 7px 12px !important;
+  color: var(--text-muted) !important;
+  vertical-align: top !important;
+}
+
+td strong { color: var(--text-primary) !important; }
+
+// ── Tags ────────────────────────────────────────────────────
+.tags > li > a,
+a.tag-link {
+  background: var(--parchment-raised) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  color: var(--text-muted) !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  padding: 3px 9px !important;
+  text-transform: uppercase !important;
+  white-space: nowrap !important;
+  text-decoration: none !important;
+}
+
+.tags > li > a:hover,
+a.tag-link:hover {
+  border-color: var(--gold-faint) !important;
+  color: var(--gold) !important;
+}
+
+// ── Code ────────────────────────────────────────────────────
+code,
+:not(pre) > code {
+  background: var(--parchment-raised) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  color: var(--gold-dim) !important;
+  font-size: 13px !important;
+  padding: 1px 6px !important;
+}
+
+pre {
+  background: var(--parchment-surface) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 6px !important;
+  padding: 16px 20px !important;
+  font-size: 14px !important;
+  overflow-x: auto !important;
+}
+
+// ── Footer ──────────────────────────────────────────────────
+footer {
+  background: var(--parchment-surface) !important;
+  border-top: 1px solid var(--border-color) !important;
+  color: var(--text-faint) !important;
+  font-size: 13px !important;
+}
+
+footer a {
+  color: var(--text-faint) !important;
+}
+
+footer a:hover {
+  color: var(--gold) !important;
+}
+
+// ── Scrollbar ───────────────────────────────────────────────
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--parchment-bg); }
+::-webkit-scrollbar-thumb { background: var(--border-mid); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-faint); }
+
+// ── Dark mode override ───────────────────────────────────────
+// If Quartz's dark mode toggle is enabled, these prevent it
+// from fighting our parchment theme. Remove if you want to
+// support dark mode too.
+[saved-theme="dark"] body,
+[saved-theme="dark"] .page {
+  background-color: var(--parchment-bg) !important;
+  color: var(--text-primary) !important;
+}
+
+// ============================================================
+// INSTALLATION INSTRUCTIONS
+// ============================================================
+//
+// STEP 1 — Copy this file
+//   Replace the contents of:
+//   quartz/styles/custom.scss
+//   with this file.
+//
+// STEP 2 — Update quartz.config.ts typography
+//   In the theme section of your quartz.config.ts, set:
+//
+//   theme: {
+//     fontOrigin: "googleFonts",
+//     cdnCaching: true,
+//     typography: {
+//       header: "Cinzel",
+//       body: "Source Sans 3",
+//       code: "JetBrains Mono",   // or your preferred mono
+//     },
+//     colors: {
+//       lightMode: {
+//         light:       "#f9f6f0",   // parchment bg
+//         lightgray:   "#e8e2d8",   // borders
+//         gray:        "#9a9080",   // muted text
+//         darkgray:    "#3a3228",   // body text
+//         dark:        "#1a1510",   // headings
+//         secondary:   "#7a2020",   // crimson (links, accents)
+//         tertiary:    "#5a4a28",   // gold (hover)
+//         highlight:   "rgba(180,140,80,0.12)", // selection bg
+//         textHighlight: "#ffeaa0", // search highlight
+//       },
+//       darkMode: {
+//         // Keep these if you want dark mode to still work
+//         // alongside this CSS, or just duplicate light values
+//         // to force light mode everywhere.
+//         light:       "#f9f6f0",
+//         lightgray:   "#e8e2d8",
+//         gray:        "#9a9080",
+//         darkgray:    "#3a3228",
+//         dark:        "#1a1510",
+//         secondary:   "#7a2020",
+//         tertiary:    "#5a4a28",
+//         highlight:   "rgba(180,140,80,0.12)",
+//         textHighlight: "#ffeaa0",
+//       },
+//     },
+//   },
+//
+// STEP 3 — Build & deploy
+//   npx quartz build
+//   npx quartz sync       (pushes to GitHub → auto-deploys)
+//
+// STEP 4 — Fine-tune (optional)
+//   Use browser DevTools on your live site to find any
+//   remaining class names that need overriding and add them
+//   here. Quartz component styles are !important-resistant,
+//   so you may need !important on some rules (already done
+//   for the main ones above).
+//
+// ============================================================
+

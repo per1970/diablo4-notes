@@ -24,40 +24,38 @@ const config: QuartzConfig = {
     ],
     defaultDateType: "modified",
     theme: {
-  fontOrigin: "googleFonts",
-  cdnCaching: true,
-  typography: {
-    header: "Cinzel",
-    body: "Source Sans 3",
-    code: "JetBrains Mono",
-  },
-  colors: {
-    lightMode: {
-      light:         "#f9f6f0",   // parchment background
-      lightgray:     "#e8e2d8",   // borders
-      gray:          "#9a9080",   // muted text
-      darkgray:      "#3a3228",   // body text
-      dark:          "#1a1510",   // headings
-      secondary:     "#7a2020",   // crimson — links & accents
-      tertiary:      "#5a4a28",   // gold — hover states
-      highlight:     "rgba(180,140,80,0.12)",
-      textHighlight: "#ffeaa0",
+      fontOrigin: "googleFonts",
+      cdnCaching: true,
+      typography: {
+        header: "Cinzel",         // Fantasy/gothic feel fitting Diablo
+        body: "Source Sans Pro",  // Clean readable body text
+        code: "JetBrains Mono",
+      },
+      colors: {
+        lightMode: {
+          light: "#f5f0e8",        // Parchment background
+          lightgray: "#e0d8cc",
+          gray: "#9e8f7a",
+          darkgray: "#3d2b1f",
+          dark: "#1a0a00",
+          secondary: "#8b1a1a",    // Deep red — Diablo theme
+          tertiary: "#c0392b",
+          highlight: "rgba(139, 26, 26, 0.12)",
+          textHighlight: "#fff176",
+        },
+        darkMode: {
+          light: "#1a0e0a",        // Very dark background
+          lightgray: "#2a1a12",
+          gray: "#6b4f3a",
+          darkgray: "#c8b89a",
+          dark: "#f0e6d3",
+          secondary: "#c0392b",    // Diablo red
+          tertiary: "#e74c3c",
+          highlight: "rgba(192, 57, 43, 0.15)",
+          textHighlight: "#b34700",
+        },
+      },
     },
-    darkMode: {
-      // Set identical to lightMode to force parchment everywhere
-      // OR keep your original dark values if you want dark mode
-      light:         "#f9f6f0",
-      lightgray:     "#e8e2d8",
-      gray:          "#9a9080",
-      darkgray:      "#3a3228",
-      dark:          "#1a1510",
-      secondary:     "#7a2020",
-      tertiary:      "#5a4a28",
-      highlight:     "rgba(180,140,80,0.12)",
-      textHighlight: "#ffeaa0",
-    },
-  },
-},
   },
   plugins: {
     transformers: [
