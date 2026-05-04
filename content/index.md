@@ -34,6 +34,7 @@ date: 2026-05-03
 - [[Paragon Board Strategy - Season 13]] — Pathing strategy, S13-specific Glyph changes, Pit Tier requirements
 - [[Paragon Board Strategies]] — Older notes (legacy)
 - [[Support Paladin Build - Season 13]] — Support role guide, Aura mechanics, Iron Conviction Set build path, group coordination
+- [[Apocalypse Warlock Gameplay Guide - Season 13]] — Stack mechanic, trash/boss rotation, resource management, Sigil of Chaos, Overpower, and survivability tips
 - [[Fortify Mechanics - Warlock Focus]] — How Fortify works, Warlock-specific sources (Rampage/Brute, Gorefeast, Cauterization)
 - [[Fortify - Where to See the Value]] — UI guide for reading Fortify on the health globe
 
