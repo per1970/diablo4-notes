@@ -38,10 +38,29 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const folderOrder = [
+          "Endgame Systems",
+          "Nightmare Dungeons",
+          "Build & Character",
+          "Loot & Economy",
+        ]
+        if (a.isFolder && b.isFolder) {
+          const aIdx = folderOrder.indexOf(a.displayName)
+          const bIdx = folderOrder.indexOf(b.displayName)
+          if (aIdx !== -1 && bIdx !== -1) return aIdx - bIdx
+          if (aIdx !== -1) return -1
+          if (bIdx !== -1) return 1
+          return a.displayName.localeCompare(b.displayName)
+        }
+        if (a.isFolder && !b.isFolder) return -1
+        if (!a.isFolder && b.isFolder) return 1
+        return a.displayName.localeCompare(b.displayName)
+      },
+    }),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
