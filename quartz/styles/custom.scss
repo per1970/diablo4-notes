@@ -8,6 +8,48 @@
 // NOTE: Fonts (Cinzel, Source Sans 3) are loaded automatically
 // by Quartz via quartz.config.ts — no @import needed here.
 
+// --per stuff
+#quartz-root {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  max-width: 100% !important;
+}
+
+// ── Folder listing page ───────────────────────────────────────
+.popover-hint ul li {
+  // Hide tags on folder listings
+  ul.tags {
+    display: none !important;
+  }
+
+  // Tighten up each list item
+  padding: 4px 0 !important;
+  border-bottom: 1px solid var(--d4-border) !important;
+  margin-bottom: 0 !important;
+}
+
+.popover-hint ul li div {
+  display: flex !important;
+  align-items: baseline !important;
+  gap: 12px !important;
+}
+
+.popover-hint ul li h3 {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.popover-hint ul li h3 a {
+  color: var(--d4-gold) !important;
+  text-decoration: none !important;
+}
+
+.popover-hint ul li h3 a:hover {
+  color: var(--d4-crimson) !important;
+}
+
 // ── Design tokens ─────────────────────────────────────────────
 :root {
   --d4-bg:        oklch(97% 0.012 80);    // warm parchment
@@ -47,10 +89,8 @@ body {
   background-color: var(--d4-bg) !important;
 }
 
-// ── Fixed top bar: #quartz-body > .page-header ───────────────
-// Quartz renders header[] components inside div.page-header
-// We fix it to the top of the viewport as a proper navbar.
-.page-header {
+// ── Fixed top bar: the <header> inside .page-header ──────────
+.page-header > header {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
@@ -65,6 +105,12 @@ body {
   padding: 0 20px !important;
   gap: 16px !important;
   margin: 0 !important;
+}
+
+// Push content below the fixed bar
+.page-header {
+  padding-top: 8px !important;
+  margin-top: 0 !important;
 }
 
 // Site title inside top bar
@@ -167,10 +213,13 @@ button.mobile-explorer {
   overflow-y: auto !important;
 }
 
-// Hide folder collapse arrows
+// Folder collapse arrows — show them again, styled in crimson
 .folder-icon,
 .folder-container > svg {
-  display: none !important;
+  display: block !important;
+  color: var(--d4-crimson) !important;
+  stroke: var(--d4-crimson) !important;
+  flex-shrink: 0 !important;
 }
 
 // Explorer file links — no wrapping, compact
@@ -350,8 +399,31 @@ button.readermode svg {
   color: var(--d4-muted) !important;
 }
 
-// ── Page header area: .page-header ───────────────────────────
-// Article title: h1.article-title (inside .page-header > .popover-hint)
+// ── Center column padding ─────────────────────────────────────
+.center {
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+  min-width: 0 !important;
+  overflow-x: hidden !important;
+}
+
+// Prevent article content from overflowing
+article {
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  min-width: 0 !important;
+  overflow-x: hidden !important;
+}
+
+// Prevent any element from exceeding container width
+article p,
+article li,
+article td {
+  max-width: 100% !important;
+  overflow-wrap: break-word !important;
+}
+
+// ── Article title ─────────────────────────────────────────────
 h1.article-title {
   font-family: var(--d4-display) !important;
   font-size: 2rem !important;
@@ -361,20 +433,57 @@ h1.article-title {
   line-height: 1.2 !important;
   border-bottom: 1px solid var(--d4-border) !important;
   padding-bottom: 14px !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 10px !important;
   margin-top: 0 !important;
   text-wrap: balance;
 }
 
-// Content meta: p.content-meta (date + read time)
+// ── Content meta: date + read time ───────────────────────────
 p.content-meta {
-  font-size: 13px !important;
+  font-size: 12px !important;
   color: var(--d4-faint) !important;
+  display: flex !important;
+  gap: 14px !important;
+  align-items: center !important;
+  margin-bottom: 14px !important;
+  margin-top: 4px !important;
 }
 
 p.content-meta time,
 p.content-meta span {
   color: var(--d4-faint) !important;
+  font-size: 12px !important;
+}
+
+// ── Breadcrumbs ───────────────────────────────────────────────
+.breadcrumb-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 4px !important;
+  font-size: 13px !important;
+  margin-top: 8px !important;
+  margin-bottom: 14px !important;
+}
+
+.breadcrumb-element p {
+  color: var(--d4-faint) !important;
+  font-size: 13px !important;
+  white-space: nowrap !important;
+}
+
+.breadcrumb-element a {
+  color: var(--d4-muted) !important;
+  white-space: nowrap !important;
+  text-decoration: none !important;
+  background: transparent !important;
+  border-bottom: none !important;
+  font-size: 13px !important;
+  padding: 0 !important;
+}
+
+.breadcrumb-element a:hover {
+  color: var(--d4-gold) !important;
 }
 
 // Hide tags and meta on index page — body has data-slug="index" on home page
@@ -387,10 +496,10 @@ body[data-slug="index"] p.content-meta {
 ul.tags {
   display: flex !important;
   flex-wrap: wrap !important;
-  gap: 6px !important;
+  gap: 5px !important;
   list-style: none !important;
   padding: 0 !important;
-  margin: 8px 0 16px !important;
+  margin: 0 0 20px 0 !important;
 }
 
 ul.tags > li {
@@ -400,16 +509,15 @@ ul.tags > li {
 ul.tags > li > a.internal.tag-link {
   background: var(--d4-raised) !important;
   border: 1px solid var(--d4-border) !important;
-  border-radius: 4px !important;
+  border-radius: 3px !important;
   color: var(--d4-muted) !important;
-  font-size: 11px !important;
+  font-size: 10px !important;
   font-weight: 700 !important;
   letter-spacing: 0.06em !important;
-  padding: 2px 8px !important;
+  padding: 1px 7px !important;
   text-transform: uppercase !important;
   white-space: nowrap !important;
   text-decoration: none !important;
-  // Remove Quartz's "#" prefix on tag links
   &::before { content: "" !important; }
 }
 
@@ -778,30 +886,6 @@ td {
 .table-container td strong,
 td strong {
   color: var(--d4-text) !important;
-}
-
-// ── Breadcrumbs: .breadcrumb-container ────────────────────────
-.breadcrumb-container {
-  font-size: 13px !important;
-  flex-wrap: wrap !important;
-}
-
-.breadcrumb-element p {
-  color: var(--d4-faint) !important;
-  font-size: 13px !important;
-  white-space: nowrap !important;
-}
-
-.breadcrumb-element a {
-  color: var(--d4-muted) !important;
-  white-space: nowrap !important;
-  text-decoration: none !important;
-  background: transparent !important;
-  border-bottom: none !important;
-}
-
-.breadcrumb-element a:hover {
-  color: var(--d4-gold) !important;
 }
 
 // ── Code ──────────────────────────────────────────────────────
