@@ -15,28 +15,22 @@ date: 2026-05-03
 > [!d4-hero] D4 Season 13 Notes
 > Season of Reckoning · Lord of Hatred · Launched April 27/28, 2026
 
-> [!d4-section] Endgame Systems
-> - [[War Plans - Group Play Mechanics]] — How War Plans work, the Command Table in Temis, Activity Skill Trees, and the current group-play credit bug
-> - [[War Plans - Activity Tree Leveling Resources]] — Best external guides (Maxroll, KeenGamer, AOEAH) with reading order
-> - [[Guide - War Plans Best Nodes]] — Best node paths per activity tree (Helltide, Pit, NMD, Undercity, Lair Bosses, Infernal Hordes, Whispers); tier ratings and respec warnings
-> - [[Infernal Hordes - Boon and Bane Choices]] — Tier list of Boons/Banes, Chaos Wave priority, Aether spending strategy
-
-> [!d4-section] Nightmare Dungeons
-> - [[Nightmare Dungeon Affixes - Season 13]] — Full ranked list of positive and enemy/negative sigil affixes; tier breakdown by sigil level
-> - [[Horadric Strongrooms - Season 13]] — How Strongrooms work, Attunement mechanics, Pillar/Shrine strategy, rewards, and Escalation synergy
-
-> [!d4-section] Build & Character Systems
-> - [[Paragon Leveling Guide - Season 13]] — XP farming priorities (solo/group), Season Rank rewards, activity efficiency rankings
-> - [[Paragon Board Strategy - Season 13]] — Pathing strategy, S13-specific Glyph changes, Pit Tier requirements
-> - [[Support Paladin Build - Season 13]] — Support role guide, Aura mechanics, Iron Conviction Set build path, group coordination
-> - [[Apocalypse Warlock Gameplay Guide - Season 13]] — Stack mechanic, trash/boss rotation, resource management, Sigil of Chaos, Overpower, and survivability tips
-
-> [!d4-section] Loot & Economy
-> - [[Gold Farming - Season 13]] — Best money grind, why to stop salvaging, optimal War Plan loop
-> - [[Whisper Caches - Chaos vs Mystery]] — Cache types and the Grim Mysteries War Plan perk
-> - [[Horadric Cube - Boss Trophy Amalgamation]] — Why direct boss runs beat Amalgamation in S13
-> - [[Reference - Horadric Cube Recipes]] — All gear modification, item transmutation, charm, rune, and Mythic crafting recipes; materials table and farming tips
-> - [[Guide - Talisman Charms and Seals]] — Six-slot Seal chase, Set Charm stat targets, Unique Charm crafting, Mythic Seal sources, and gold from surplus
+- [[Reference - Horadric Cube Recipes]] — *2026-05-05*
+- [[Reference - Horadric Cube Transfiguration]] — *2026-05-05*
+- [[Apocalypse Warlock Gameplay Guide - Season 13]] — *2026-05-04*
+- [[Guide - War Plans Best Tree Nodes - Season 13]] — *2026-05-04*
+- [[Guide - Talisman Charms and Seals Perfecting - Season 13]] — *2026-05-04*
+- [[Horadric Strongrooms - Season 13]] — *2026-05-03*
+- [[Nightmare Dungeon Affixes - Season 13]] — *2026-05-03*
+- [[Infernal Hordes - Boon and Bane Choices]] — *2026-05-03*
+- [[War Plans - Activity Tree Leveling Resources]] — *2026-05-03*
+- [[War Plans - Group Play Mechanics]] — *2026-05-03*
+- [[Paragon Board Strategy - Season 13]] — *2026-05-03*
+- [[Paragon Leveling Guide - Season 13]] — *2026-05-03*
+- [[Support Paladin Build - Season 13]] — *2026-05-03*
+- [[Gold Farming - Season 13]] — *2026-05-03*
+- [[Horadric Cube - Boss Trophy Amalgamation]] — *2026-05-03*
+- [[Whisper Caches - Chaos vs Mystery]] — *2026-05-03*
 
 ## Quick Reference: Key S13 Changes
 

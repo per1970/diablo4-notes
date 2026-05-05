@@ -492,6 +492,17 @@ body[data-slug="index"] p.content-meta {
   display: none !important;
 }
 
+// Index page note list — remove link underlines and tighten spacing
+body[data-slug="index"] article ul li {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+  padding: 2px 0 !important;
+}
+
+body[data-slug="index"] article ul li a.internal {
+  border-bottom: none !important;
+}
+
 // Tags: ul.tags > li > a.internal.tag-link
 ul.tags {
   display: flex !important;
