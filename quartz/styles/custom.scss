@@ -24,7 +24,8 @@
 
   // Tighten up each list item
   padding: 4px 0 !important;
-  border-bottom: 1px solid var(--d4-border) !important;
+  border-bottom: none !important;
+  //border-bottom: 1px solid var(--d4-border) !important;
   margin-bottom: 0 !important;
 }
 
@@ -44,6 +45,7 @@
 .popover-hint ul li h3 a {
   color: var(--d4-gold) !important;
   text-decoration: none !important;
+  border-bottom: none !important;	
 }
 
 .popover-hint ul li h3 a:hover {
