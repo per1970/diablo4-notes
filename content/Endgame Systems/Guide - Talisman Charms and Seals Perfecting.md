@@ -1,5 +1,5 @@
 ---
-title: "Guide - Talisman Charms and Seals Perfecting - Season 13"
+title: "Guide - Talisman Charms and Seals Perfecting"
 description: How to target the best Seals, Set Charms, Unique Charms, and Mythic Seals for your Talisman in Season 13 / Lord of Hatred.
 tags:
   - diablo4

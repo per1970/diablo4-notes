@@ -78,4 +78,4 @@ All three sources converge on: **specialize early**.
 
 - [[War Plans - Group Play Mechanics]]
 - [[Whisper Caches - Chaos vs Mystery]]
-- [[Gold Farming - Season 13]]
+- [[Gold Farming]]

@@ -110,4 +110,4 @@ In a group, **all party members earn Burning Aether for themselves** and decide 
 ## Related Notes
 
 - [[War Plans - Group Play Mechanics]]
-- [[Gold Farming - Season 13]]
+- [[Gold Farming]]

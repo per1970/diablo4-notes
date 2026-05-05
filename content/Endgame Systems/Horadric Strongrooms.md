@@ -1,5 +1,5 @@
 ---
-title: "Horadric Strongrooms - Season 13"
+title: "Horadric Strongrooms"
 description: "How Strongrooms work, statue selection strategy ranked S to C tier, Attunement mechanics, and synergy with Escalating Nightmares."
 tags:
   - diablo4

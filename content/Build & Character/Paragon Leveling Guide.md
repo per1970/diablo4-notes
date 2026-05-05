@@ -1,5 +1,5 @@
 ---
-title: "Paragon Leveling Guide - Season 13"
+title: "Paragon Leveling Guide"
 description: "XP farming priorities for solo and group play, Season Rank rewards, activity efficiency rankings, and Glyph progression tips."
 tags:
   - diablo4

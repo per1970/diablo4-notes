@@ -79,4 +79,4 @@ Same wildcard concept, better rewards. **If you see Mystery as an option, take i
 
 - [[War Plans - Group Play Mechanics]]
 - [[War Plans - Activity Tree Leveling Resources]]
-- [[Gold Farming - Season 13]]
+- [[Gold Farming]]

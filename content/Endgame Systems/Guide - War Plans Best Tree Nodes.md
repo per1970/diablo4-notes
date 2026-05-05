@@ -1,5 +1,5 @@
 ---
-title: "Guide - War Plans Best Tree Nodes - Season 13"
+title: "Guide - War Plans Best Tree Nodes"
 description: Per-activity War Plans skill tree breakdown and node recommendations for Season 13 / Lord of Hatred, based on early endgame experimentation.
 tags:
   - diablo4

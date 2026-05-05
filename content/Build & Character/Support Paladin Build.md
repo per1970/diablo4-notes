@@ -1,5 +1,5 @@
 ---
-title: "Support Paladin Build - Season 13"
+title: "Support Paladin Build"
 description: "Premier group support build using Paladin Auras, Iron Conviction Set, and the Talisman system. Includes skills, key gear, and gameplay loop."
 tags:
   - diablo4

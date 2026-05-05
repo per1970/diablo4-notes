@@ -73,4 +73,4 @@ War Plans is excellent for solo play and will be great for groups once the credi
 
 - [[War Plans - Activity Tree Leveling Resources]]
 - [[Whisper Caches - Chaos vs Mystery]]
-- [[Gold Farming - Season 13]]
+- [[Gold Farming]]

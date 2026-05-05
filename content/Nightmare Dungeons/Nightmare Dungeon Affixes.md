@@ -1,5 +1,5 @@
 ---
-title: "Nightmare Dungeon Affixes - Season 13"
+title: "Nightmare Dungeon Affixes"
 description: "Full ranked list of positive and negative Nightmare Dungeon sigil affixes, with tier breakdown and build-specific advice."
 tags:
   - diablo4

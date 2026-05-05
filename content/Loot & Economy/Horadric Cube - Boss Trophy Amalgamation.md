@@ -89,4 +89,4 @@ In that scenario, dumping the excess into the cube is fine — you're not losing
 ## Related Notes
 
 - [[War Plans - Group Play Mechanics]]
-- [[Gold Farming - Season 13]]
+- [[Gold Farming]]

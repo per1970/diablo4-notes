@@ -1,5 +1,5 @@
 ---
-title: "Paragon Board Strategy - Season 13"
+title: "Paragon Board Strategy"
 description: "S13-specific Paragon pathing strategy — Glyph socket priority, Legendary nodes, why filling boards is a trap, and early vs late board setups."
 tags:
   - diablo4
@@ -94,4 +94,4 @@ Most good build guides include both a "leveling Paragon" and an "endgame Paragon
 
 - [[Paragon Board Strategies]]
 - [[War Plans - Group Play Mechanics]]
-- [[Gold Farming - Season 13]]
+- [[Gold Farming]]

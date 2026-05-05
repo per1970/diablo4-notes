@@ -1,5 +1,5 @@
 ---
-title: "Gold Farming - Season 13"
+title: "Gold Farming"
 description: "Best gold farming methods in S13 — Infernal Hordes, Helltides, War Plans loop, and why you should stop reflexively salvaging."
 tags:
   - diablo4

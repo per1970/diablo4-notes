@@ -17,18 +17,18 @@ date: 2026-05-03
 
 - [[Reference - Horadric Cube Recipes]] — *2026-05-05*
 - [[Reference - Horadric Cube Transfiguration]] — *2026-05-05*
-- [[Apocalypse Warlock Gameplay Guide - Season 13]] — *2026-05-04*
-- [[Guide - War Plans Best Tree Nodes - Season 13]] — *2026-05-04*
-- [[Guide - Talisman Charms and Seals Perfecting - Season 13]] — *2026-05-04*
-- [[Horadric Strongrooms - Season 13]] — *2026-05-03*
-- [[Nightmare Dungeon Affixes - Season 13]] — *2026-05-03*
+- [[Apocalypse Warlock Gameplay Guide]] — *2026-05-04*
+- [[Guide - War Plans Best Tree Nodes]] — *2026-05-04*
+- [[Guide - Talisman Charms and Seals Perfecting]] — *2026-05-04*
+- [[Horadric Strongrooms]] — *2026-05-03*
+- [[Nightmare Dungeon Affixes]] — *2026-05-03*
 - [[Infernal Hordes - Boon and Bane Choices]] — *2026-05-03*
 - [[War Plans - Activity Tree Leveling Resources]] — *2026-05-03*
 - [[War Plans - Group Play Mechanics]] — *2026-05-03*
-- [[Paragon Board Strategy - Season 13]] — *2026-05-03*
-- [[Paragon Leveling Guide - Season 13]] — *2026-05-03*
-- [[Support Paladin Build - Season 13]] — *2026-05-03*
-- [[Gold Farming - Season 13]] — *2026-05-03*
+- [[Paragon Board Strategy]] — *2026-05-03*
+- [[Paragon Leveling Guide]] — *2026-05-03*
+- [[Support Paladin Build]] — *2026-05-03*
+- [[Gold Farming]] — *2026-05-03*
 - [[Horadric Cube - Boss Trophy Amalgamation]] — *2026-05-03*
 - [[Whisper Caches - Chaos vs Mystery]] — *2026-05-03*
 
