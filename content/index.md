@@ -15,6 +15,7 @@ date: 2026-05-03
 > [!d4-hero] D4 Season 13 Notes
 > Season of Reckoning · Lord of Hatred · Launched April 27/28, 2026
 
+- [[Guide - Season 13 Farming Methods (Gems, Gold, XP)]] — *2026-05-10*
 - [[Build - Warlock Apocalypse Sigil (IgniCeh)]] — *2026-05-09*
 - [[Reference - Horadric Cube Recipes]] — *2026-05-05*
 - [[Reference - Horadric Cube Transfiguration]] — *2026-05-05*
