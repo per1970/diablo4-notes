@@ -12,7 +12,7 @@ tags:
 season: 13
 expansion: Lord of Hatred
 publish: true
-date: 2026-05-04
+date: 2026-05-10
 ---
 
 # Guide – War Plans: Best Tree Nodes
@@ -29,7 +29,9 @@ War Plans is a **permanent endgame feature** (not seasonal) unlocked after compl
 - Build a custom playlist of up to **5 endgame activities**, complete them in sequence, collect a **War Chest** at the end
 - Each activity has its own **Activity Skill Tree** — spend points to customize modifiers, rewards, and spawns for that activity
 - XP earned toward a tree happens whenever you complete that activity, even outside an active War Plan; however, **node unlocks only trigger during active War Plan runs**
+- **Activity XP rate**: ~25x faster inside a War Plan than outside (25 XP/run at Normal, 118 XP/run at T12 — ~1 XP/run outside). Level trees inside War Plans only.
 - **Lair Boss tree** requires Torment 1+; **Pit tree** requires completing Season Rank 2 (Hellish Descent capstone)
+- **Auto-generated keys**: War Plans automatically creates missing Nightmare Sigils, Infernal Compasses, and other entry items before each activity — no pre-farming access materials required
 
 ### ⚠️ Respec Warning
 Respec costs scale steeply at higher ranks — reportedly **~46–50 million gold per point** at upper levels. Plan your pathing before you reach that tier. Early ranks are cheap to experiment with; later ranks are not.
@@ -46,27 +48,30 @@ Respec costs scale steeply at higher ranks — reportedly **~46–50 million gol
 | Activity | Tier | Primary Value |
 |---|---|---|
 | **Helltide** | S | XP, Lair Keys, Forgotten Souls |
+| **Undercity** | S | Mythic Uniques (best source in game at T8+) |
+| **Tree of Whispers** | S (passive) | Runs concurrently; XP, diverse rewards |
 | **Lair Bosses** | A | Targeted Unique drops, Nemesis chain loot |
-| **Nightmare Dungeons** | B | Goblin loot, Escalation Sigils for Astaroth |
-| **Undercity** | B | Forgotten Souls, tribute efficiency |
-| **Infernal Hordes** | B | Flexible loot targeting via Madness |
-| **The Pit** | B | Glyph XP (main use case in S13) |
-| **Tree of Whispers** | C | Material caches, incidental loot |
+| **Nightmare Dungeons** | A | Goblin loot, Escalation Sigils for Astaroth |
+| **The Pit** | B | Masterworking mats, Glyph upgrades (~90s runs) |
+| **Infernal Hordes** | D | Avoid — 10+ min per run; only for seasonal challenges |
 
 ---
 
 ## Tree-by-Tree Breakdown
 
 ### 🌳 Tree of Whispers
-**Tier: C — Low priority, do for incidental rewards**
+**Tier: S (passive) — Runs concurrently; no opportunity cost**
 
-Runs passively alongside your active War Plan. Not a primary farming target.
+Runs passively alongside your active War Plan without consuming an activity slot. Effectively a free bonus layer on every route.
 
-- **Spin and Spark / Material Cache path**: Gives Forgotten Souls, gold, crafting mats. Useful at higher Torment when you no longer need items but want materials.
-- **Mystery Cache path** (untested by wudijo): Potential Spark income — worth investigating as Mythics are scarce early in the season.
-- Corrupted Roots / head rotten guys nodes: Not yet assessed.
+**Confirmed node names:**
+- **Tree of Plenty**: Adds a fourth Whisper Cache choice (instead of three)
+- **Fortune or Famine**: Caches are always at least Greater Quality or Junk — eliminates mid-tier drops
+- **Simple Gifts**: Narrows to a single Cache choice, always Material Collection or Collection of Chaos
+- **Material Wealth**: Tree only offers Material Collections
+- **Chaotic Favor**: Small chance to award a Collection of Chaos on Whisper completion
 
-*Recommendation: Invest 3 points in the middle path for bonus XP on Whisper cache turn-ins. Use leftover points for material or gear caches based on your current needs.*
+*Recommendation: Fortune or Famine for consistent high-quality drops. Tree of Plenty if you want more choice. Material Wealth if Forgotten Souls / crafting mats are the priority.*
 
 ---
 
@@ -97,38 +102,40 @@ Runs passively alongside your active War Plan. Not a primary farming target.
 ---
 
 ### 🏛️ Undercity
-**Tier: B — Excellent Forgotten Souls farm; efficient tribute usage**
+**Tier: S — Best Mythic farming activity in the game at T8+**
 
-- **Left Path — Invasion Portals + Portal Pranksters** ⭐: Invasion portals spawn during runs and drop extra rewards including **Forgotten Souls** — the most in-demand crafting material in S13. Portal Pranksters node compounds this.
-- **Leftover Tribute dump node**: Lets you open all remaining small tribute chests at end of run without running another Undercity. Significant time saver.
-- XP node (1 point): Low investment, applies to all characters. Worth picking up.
+Undercity has overtaken Helltide as the top mythic source once the key node is unlocked. Runs take ~1 minute, giving it an unmatched time-to-reward ratio.
 
-*Recommendation: Left path down to Portal Pranksters + Tribute dump. Best consistent Forgotten Souls source.*
+- **Left Path — Gutter Filth → Portal Pranksters** ⭐⭐: **Gutter Filth** is the critical node — spawns Portal Prankster treasure goblins during runs, which have disproportionately high Mythic Unique drop rates. At Torment 8+, players consistently report multiple mythics per run, sometimes up to four from a single completion. Portal Pranksters compounds this further.
+- **Leftover Tribute dump node**: Opens remaining small tribute chests at end of run. Significant time saver.
+- XP node (1 point): Low cost, applies all characters. Still worth picking up.
+
+*Recommendation: Left path to Gutter Filth first — this is now the #1 Mythic farming node in the game. Everything else is secondary.*
 
 ---
 
 ### 👑 Lair Bosses
-**Tier: A — Best targeted loot; Nemesis chain is potentially the best Mythic source**
+**Tier: A — Best targeted Unique loot; Nemesis chain strong for Mythics**
 
 - **Boss targeting nodes**: Invest in the specific boss whose loot table you need. Check Maxroll once tables are fully mapped.
   - Example: Infernal Hordes farming → add free Varshan via cross-tree node
-- **Middle Path — Nemesis Lair** ⭐: After killing a boss and opening the loot chest, triggers a **dual boss fight**, which can chain into a **triple boss fight**. Community reports suggest this is one of the best Mythic drop sources in the game. Requires a strong build; dropping a Torment tier is a valid workaround.
+- **Middle Path — Nemesis Lair** ⭐: After killing a boss and opening the loot chest, triggers a **dual boss fight**, which can chain into a **triple boss fight**. Strong Mythic source, though Undercity (Gutter Filth) now competes directly.
 - Requires Torment 1+ to unlock; Greater Lair Boss nodes require Torment 6+.
+- ⚠️ **Co-op requirement**: In party play, **every player must have the Nemesis node in their own skill tree** to receive loot from Nemesis encounters. This is a hard requirement — not a suggestion. Anyone without the node gets nothing from the fight.
 
-*Recommendation: Middle path (Nemesis chain) for Mythic farming once your build is capable. Otherwise invest in your priority boss loot table first.*
+*Recommendation: Middle path (Nemesis chain) for Mythic farming. Boss-specific nodes for targeted Unique drops. In co-op, confirm all party members have Nemesis before entering the red portal.*
 
 ---
 
 ### 🌊 Infernal Hordes
-**Tier: B — Flexible loot targeting with the right node**
+**Tier: D — Avoid except for seasonal challenge requirements**
 
-- **Method in Madness** ⭐: Allows consistent targeting of a specific Infernal offering strategy — Soulspire, Lord synergies, or Masses — giving near-guaranteed repetition of your preferred offering type.
-  - Trade-off: speccing into this blocks Chaos Waves. Keep Chaos Waves open if you want cross-boss drops (e.g. Varshan) to proc there.
-  - Hybrid option: don't block Chaos Waves so you can pivot between strategies as needed.
-- Right side of tree: currently assessed as weak — not recommended.
-- Deeper nodes: still being tested; potentially strong but unverified.
+Infernal Hordes has been confirmed as the worst War Plans activity for time efficiency. A single run takes 10+ minutes, occupying the same War Plans slot as ~6 Pit runs (~90 seconds each). Blizzard has acknowledged the efficiency gap and flagged balance changes for Season 14.
 
-*Recommendation: Method in Madness first. Decide whether to block Chaos Waves based on whether you want cross-boss drops.*
+- **Method in Madness**: Still the best node on the tree — consistent offering strategy targeting. But the activity itself is too slow to justify in a competitive playlist.
+- Only include Infernal Hordes when a specific Season 13 challenge objective requires Burning Aether.
+
+*Recommendation: Exclude from all regular playlists. Spec Method in Madness if you must run it for challenges.*
 
 ---
 
@@ -167,8 +174,9 @@ XP is slow relative to gear and glyph progression in S13. Paragon points are mor
 - [ ] Lair Bosses → Nemesis chain (middle) once build is capable
 - [ ] Nightmare Dungeons → Middle (Astaroth sigils) or Right (Goblins) based on goal
 - [ ] Infernal Hordes → Method in Madness
-- [ ] Tree of Whispers → Low priority; mid path XP or mat cache with spare points
+- [ ] Tree of Whispers → S tier passive (no slot cost) — invest Fortune or Famine or Tree of Plenty
 
 ---
 
-*Sources: wudijo – "Best War Plans Options So Far" (YouTube, May 1, 2026) · Mobalytics War Plans Complete Guide · Keengamer War Plans Guide · Vortex Gaming War Plans Guide · Maxroll War Plans Reference*
+*Sources: wudijo – "Best War Plans Options So Far" (YouTube, May 1, 2026) · Mobalytics War Plans Complete Guide · Keengamer War Plans Guide · Switchblade Gaming War Plans Guide (May 4, 2026) · AOEAH War Plans Skill Tree Guide (May 7, 2026) · Maxroll War Plans Reference*
+*Last updated: May 10, 2026*
