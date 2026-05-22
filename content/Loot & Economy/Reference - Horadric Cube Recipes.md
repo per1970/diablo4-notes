@@ -142,3 +142,20 @@ Blizzard has confirmed **undocumented recipes** exist — ingredients found in u
 8. **Transfigure** as an absolute final step on a perfected item — cannot be undone.
 
 > The Cube is an **optimization tool**, not an acquisition tool. Use boss target farming to get specific Uniques first; use the Cube to perfect them afterward.
+
+---
+
+## Aspect Farming from the Purveyor
+
+If you're hunting a specific offensive aspect and it refuses to drop, use this targeted loop:
+
+1. Go to **Purveyor of Curiosities** and roll **1-handed weapons or focuses** (do NOT roll gloves — they can roll utility aspects)
+2. For every item that doesn't roll as Legendary:
+   - Take it to the Horadric Cube
+   - **Add Affix** (Coarse Dust) to bring it to Rare quality
+   - **Upgrade to Legendary** (Pure Primordial Dust) — this gives it a random offensive aspect
+3. You now have an inventory full of offensive-aspected items to check
+4. For duplicates of aspects you already have: **3-to-1 Transmute** them at the Cube for a chance at a better roll
+5. **Important:** Only 900+ item power (Ancestral) items can roll max % aspects (e.g. Aspect of Arrogance caps at 45% on 900+ IP vs 40% on 850 IP). Prioritize Ancestral upgrades when you have Pure Dust to spare.
+
+This is the best use of Pure Primordial Dust — the upgrade-to-legendary recipe is used for almost nothing else. It turns a handful of Purveyor rolls into a full inventory of aspect pulls.

@@ -89,8 +89,8 @@ Before you can craft a perfect ring, glove, or amulet, you need a good **base it
 | Source | Notes |
 |---|---|
 | Purveyor of Curiosities | Gamble obols for the slot you need |
-| Curio Vendor (Temis) | Resource / Utility aspect caches; direct weapon purchase |
-| Temis Regular Vendors | **Can sell Ancestral items**, sometimes with GAs — check every refresh |
+| Curio Vendor (Temis) | Sells **Boss Summoning Cache** (2-4 keys, even greater lair keys) and **Salvage Material Cache** (22-30 Forgotten Souls at T12). Level mercenaries to unlock more cache types: Oriana → Obols + Masterworking mats, Subu → Boss summoning materials. Claim Pale Marks on all mercenaries. |
+| Temis Bottom Vendors (×3) | Three separate vendors: weapons, armor, jewelry (rings/amulets). **Can sell Ancestral items with GAs.** Reset frequently. Check every visit for crafting bases. |
 | Jeweler — Jewelry Cache | Last tab. Expensive (42M gold), drains Forgotten Souls and gem fragments |
 | Blacksmith — Crafting Caches | Forge Rare weapons and Rare armors. Very expensive |
 | Undercity Tributes | Targeted farming with Tribute of Ascendance for amulet/ring |
