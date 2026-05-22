@@ -71,6 +71,20 @@ With a 5-piece set + 4 charms at +3 ranks each = **+12 skill ranks total**, effe
 
 All Stats value: slightly weaker raw damage than pure skill ranks, but it activates Paragon advantage nodes — especially relevant in S13 now that Shroud of False Death is no longer universal and All Stats is harder to source elsewhere.
 
+### Why Skill Ranks Are the #1 Damage Scaler
+
+Skill ranks are effectively an independent multiplicative damage multiplier — they outperform any single damage-type affix in most builds.
+
+- **+3 skill ranks** on a 318% base multiplier → drops to 297% when removed (21% loss)
+- **+3 skill ranks** on a 594% base multiplier (e.g. Call of the Ancients) → drops to 554% (**40% bonus damage**)
+- **+18 total skill ranks** from 6 charms at +3 each represents the single biggest multiplicative leap you can make in endgame gearing — enough to push millions → billions or billions → trillions
+
+**Priority:** Charm skill ranks > damage multiplier affixes > core stats for most builds. The only exception is when your main skill's tag isn't covered by any charm category (e.g. Army of the Dead Necro — the ultimate is tagged Ultimate/Summon, missing the Minion tag, so no charm gives it ranks).
+
+### Fast Reroll Trick
+
+When rerolling Set Charms at the Horadric Cube for skill tags: hold down **F** (keyboard) or **Y** (controller) to skip the transmute animation. You can chain-reroll without re-entering the menu. Saves significant time across 20-40+ rerolls.
+
 ---
 
 ## Unique Charms

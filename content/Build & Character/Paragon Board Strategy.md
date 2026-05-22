@@ -32,6 +32,27 @@ When following a build guide in S13, your point allocation should go:
 > [!tip] Why Legendary nodes win
 > Legendary nodes provide **multiplicative damage**, which makes them even more powerful than they may seem. That's why rushing them beats filling out a board with additive nodes — multiplicative scaling stacks differently and almost always wins.
 
+### Concrete Example: Paladin Zeal
+
+With 100–120 Paragon points allocated **exclusively to legendary nodes** (no glyphs invested yet):
+
+| Node | Effect |
+|---|---|
+| Castle | 95% bonus damage |
+| Shield Bearer | ~98% (scales with block chance) |
+| Fervent | 35% increased crit damage per Fervor stack × 3 stacks |
+| Relentless | 80% more damage |
+
+This alone pushes damage from **millions into billions** — before a single glyph is online. Adding glyphs later compounds further:
+
+- 15% more (base glyph bonus)
+- 1.5% per Resolve stack × 58 stacks (~80% more)
+- 5% more per Fervor stack × 3 (15% more)
+
+These glyph multipliers then feed into every other layer — crit damage, physical damage, zealot skill damage — creating a chain reaction.
+
+**Takeaway:** If you're struggling to break into billions, check whether you've grabbed all your board's legendary nodes before blaming your gear.
+
 ## Why "Fill Each Board" Is the Wrong Instinct
 
 Board pathing now exists almost entirely to serve **Glyph bonuses, Legendary nodes, and skill-tag synergies**. Every point is either feeding a radius or it is wasted.

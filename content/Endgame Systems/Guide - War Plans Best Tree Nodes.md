@@ -12,13 +12,13 @@ tags:
 season: 13
 expansion: Lord of Hatred
 publish: true
-date: 2026-05-10
+date: 2026-05-22
 ---
 
 # Guide – War Plans: Best Tree Nodes
 
-> Source: wudijo (YouTube, May 1, 2026) + Mobalytics / Keengamer / Vortex Gaming cross-reference
-> ⚠️ Early-season assessment — meta still being mapped. Treat recommendations as starting points.
+> Source: wudijo (YouTube, May 1, 2026) + German creator War Plans deep-dive (May 22, 2026) + Mobalytics / Keengamer / Vortex Gaming cross-reference
+> ⚠️ Meta still being mapped. Recommendations updated May 22 with new Mythic-quality War Plan roll discovery and recent Lair of Plenty findings.
 
 ---
 
@@ -40,6 +40,36 @@ Respec costs scale steeply at higher ranks — reportedly **~46–50 million gol
 - Depth beats breadth: a fully specced tree for one activity outperforms three half-built trees
 - Prioritize the activities you enjoy or need the most (boss loot tables, XP, Forgotten Souls, Glyphs)
 - XP is a persistent bottleneck in S13 — Paragon points are valuable, leveling is slow. Invest in XP nodes whenever they appear at low opportunity cost
+
+---
+
+## War Plan Rerolls — Mythic Quality
+
+**Critical discovery often missed:** Every time you generate a new War Plan, you get **3 free rerolls**. Use them — **Legendary is not the maximum quality tier.** Every reward type (gold, obols, salvage, talisman, keys, gear) can roll **Mythic quality**, which drops significantly more materials, higher-tier loot, and better key bundles.
+
+### Priority When Rerolling
+
+| Reward | Take | Skip |
+|---|---|---|
+| **Keys** (any key icon) | **Always take**, regardless of quality (Magic/Rare/Legendary) | Never skip keys |
+| **Salvage** | Legendary+ | Below Legendary |
+| **Gold / Obols** | Legendary+ | Below Legendary |
+| **Charms / Seals** | Legendary+ | Below Legendary |
+| **Gear** | Skip entirely | Lair bosses and world drops are more time-efficient for gear |
+
+**Why keys dominate:** Key caches drop Mythic Tributes of Armaments, Crux of the False Prophet, and normal tributes that can be upcycled. Even Magic/Rare key caches are worth taking — they bundle multiple keys and occasionally punch above their weight.
+
+### How Mythic Quality Helps
+
+- **Mythic salvage** = massive Forgotten Souls, Veiled Crystals, and other mats (which can be upcycled 352-to-74 for more Forgotten Souls)
+- **Mythic key caches** = more Mythic Tributes and lair boss access
+- **Gold:** relatively easy to farm via Torment 12 Gold Reserve / Vile Splendor NMDs — don't waste rerolls chasing Mythic gold unless it's free with nothing better
+
+### Reroll Strategy
+
+1. Always burn all 3 rerolls looking for key caches first
+2. If no keys, take Mythic salvage or Legendary gold/obols
+3. Never settle for below Legendary on non-key rewards
 
 ---
 
@@ -71,7 +101,21 @@ Runs passively alongside your active War Plan without consuming an activity slot
 - **Material Wealth**: Tree only offers Material Collections
 - **Chaotic Favor**: Small chance to award a Collection of Chaos on Whisper completion
 
-*Recommendation: Fortune or Famine for consistent high-quality drops. Tree of Plenty if you want more choice. Material Wealth if Forgotten Souls / crafting mats are the priority.*
+### Keys Route (Recommended)
+
+Take **Tree of Plenty** (4 choices) and specifically target **Whisper Cache of Dungeon Keys**. This cache has a solid chance to drop:
+- **Mythic Tributes of Armaments** — the single best mythic farming item in the game
+- **Legendary Tributes of Armaments**
+- **Crux of the False Prophet** — access to Uber Mephisto
+
+One creator reports getting a resplendent spark from a whisper cache (~1 in 30 caches). The 4th choice slot significantly improves your odds of seeing the key cache option.
+
+### Additional Mechanics
+
+- **Whisper Ambush**: Completing any whisper in the overworld has a chance to trigger an ambush. Enemies can drop Collection of Chaos. Upgraded nodes make ambushes sometimes include bosses (dropping Greater Collection) or Varshan (dropping Ancestral Collection).
+- **Collection of Chaos vs Collection of Mysteries**: Collection of Chaos is the more reliable pick — guaranteed outcomes (materials, talisman items for dust, salvage). Mysteries has top-end variance (good items occasionally) but is less consistent.
+
+*Recommendation: Tree of Plenty → target Whisper Cache of Dungeon Keys. Whisper Ambush tree is secondary but worth filling if you have spare points. Skip Collection of Mysteries.*
 
 ---
 
@@ -93,11 +137,22 @@ Runs passively alongside your active War Plan without consuming an activity slot
 - **Middle Path — Maggots / Hellwyrm node** ⭐: The standout pick. Every Hellwyrm spawn produces Maggots that drop massive experience orbs. At T12, a single Hellwyrm event can yield **20–30 million XP**. Also spawns a **Pang of Duriel** that drops Lair Keys — making this the best combined source of XP + Lair Keys + Boss Trophies in the game.
   - Boss Trophies can be turned in at the Horadric Cube for Uniques.
   - Middle path's deeper nodes are weaker — generally skip them.
-- **Left Path (Profane Mindcages)**: Increases monster level in Helltide for more cinders, XP, and drops at the cost of difficulty.
+- **Left Path — Profane Mind Cages (Butcher tech)** ⭐: Two Butchers connected by a flaming chain can ambush you instead of standard Hellborn. Each has a **high chance to drop a Profane Mind Cage** — an item that increases the **monster power of every overworld enemy** until you die. Don't die while holding one.
+  - Profane Mind Cage + hellworm strat = extreme cinder farming. More monster power = more cinders, more XP, more loot from everything.
+  - **Tainted Shrines** (left tree): While empowered by a shrine in helltide, slaying enemies grants **double threat level progress** → faster hellworms → more maggots/rewards.
+  - **Hated Foe** (left tree): Maximum threat enemies that ambush you gain monster power.
 - **Hellborn Butchers / 4 additional Hellborn**: Strong if your build can handle the extra elites. Good use of leftover points.
-- Right side (rats, extra cinders, big chest): Untested — may be a cinder dump mechanism rather than a meaningful upgrade.
+- **Right Side (Harbingers +1 monster power)**: The right-side Harbinger node gives +1 monster power to Harbingers, causing them to drop more cinders. Take after the left path basics are covered.
+- **Bursting Brute**: Maggots and Pangs of Duriel drop boss trophies — these can be cubed for additional unique rolling.
 
-*Recommendation: Middle path (Maggots/Hellwyrm) first — best ROI in the game. Then left path or Hellborn nodes with remaining points.*
+### Helltide Pathing Recommendation
+
+1. **Middle path** — Hellwyrm + Maggots (best ROI)
+2. **Left path** — Tainted Shrines → Hated Foe → Butcher (Profane Mind Cages)
+3. **Bursting Brute** (boss trophy generation)
+4. **Right side** — Harbinger +1 monster power with leftover points
+
+*This creates a chain: faster threat → more hellworms → maggots with more monster power → Butchers dropping Mind Cages → more overworld monster power → everything cascades.*
 
 ---
 
@@ -106,24 +161,35 @@ Runs passively alongside your active War Plan without consuming an activity slot
 
 Undercity has overtaken Helltide as the top mythic source once the key node is unlocked. Runs take ~1 minute, giving it an unmatched time-to-reward ratio.
 
-- **Left Path — Gutter Filth → Portal Pranksters** ⭐⭐: **Gutter Filth** is the critical node — spawns Portal Prankster treasure goblins during runs, which have disproportionately high Mythic Unique drop rates. At Torment 8+, players consistently report multiple mythics per run, sometimes up to four from a single completion. Portal Pranksters compounds this further.
+- **Left Path — Gutter Filth → Portal Pranksters** ⭐⭐: **Gutter Filth** is the critical node — spawns Portal Prankster treasure goblins during runs. Each Portal Prankster killed **adds one tribute chest** at the end. If you enter with a **Mythic Tribute of Armaments**, every Portal Prankster kill = one more mythic chest.
+  - Reported results: one creator personally hit **4 mythics in a single run**; others have seen **6**. After 3 Mythic Tribute runs, one player walked away with **11 mythic items**.
+  - Activate as many spirit beacons (braziers) as possible during the run — they spawn the Portal Pranksters.
 - **Leftover Tribute dump node**: Opens remaining small tribute chests at end of run. Significant time saver.
+- **Last Gasp**: If doing mythic tributes solo, time collected from slain enemies within 5 seconds of < 5s remaining doubles — can save a run.
+- **Bobble Day**: Killing a Portal Prankster spawns a merchant selling high-quality runes and gems for gold.
 - XP node (1 point): Low cost, applies all characters. Still worth picking up.
+- **Right side nodes (Jade Epiphany, Finely Tuned, Pathfinder)**: Skip these for mythic tribute runs. They increase monster power and attunement but attunement is irrelevant when your goal is to hit every beacon for pranksters anyway. Only useful if you just want to finish the Undercity quickly.
 
-*Recommendation: Left path to Gutter Filth first — this is now the #1 Mythic farming node in the game. Everything else is secondary.*
+*Recommendation: Left path to Gutter Filth → Portal Pranksters first. Run with Mythic Tributes of Armaments. Each Portal Prankster kill = bonus mythic chest. This is the #1 Mythic farming strategy in the game. Expect 4-6 mythics per run with good beacon activation.*
 
 ---
 
 ### 👑 Lair Bosses
 **Tier: A — Best targeted Unique loot; Nemesis chain strong for Mythics**
 
+- **Lair of Plenty** ⭐: **Recent discovery.** Adds a **bonus hoard chest** — you get **2 chests per boss kill**. Combined with Lair of Runes (increases monster power), this significantly accelerates the rate of Ancestral drops. One creator reports noticeably more Ancestrals since speccing both nodes.
+- **Lair of Runes**: Increases monster power for better loot quality. Pairs with Lair of Plenty.
+- **Golden Hoard**: All non-unique, non-mythic equipment from hoard chests is converted to gold. Useful if you're laser-focusing on a specific unique and don't want to sort through trash legendaries. Can be temporarily specced for targeted unique farming.
 - **Boss targeting nodes**: Invest in the specific boss whose loot table you need. Check Maxroll once tables are fully mapped.
   - Example: Infernal Hordes farming → add free Varshan via cross-tree node
-- **Middle Path — Nemesis Lair** ⭐: After killing a boss and opening the loot chest, triggers a **dual boss fight**, which can chain into a **triple boss fight**. Strong Mythic source, though Undercity (Gutter Filth) now competes directly.
+- **Middle Path — Nemesis Lair** ⭐: After killing a boss and opening the loot chest, triggers a **dual boss fight**, which can chain into a **triple boss fight** (Greater Nemesis). Still a strong mythic source, though Undercity (Portal Pranksters) now competes directly.
+  - **Ultimate Nemesis** requires 5 Betrayer's Husks to open — author doesn't recommend it (husks better spent on specific targeted items like Humid Stone)
+  - **2×2 / Greater Nemesis**: After killing a boss, chance for Nemesis portal → fight 2 bosses → can chain into Ultimate Nemesis layer
+- **Out of the Cold / Dock of Astaroth**: Spare points for getting Astaroth to appear in NMDs — good if you need his unique drops.
 - Requires Torment 1+ to unlock; Greater Lair Boss nodes require Torment 6+.
 - ⚠️ **Co-op requirement**: In party play, **every player must have the Nemesis node in their own skill tree** to receive loot from Nemesis encounters. This is a hard requirement — not a suggestion. Anyone without the node gets nothing from the fight.
 
-*Recommendation: Middle path (Nemesis chain) for Mythic farming. Boss-specific nodes for targeted Unique drops. In co-op, confirm all party members have Nemesis before entering the red portal.*
+*Recommendation: Lair of Plenty + Lair of Runes first (more chests, better quality). Nemesis chain for mythic farming. Spec Golden Hoard temporarily when targeting a specific unique. Use Betrayer's Husks for targeted crafting rather than Ultimate Nemesis.*
 
 ---
 
@@ -144,13 +210,23 @@ Infernal Hordes has been confirmed as the worst War Plans activity for time effi
 
 The Pit has been nerfed compared to prior seasons. Its primary value in S13 is **glyph XP**, not loot.
 
-- **Chrono's Blessing (Children's Haste)** ⭐: +2 glyph upgrades per run when completed sub-5 minutes. First priority — directly doubles glyph XP efficiency on fast runs.
-- **Heart of Stone mechanic**: Spawns at run start — pick it up and don't drop it. Surviving with it to the end gives +1 glyph upgrade and significantly more progression orbs, shaving ~20–30 seconds off run time.
+- **Chthonic Haze** ⭐: +2 glyph upgrades per run — first priority.
+- **Chthonic's Blessing**: Additional +1 glyph upgrade on top of Haze. Combo gives **+3 glyph upgrades per run**.
+- **Heart of Stone**: Spawns at run start — pick it up and don't drop it. Surviving with it to the end gives +1 glyph upgrade and progression orbs that speed up the run. Portal Pranksters and Orb Thieves appear around the Pit to accelerate progress further.
+- **Chthonic's Favor**: Special events and encounters become more common in higher difficulty Pit tiers. Butcher can appear (currently has a bug that can break the Pit run — fix incoming soon).
 - **Middle Path — Progression Orb XP node**: Boosts XP from all progression orbs including Heart of Stone orbs. Adds ~10 million XP as a free bonus at run end.
 - **XP summary**: Fast runs (2–3 min) yield ~5M+ XP in-run + ~10M from orb dump = ~15M XP per run. Consistent but lower peak than a Hellwyrm event.
-- **Right side (Chaon's Wager, Artificer Stones, Cursed Rituals, Cursed Offerings)**: wudijo's verdict — currently trash. Events are too rare and too easy to miss mid-run. May improve with more data.
 
-*Recommendation: Chrono's Blessing → Heart of Stone node → Middle XP path. Skip right side for now.*
+### Chorn's Soul vs Chorn's Flesh (Important Choice)
+
+After unlocking the above, choose based on your current progression stage:
+
+| Node | Effect | Best For |
+|---|---|---|
+| **Chorn's Soul** | Progress orbs grant experience; Chorn's Soul (spawns with awakened glyph stone) provides one progress orb | Paragon farming — once glyphs are capped, XP is the bottleneck |
+| **Chorn's Flesh** | Consume a glyph upgrade chance for valuable equipment | Gear farming — only worth it if your glyphs are at target rank |
+
+*Recommendation: Early on, skip both and focus on Chthonic Haze + Blessing + Heart of Stone. Once glyphs are at target rank, spec Chorn's Soul for Paragon XP. Only use Chorn's Flesh if you have spare glyph upgrades and need specific gear.*
 
 ---
 
@@ -174,9 +250,10 @@ XP is slow relative to gear and glyph progression in S13. Paragon points are mor
 - [ ] Lair Bosses → Nemesis chain (middle) once build is capable
 - [ ] Nightmare Dungeons → Middle (Astaroth sigils) or Right (Goblins) based on goal
 - [ ] Infernal Hordes → Method in Madness
-- [ ] Tree of Whispers → S tier passive (no slot cost) — invest Fortune or Famine or Tree of Plenty
+- [ ] War Plan Rerolls → Always burn all 3 rerolls; keys first at any quality, salvage/gold/charms at Legendary+
+- [ ] Tree of Whispers → Tree of Plenty (4 choices) → target Whisper Cache of Dungeon Keys for Mythic Tributes
 
 ---
 
-*Sources: wudijo – "Best War Plans Options So Far" (YouTube, May 1, 2026) · Mobalytics War Plans Complete Guide · Keengamer War Plans Guide · Switchblade Gaming War Plans Guide (May 4, 2026) · AOEAH War Plans Skill Tree Guide (May 7, 2026) · Maxroll War Plans Reference*
-*Last updated: May 10, 2026*
+*Sources: wudijo – "Best War Plans Options So Far" (YouTube, May 1, 2026) · German creator War Plans deep-dive (YouTube, May 22, 2026) · Mobalytics War Plans Complete Guide · Keengamer War Plans Guide · Switchblade Gaming War Plans Guide (May 4, 2026) · AOEAH War Plans Skill Tree Guide (May 7, 2026) · Maxroll War Plans Reference*
+*Last updated: May 22, 2026*
