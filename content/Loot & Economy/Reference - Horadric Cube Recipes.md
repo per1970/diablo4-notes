@@ -183,6 +183,22 @@ This is a powerful technique for Focused Reroll that most players miss:
 
 ---
 
+### Masterwork Before Tempering Trick
+
+For most gear slots, **masterwork before tempering** gives better results. Here's why:
+
+- When you masterwork, the crit chance is distributed across all **existing** affixes on the item
+- If you temper first, the tempered stat is in the masterwork pool — potentially diluting crits on your primary affixes
+- If you masterwork first, the temper is added **after** — as a bonus Greater Affix that wasn't in the crit pool
+
+**When to use this:** Weapons, gloves, rings — any slot where your native affixes (crit chance, crit damage, attack speed) are more important than what you're tempering.
+
+**When NOT to use this:** Chest, pants — slots where the temper (max life GA) is your most important stat to crit. Masterwork after tempering so the temper is in the pool.
+
+See [[Guide - Gear Crafting from Temis Vendors]] for the full per-slot breakdown.
+
+---
+
 ## Aspect Farming from the Purveyor
 
 If you're hunting a specific offensive aspect and it refuses to drop, use this targeted loop:

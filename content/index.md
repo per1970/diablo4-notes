@@ -15,7 +15,8 @@ date: 2026-05-03
 > [!d4-hero] D4 Season 13 Notes
 > Season of Reckoning · Lord of Hatred · Launched April 27/28, 2026
 
-- [[Guide - Corrupted Roots NMD Farming]] — *2026-05-22*
+|- [[Guide - Gear Crafting from Temis Vendors]] — *2026-05-25*
+|- [[Guide - Corrupted Roots NMD Farming]] — *2026-05-22*
 - [[Advanced - Weapon Transfigure Gambling]] — *2026-05-22*
 - [[Guide - Damage Multipliers and Affix Strategy]] — *2026-05-22*
 - [[Guide - Season 13 Farming Methods (Gems, Gold, XP)]] — *2026-05-10*
