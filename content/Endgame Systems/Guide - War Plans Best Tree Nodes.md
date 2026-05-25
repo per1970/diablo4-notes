@@ -12,7 +12,7 @@ tags:
 season: 13
 expansion: Lord of Hatred
 publish: true
-date: 2026-05-22
+date: 2026-05-25
 ---
 
 # Guide – War Plans: Best Tree Nodes
@@ -40,6 +40,24 @@ Respec costs scale steeply at higher ranks — reportedly **~46–50 million gol
 - Depth beats breadth: a fully specced tree for one activity outperforms three half-built trees
 - Prioritize the activities you enjoy or need the most (boss loot tables, XP, Forgotten Souls, Glyphs)
 - XP is a persistent bottleneck in S13 — Paragon points are valuable, leveling is slow. Invest in XP nodes whenever they appear at low opportunity cost
+
+---
+
+## War Plans TP Mechanics
+
+A few quality-of-life details about teleporting to War Plans that are easy to miss:
+
+### Teleport Hotkey
+The War Plan UI has a teleport button (opens the activity directly). You can also **bind a hotkey** for it — one-button TP without opening the map. If you haven't bound it, do it now.
+
+### Dungeon/Horde Opening Behavior
+When you use the War Plan TP, it **opens** the activity for you (creates a dungeon instance or infernal horde). This has a subtle trap:
+
+- If you've already opened a specific Nightmare Dungeon (e.g. a Gold Reserve NMD with a good mod roll), the War Plan TP will **close that dungeon** and open a different one — losing the one you wanted to run
+- **Solution:** enter your manually-opened dungeon from the overworld, not via War Plan TP
+
+### Infernal Hordes — 6-Wave vs 10-Wave
+War Plan TP always opens a **6-wave** infernal horde. If you want the shorter version (most players skip hordes when possible since they're slow), use the TP. If you specifically want a 10-wave, open it manually from your inventory instead.
 
 ---
 
@@ -182,7 +200,8 @@ Undercity has overtaken Helltide as the top mythic source once the key node is u
 - **Golden Hoard**: All non-unique, non-mythic equipment from hoard chests is converted to gold. Useful if you're laser-focusing on a specific unique and don't want to sort through trash legendaries. Can be temporarily specced for targeted unique farming.
 - **Boss targeting nodes**: Invest in the specific boss whose loot table you need. Check Maxroll once tables are fully mapped.
   - Example: Infernal Hordes farming → add free Varshan via cross-tree node
-- **Middle Path — Nemesis Lair** ⭐: After killing a boss and opening the loot chest, triggers a **dual boss fight**, which can chain into a **triple boss fight** (Greater Nemesis). Still a strong mythic source, though Undercity (Portal Pranksters) now competes directly.
+- **Middle Path — Nemesis Lair** ⭐: The **On the House** node (first on the middle path) gives War Plans chests a chance to spawn a Nemesis portal to a boss layer. After killing the boss and opening the loot chest, a portal can trigger a **dual boss fight**, which can chain into a **triple boss fight** (Greater Nemesis). Still a strong mythic source, though Undercity (Portal Pranksters) now competes directly.
+  - **Reset after Nemesis:** After completing a Nemesis layer (or Greater Nemesis), **reset the dungeon** (T reset or leave/re-enter) before farming the same boss again. If you don't reset, you'll keep re-entering the same cleared layer — no chests, no Nemesis spawns.
   - **Ultimate Nemesis** requires 5 Betrayer's Husks to open — author doesn't recommend it (husks better spent on specific targeted items like Humid Stone)
   - **2×2 / Greater Nemesis**: After killing a boss, chance for Nemesis portal → fight 2 bosses → can chain into Ultimate Nemesis layer
 - **Out of the Cold / Dock of Astaroth**: Spare points for getting Astaroth to appear in NMDs — good if you need his unique drops.

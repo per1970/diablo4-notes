@@ -6,6 +6,12 @@ publish: true
 
 # Vault Changelog
 
+## 2026-05-25
+
+- **Updated:** `Guide - War Plans Best Tree Nodes` (TP mechanics section, On the House node, nemesis reset tip)
+- **Updated:** `Reference - Horadric Cube Recipes` (Forgotten Souls section, Cube Tips & Tricks with F4 hotkey + mod locking, corrected Upgrade to Unique recipe, expanded Aspect Farming with Opal Reserve/slot optimization)
+- **Updated:** `Reference - Horadric Cube Transfiguration` (Early-game transfiguration section)
+
 ## 2026-05-22 (Batch 2)
 
 - **Added:** `Advanced - Weapon Transfigure Gambling` (gamble-first GA weapon Transfigure method, Gem Strength chase, 333% benchmark, Entropic prism trap)

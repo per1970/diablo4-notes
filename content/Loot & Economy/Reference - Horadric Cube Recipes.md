@@ -10,7 +10,7 @@ tags:
 season: 13
 expansion: Lord of Hatred
 publish: true
-date: 2026-05-05
+date: 2026-05-25
 ---
 
 # Horadric Cube – All Recipes Reference
@@ -62,7 +62,7 @@ Consumables stored in inventory (not materials tab). They **narrow the RNG** of 
 |---|---|---|---|
 | **3-to-1 Transmutation** | 3x items of the same type and rarity | 1 random new item of the same type | Core recycling loop for excess drops. Works on gear, talismans, and runes. |
 | **Recycle Uniques** | 3x copies of the same Unique item | A new version of that same Unique with rerolled affixes | Key S13 loop — Unique affixes now roll randomly. Use to chase a better roll. |
-| **Upgrade to Unique** | 1x Common item, 1x Enhanced Primordial Dust, 10x Raw Primordial Dust | A random Unique of the same slot | Outcome is random. An accessory will always become the same item category. Inefficient for chasing specific Uniques — use boss farming instead. |
+|| **Upgrade to Unique** | 1x Common item, 1x Enhanced Primordial Dust, 10x Raw Primordial Dust | A random Unique of the same slot | **Best way to get non-boss uniques.** Remove affixes from a Rare item until it's Common, then upgrade. Slot stays the same — e.g. pants always roll pants. Use for Tibault's Will, Banish Lord's Talisman, Blood Mat Idol, and other uniques that don't drop from any boss. Class-specific weapons also have a 1-item pool (e.g. 2H mace upgrade on Druid = only Purified Lightbearer). |
 | **Upgrade to Legendary** | 1x Rare item, 1x Pure Primordial Dust, 10x Raw Primordial Dust, 1x Tuning Prism (Optional) | A Legendary with a random Legendary power (can roll Ancestral) | Use Greater Rare items as input to potentially get Greater Aspect versions. |
 | **Reroll Set Charm** | 1x Set Charm, 25x Raw Primordial Dust, 50x Infused Horadric Resin | A different Charm within the same Set | Use to convert duplicates into missing Set pieces and activate set bonuses. Good for min-maxing skill levels. |
 | **Craft Unique Charm** | 1x Ancestral Unique item, 3x any Unique Charm, 1x Enhanced Primordial Essence, 50x Raw Primordial Dust, 100x Infused Horadric Resin | A Unique Charm (Unique power active without equipping the item) | One of the most expensive crafts. Random outcome — the Unique's power carries over but attributes/affixes do not. Frees up a gear slot. Priority targets: Banish Lord's Talisman, Red Blessing, Spiritborn key-passive amulets. |
@@ -130,6 +130,44 @@ Blizzard has confirmed **undocumented recipes** exist — ingredients found in u
 
 ---
 
+### Forgotten Souls Economy
+
+Forgotten Souls are the single biggest material bottleneck in late S13. Managing them correctly makes or breaks your crafting pace.
+
+**How to get them:**
+- **Salvage every unique** you find, even non-ancestrals. Non-ancestrals salvage into Veiled Crystals — convert those at the **Alchemist** (Refine Materials tab) at a **10:1 ratio** (300k Veiled Crystals = 30k extra Souls)
+- Salvaging ancestral uniques directly gives Forgotten Souls
+- War Plans Mythic salvage rewards are also a strong source
+
+**How you lose them:**
+- **Enchanting:** 50 souls per roll on a weapon, similar on other slots
+- **Tempering:** G8 tempers across all gear slots, then retries when it breaks or doesn't roll what you want — souls disappear in the hundreds per item
+
+**Rule of thumb:** Don't enchant excessively — if an item needs more than a few rolls, it's usually better to find a new base. Every roll costs souls you'll need for tempers and masterworking.
+
+---
+
+## Cube Tips & Tricks
+
+Several quality-of-life techniques that aren't obvious from the recipe descriptions:
+
+### F4 Transmute Hotkey
+Hold down **F4** (or Y on controller) to repeat the currently selected cube recipe without re-entering the menu. Works for any recipe — rerolling, upgrading, transmuting. Much faster than clicking "Transmute" every time.
+
+> Note: F4 is **not rebindable.** If you have another action bound to F4, change that keybind first or the cube override takes precedence.
+
+### Mod Locking via the Enchanter
+This is a powerful technique for Focused Reroll that most players miss:
+
+1. Take an item with a good affix you want to **keep** (e.g. a GA life roll) to the Enchanter
+2. Select that affix and choose **"No Change"** — it applies no change but "locks" the slot
+3. The Horadric Cube can **no longer remove** that locked mod — only the 3 remaining mods can be rolled
+4. Now use **Focused Reroll** (with an appropriate Tuning Prism) — your odds of hitting the specific affix you want on one of the remaining slots are much better
+
+**Tradeoff:** You can no longer use the Enchanter to reroll that locked stat later. Only use this when you're certain the affix you're locking is a keeper and the item needs work on other affixes.
+
+---
+
 ## Recommended Usage Sequence
 
 1. **Farm items** with good base stats / affixes as crafting bases.
@@ -149,6 +187,7 @@ Blizzard has confirmed **undocumented recipes** exist — ingredients found in u
 
 If you're hunting a specific offensive aspect and it refuses to drop, use this targeted loop:
 
+### Route 1 — Purveyor + Cube (Standard)
 1. Go to **Purveyor of Curiosities** and roll **1-handed weapons or focuses** (do NOT roll gloves — they can roll utility aspects)
 2. For every item that doesn't roll as Legendary:
    - Take it to the Horadric Cube
@@ -157,5 +196,21 @@ If you're hunting a specific offensive aspect and it refuses to drop, use this t
 3. You now have an inventory full of offensive-aspected items to check
 4. For duplicates of aspects you already have: **3-to-1 Transmute** them at the Cube for a chance at a better roll
 5. **Important:** Only 900+ item power (Ancestral) items can roll max % aspects (e.g. Aspect of Arrogance caps at 45% on 900+ IP vs 40% on 850 IP). Prioritize Ancestral upgrades when you have Pure Dust to spare.
+
+### Route 2 — Opal Reserve Dungeon + Purveyor (High Volume)
+Run **Opal Reserve** Nightmare Dungeons (or other obol-heavy NMDs) to accumulate thousands of obols quickly. Then chain Route 1 at the Purveyor with a massive inventory of gambles.
+
+### Slot Optimization
+The pool of possible aspects differs by slot type, making some slots much more efficient for targeting specific aspects:
+
+- **Rings:** Offensive + Resource aspects only — a small pool that makes it easy to land the exact aspect you need
+- **One-handed weapons:** Offensive aspects only — the smallest, most focused pool
+- **Gloves:** Offensive + Utility — avoid; utility aspects dilute the pool significantly
+- **Amulets:** 50% increased aspect values but a broader pool — use when you specifically want an amulet aspect
+
+**Priority for aspect printing:** 1-handed weapons (pure offensive) → Rings (offensive + resource) → Skip gloves and armor unless desperate.
+
+### Upgrading Aspects via 3-to-1
+Ancestral items only (non-ancestral items roll lower max values). Feed 3 of the same aspect into the Cube to get a rerolled version that can land higher. This is the primary method to max out your aspects.
 
 This is the best use of Pure Primordial Dust — the upgrade-to-legendary recipe is used for almost nothing else. It turns a handful of Purveyor rolls into a full inventory of aspect pulls.

@@ -11,7 +11,7 @@ tags:
 season: 13
 expansion: Lord of Hatred
 publish: true
-date: 2026-05-05
+date: 2026-05-25
 ---
 
 ## Overview
@@ -100,6 +100,25 @@ If you **imprint over a Kullean-transfigured Legendary amulet**, the extra Legen
 - **Effect:** Flattens the outcome table — removes both the worst and the most powerful possible results
 - **Guarantees Unmodifiable** — 100% chance, no exceptions
 - **Verdict: Generally not recommended.** The only genuinely dangerous outcome without it (Replace Affix) is rare. By using Entropic you trade away the chance at top-tier outcomes like Gem Strength or crit/attack speed for marginal safety. Only consider this on a truly irreplaceable 4GA item with no backups.
+
+---
+
+## Early-Game Transfiguration — "Just Send It"
+
+The "final step only" rule applies to **endgame gear** you plan to keep. For early-game / transitional gear (Torment 1–4, non-Ancestral, or poorly rolled items you'll replace soon), the calculus is different.
+
+**When to ignore the rule:**
+- You're in mid Torments, wearing non-Ancestral gear with bad aspects
+- The item is trash that will be replaced within a few hours anyway
+- You have spare Volatile Primordial Dust from farming
+
+**Why it's worth it:**
+- The chance of making the item worse (Replace Affix outcome) is quite low — most rolls are neutral or beneficial
+- At minimum you get nothing; at best you get a meaningful power spike (extra main stat, crit, attack speed, etc.)
+- A random +200 main stat, +8% crit, +10% attack speed across multiple slots adds up to a significant overall boost
+- This can easily push you through another Torment tier or two
+
+**Don't overthink it.** If you know the item is temporary, just send it. The dust spent is trivial — you'll farm it back quickly. The power gain is effectively free.
 
 ---
 
