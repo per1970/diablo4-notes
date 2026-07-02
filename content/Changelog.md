@@ -6,6 +6,13 @@ publish: true
 
 # Vault Changelog
 
+## 2026-07-02
+
+- Added: Guide - Season 14 Leveling 1-70 (Helltide Maggot farming, Undercity Jade Epiphany, group play, early setup checklist)
+- Added: Guide - Season 14 War Plans Best Nodes (party sync, activity-by-activity rankings, leveling vs endgame priorities)
+- Added: sources.yaml — source registry with 18 creators/sites and topic-to-source mapping
+- Updated: Template with S14 tags, confidence/last_refreshed/sources_checked fields
+
 ## 2026-05-25
 
 - **Added:** `Guide - Gear Crafting from Temis Vendors` (vendor map, full crafting pipeline, masterwork-before-temper trick, per-slot strategies)

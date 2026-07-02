@@ -1,0 +1,221 @@
+# Diablo 4 Source Registry
+# Central authority for content creators, sites, and data sources.
+# Consulted during note creation and refresh to determine cross-referencing targets.
+#
+# Update cadence meanings:
+#   daily    — uploads/updates most days during active season
+#   frequent — multiple times per week
+#   weekly   — ~once per week
+#   per-patch — updates on patch notes / major changes
+#   seasonal — per-season guides, rarely updated mid-season
+
+sources:
+
+  # ── YouTube Creators ──────────────────────────────────────────
+
+  - name: wudijo
+    platform: youtube
+    url: "https://www.youtube.com/@wudijo"
+    specialties: [builds, endgame, mechanics, tierlists, farming, general]
+    reliability: high
+    update_cadence: daily
+    language: en
+    notes: Primary cross-reference for most topics. Complements Maxroll written guides.
+
+  - name: Rhykker
+    platform: youtube
+    url: "https://www.youtube.com/@Rhykker"
+    specialties: [news, tierlists, season-overview, patch-notes, general]
+    reliability: high
+    update_cadence: frequent
+    language: en
+    notes: Best for season launch overviews, patch note breakdowns, meta analysis.
+
+  - name: Rob2628
+    platform: youtube
+    url: "https://www.youtube.com/@Rob2628"
+    specialties: [builds, mechanics, damage-testing, endgame]
+    reliability: high
+    update_cadence: frequent
+    language: en
+    notes: Deep mechanics testing, build optimization, damage calculations.
+
+  - name: RageGamingVideos
+    platform: youtube
+    url: "https://www.youtube.com/@RageGamingVideos"
+    specialties: [builds, tierlists, entertainment]
+    reliability: medium
+    update_cadence: frequent
+    language: en
+    notes: Build showcases, tier lists. Entertainment-leaning — verify claims against wudijo/Maxroll.
+
+  - name: P4wnyhof
+    platform: youtube
+    url: "https://www.youtube.com/@P4wnyhof"
+    specialties: [builds, mechanics, guides, general]
+    reliability: medium
+    update_cadence: frequent
+    language: de
+    notes: German-language D4 content. May be the "German creator War Plans deep-dive" from S13.
+
+  - name: cliptis86
+    platform: youtube
+    url: "https://www.youtube.com/@cliptis86"
+    specialties: [builds]
+    reliability: unverified
+    update_cadence: unknown
+    language: en
+    notes: Build creator. Specialty and reliability to be refined with use.
+
+  - name: aoinomiku
+    platform: youtube
+    url: "https://www.youtube.com/@aoinomiku"
+    specialties: [general]
+    reliability: unverified
+    update_cadence: unknown
+    language: unknown
+    notes: Unverified — specialty, language, and reliability to be refined with use.
+
+  # ── Web Guides & Resources ────────────────────────────────────
+
+  - name: Maxroll
+    platform: web
+    url: "https://maxroll.gg/d4/"
+    specialties: [builds, mechanics, tierlists, endgame, war-plans, crafting, general]
+    reliability: high
+    update_cadence: frequent
+    language: en
+    notes: Top-tier. Actively updated during season. Build guides, tier lists, War Plans reference.
+
+  - name: Icy Veins
+    platform: web
+    url: "https://www.icy-veins.com/d4/"
+    specialties: [builds, guides, mechanics, systems]
+    reliability: high
+    update_cadence: weekly
+    language: en
+    notes: Deep written guides, system overviews. Good for Talisman, seasonal mechanics.
+
+  - name: Wowhead
+    platform: web
+    url: "https://www.wowhead.com/diablo-4/"
+    specialties: [database, items, quick-reference, patch-notes]
+    reliability: high
+    update_cadence: frequent
+    language: en
+    notes: Item database, quick lookups, patch note coverage.
+
+  - name: Blizzard News
+    platform: web
+    url: "https://news.blizzard.com/en-us/diablo4"
+    specialties: [patch-notes, official, season-announcements, ptr]
+    reliability: high
+    update_cadence: per-patch
+    language: en
+    notes: Official patch notes, PTR announcements, season reveals. Authoritative.
+
+  - name: Mobalytics
+    platform: web
+    url: "https://mobalytics.gg/diablo-4"
+    specialties: [builds, tierlists, guides, war-plans]
+    reliability: medium
+    update_cadence: weekly
+    language: en
+    notes: Build comparisons, War Plans guides. Less consistently updated than Maxroll.
+
+  - name: Keengamer
+    platform: web
+    url: "https://www.keengamer.com/section/diablo-iv/"
+    specialties: [guides, mechanics, war-plans]
+    reliability: medium
+    update_cadence: seasonal
+    language: en
+    notes: Long-form guide articles. War Plans deep-dives in S13.
+
+  - name: Fextralife
+    platform: web
+    url: "https://fextralife.com/diablo-4/"
+    specialties: [guides, systems, mechanics]
+    reliability: medium
+    update_cadence: weekly
+    language: en
+    notes: System overviews, Talisman guide used in S13.
+
+  - name: d4builds.gg
+    platform: web
+    url: "https://d4builds.gg/"
+    specialties: [build-planner, community-builds]
+    reliability: medium
+    update_cadence: frequent
+    language: en
+    notes: Community build planner. Good for build variety and discovering niche setups.
+
+  - name: Boostmatch.gg
+    platform: web
+    url: "https://boostmatch.gg/blog/diablo-4/"
+    specialties: [guides, season-overview, builds]
+    reliability: low
+    update_cadence: seasonal
+    language: en
+    notes: Boosting site with blog guides. S13 Talisman guide. Cross-reference claims — lower editorial bar.
+
+  - name: Vortex Gaming
+    platform: youtube
+    url: unknown
+    specialties: [guides, war-plans]
+    reliability: low
+    update_cadence: unknown
+    language: en
+    notes: Referenced in S13 War Plans note. YouTube channel — URL to be added.
+
+  - name: Switchblade Gaming
+    platform: youtube
+    url: unknown
+    specialties: [guides, war-plans]
+    reliability: low
+    update_cadence: unknown
+    language: en
+    notes: Referenced in S13 War Plans note. YouTube channel — URL to be added.
+
+  - name: AOEAH
+    platform: web
+    url: "https://www.aoeah.com/diablo-4"
+    specialties: [guides, war-plans]
+    reliability: low
+    update_cadence: seasonal
+    language: en
+    notes: RMT site with guides. War Plans skill tree guide used in S13. Low trust — cross-reference.
+
+# ── Topic-to-Source Mapping ──────────────────────────────────
+#
+# When creating or refreshing a note on a given topic, consult these sources
+# in priority order. Load the source registry and filter by topic.
+
+topics:
+  builds:
+    primary: [wudijo, Maxroll, Rob2628, cliptis86]
+    secondary: [Icy Veins, Mobalytics, RageGamingVideos, Rhykker, d4builds.gg, P4wnyhof]
+  endgame:
+    primary: [wudijo, Maxroll]
+    secondary: [Rob2628, Icy Veins, Mobalytics, Keengamer]
+  "war-plans":
+    primary: [Maxroll, Keengamer]
+    secondary: [wudijo, Mobalytics, Vortex Gaming, Switchblade Gaming, AOEAH]
+  crafting:
+    primary: [Maxroll, Icy Veins]
+    secondary: [wudijo, Wowhead]
+  "season-mechanics":
+    primary: [Blizzard News, Rhykker, wudijo]
+    secondary: [Maxroll, Icy Veins, Fextralife]
+  leveling:
+    primary: [Maxroll, wudijo]
+    secondary: [Rhykker, Icy Veins]
+  economy:
+    primary: [Maxroll, wudijo]
+    secondary: [Wowhead, d4builds.gg]
+  "patch-notes":
+    primary: [Blizzard News]
+    secondary: [Rhykker, Wowhead]
+  general:
+    primary: [wudijo, Maxroll, Rhykker]
+    secondary: [Icy Veins, P4wnyhof, aoinomiku]
