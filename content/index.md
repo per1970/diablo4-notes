@@ -1,62 +1,64 @@
 ---
-title: "Diablo 4 - Season 13 Index"
-description: "Master index and map of content for Season 13 (Season of Reckoning) and the Lord of Hatred expansion."
+title: "Diablo 4 - Season 14 Index"
+description: "Master index for Season 14 (Season of Death Awakening) — leveling, War Plans, crafting, and endgame knowledge."
 tags:
   - diablo4
-  - season13
+  - season14
   - index
   - moc
-season: 13
+season: 14
 expansion: Lord of Hatred
 publish: true
-date: 2026-05-03
+date: 2026-07-02
 ---
 
-> [!d4-hero] D4 Season 13 Notes
-> Season of Reckoning · Lord of Hatred · Launched April 27/28, 2026
+> [!d4-hero] D4 Season 14 Notes
+> Season of Death Awakening · Lord of Hatred · Launched June 30, 2026
 
-|- [[Guide - Gear Crafting from Temis Vendors]] — *2026-05-25*
-|- [[Guide - Corrupted Roots NMD Farming]] — *2026-05-22*
-- [[Advanced - Weapon Transfigure Gambling]] — *2026-05-22*
-- [[Guide - Damage Multipliers and Affix Strategy]] — *2026-05-22*
-- [[Guide - Season 13 Farming Methods (Gems, Gold, XP)]] — *2026-05-10*
-- [[Build - Warlock Apocalypse Sigil (IgniCeh)]] — *2026-05-09*
-- [[Reference - Horadric Cube Recipes]] — *2026-05-05*
-- [[Reference - Horadric Cube Transfiguration]] — *2026-05-05*
-- [[Apocalypse Warlock Gameplay Guide]] — *2026-05-04*
-- [[Guide - War Plans Best Tree Nodes]] — *2026-05-04*
-- [[Guide - Talisman Charms and Seals Perfecting]] — *2026-05-04*
-- [[Horadric Strongrooms]] — *2026-05-03*
-- [[Nightmare Dungeon Affixes]] — *2026-05-03*
-- [[Infernal Hordes - Boon and Bane Choices]] — *2026-05-03*
-- [[War Plans - Activity Tree Leveling Resources]] — *2026-05-03*
-- [[War Plans - Group Play Mechanics]] — *2026-05-03*
-- [[Paragon Board Strategy]] — *2026-05-03*
-- [[Paragon Leveling Guide]] — *2026-05-03*
-- [[Support Paladin Build]] — *2026-05-03*
-- [[Gold Farming]] — *2026-05-03*
-- [[Horadric Cube - Boss Trophy Amalgamation]] — *2026-05-03*
-- [[Whisper Caches - Chaos vs Mystery]] — *2026-05-03*
+## Build & Character
 
-## Quick Reference: Key S13 Changes
+- [[Guide - Season 14 Leveling 1-70]] — *2026-07-02*
+
+## Endgame Systems
+
+- [[Guide - Season 14 War Plans Best Nodes]] — *2026-07-02*
+
+## Loot & Economy
+
+*No notes yet*
+
+## Nightmare Dungeons
+
+*No notes yet*
+
+---
+
+## Quick Reference: What's New in Season 14
 
 | Change | Notes |
 |---|---|
-| Level cap | **70** (up from 60) |
-| Paragon Points | Up to **300** |
-| New region | **Skovos** (western isles) |
-| New classes | **Paladin** and **Warlock** |
-| Loot filter | Finally added |
-| Horadric Cube | Crafting station in Temis |
-| War Plans | Permanent endgame system at Command Table |
-| Glyph upgrades | Now via **Pit Tiers**, not Nightmare Dungeons |
-| Glyph cap | **50** |
-| Lair Bosses | Tiered: **Initiate / Greater / Exalted** |
-| Warlock Fortify | Now class-eligible (was Barb/Druid/Necro only) |
+| Pandemonium Ruptures | Rifts in overworld/Helltides — 3 sizes (Normal/Surging/Colossal). Kill guardians, keep ritual active for escalating rewards |
+| Realmwalker 2.0 | Summoned from Surging/Colossal Ruptures. Opens portal to Deathtoll Chamber |
+| Deathtoll Chamber | One-room mini-dungeon. Best source for Betrayer's Husks (seasonal boss key) |
+| Corrupted Reaper | New seasonal Lair Boss in Zarbinzet, Torment I+. Drops Mythic Uniques |
+| Mythic Uniques 3.0 | Any Unique can drop as Mythic or be upgraded in Cube. 30% power boost. One crafted Mythic equipped at a time |
+| Solo Self-Found | No trading, separate stash/Paragon, own leaderboard |
+| War Plans Party Sync | Sync plans across group. Costs 2 Marks of El'Druin |
+| New monster family | The Risen — Gravehounds, Exarchs |
+| Tower & Leaderboards | Exit beta, permanent. Weekly cosmetics |
+| Horadric Cube updates | Pandemonium Fragments as crafting currency |
+| XP scaling | Increased in higher Torment Tiers |
+| Unique Charms | Can now use Focused and Chaotic Rerolls |
+| Chromatic Tuning Prisms | Small chance to grant All Resist |
+
+## Archived Seasons
+
+- [[Diablo 4 - Season 13 Index]] — Season of Reckoning (April–July 2026)
 
 ## External Resources
 
 - [Maxroll D4](https://maxroll.gg/d4/) — Top-tier resource, actively updated
-- [Icy Veins D4](https://www.icy-veins.com/d4/) — Top-tier resource, deep guides
+- [Icy Veins D4](https://www.icy-veins.com/d4/) — Deep guides, system overviews
 - [Wowhead D4](https://www.wowhead.com/diablo-4/) — Database & quick references
 - [d4builds.gg](https://d4builds.gg/) — Community build planner
+- [Blizzard D4 Patch Notes](https://news.blizzard.com/en-us/diablo4) — Official

@@ -8,6 +8,8 @@ publish: true
 
 ## 2026-07-02
 
+- Added: S14 index page replacing S13 index (now archived)
+- Archived: S13 index moved to "Diablo 4 - Season 13 Index (Archived)" — linked from S14 index
 - Added: Guide - Season 14 Leveling 1-70 (Helltide Maggot farming, Undercity Jade Epiphany, group play, early setup checklist)
 - Added: Guide - Season 14 War Plans Best Nodes (party sync, activity-by-activity rankings, leveling vs endgame priorities)
 - Added: sources.yaml — source registry with 18 creators/sites and topic-to-source mapping
