@@ -16,6 +16,7 @@ archived: true
 
 > [!d4-hero] D4 Season 13 Notes
 > Season of Reckoning · Lord of Hatred · Launched April 27/28, 2026
+> ← [[../../index|D4 Vault Home]] | → [[../../Season 14 - Death Awakening/index|Current Season (S14)]]
 
 |- [[Guide - Gear Crafting from Temis Vendors]] — *2026-05-25*
 |- [[Guide - Corrupted Roots NMD Farming]] — *2026-05-22*

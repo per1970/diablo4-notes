@@ -6,6 +6,16 @@ publish: true
 
 # Vault Changelog
 
+## 2026-07-03
+
+- **Restructured:** Moved all content into season-based folders (`Seasons/S14/`, `Seasons/S13/`) for season-aware left navigation
+- **Added:** Root `index.md` as season-agnostic hub — links to current and archived seasons
+- **Added:** `Mechanics/` folder for cross-season evergreen references (NMD affixes)
+- **Moved:** All S13 notes from flat topic folders into `Seasons/Season 13 - Reckoning/`
+- **Moved:** All S14 notes from flat topic folders into `Seasons/Season 14 - Death Awakening/`
+- **Updated:** Quartz config `pageTitle` → "D4 Vault"
+- **Updated:** S13 & S14 index pages with breadcrumb links back to hub
+
 ## 2026-07-02
 
 - Added: S14 index page replacing S13 index (now archived)

@@ -3,13 +3,13 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
- * Site: Diablo 4 Season 13 Notes
+ * Site: Diablo 4 Knowledge Vault
  * Vault: C:\Users\perkr\OneDrive\Documents\Obsidian\Games\Diablo 4
  */
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "D4 Season 13 Notes",
+    pageTitle: "D4 Vault",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

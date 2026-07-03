@@ -1,64 +1,40 @@
 ---
-title: "Diablo 4 - Season 14 Index"
-description: "Master index for Season 14 (Season of Death Awakening) — leveling, War Plans, crafting, and endgame knowledge."
+title: "Diablo 4 Vault"
+description: "Personal knowledge vault for Diablo 4 — leveling, builds, crafting, endgame, and seasonal reference."
 tags:
   - diablo4
-  - season14
   - index
   - moc
-season: 14
-expansion: Lord of Hatred
 publish: true
-date: 2026-07-02
+date: 2026-07-03
 ---
 
-> [!d4-hero] D4 Season 14 Notes
-> Season of Death Awakening · Lord of Hatred · Launched June 30, 2026
+> [!d4-hero] Diablo 4 Knowledge Vault
+> Build guides, farming routes, crafting references, and seasonal patch notes. Organised by season for quick access to what's current.
 
-## Build & Character
+## Current Season
 
-- [[Guide - Season 14 Leveling 1-70]] — *2026-07-02*
-
-## Endgame Systems
-
-- [[Guide - Season 14 War Plans Best Nodes]] — *2026-07-02*
-
-## Loot & Economy
-
-*No notes yet*
-
-## Nightmare Dungeons
-
-*No notes yet*
-
----
-
-## Quick Reference: What's New in Season 14
-
-| Change | Notes |
-|---|---|
-| Pandemonium Ruptures | Rifts in overworld/Helltides — 3 sizes (Normal/Surging/Colossal). Kill guardians, keep ritual active for escalating rewards |
-| Realmwalker 2.0 | Summoned from Surging/Colossal Ruptures. Opens portal to Deathtoll Chamber |
-| Deathtoll Chamber | One-room mini-dungeon. Best source for Betrayer's Husks (seasonal boss key) |
-| Corrupted Reaper | New seasonal Lair Boss in Zarbinzet, Torment I+. Drops Mythic Uniques |
-| Mythic Uniques 3.0 | Any Unique can drop as Mythic or be upgraded in Cube. 30% power boost. One crafted Mythic equipped at a time |
-| Solo Self-Found | No trading, separate stash/Paragon, own leaderboard |
-| War Plans Party Sync | Sync plans across group. Costs 2 Marks of El'Druin |
-| New monster family | The Risen — Gravehounds, Exarchs |
-| Tower & Leaderboards | Exit beta, permanent. Weekly cosmetics |
-| Horadric Cube updates | Pandemonium Fragments as crafting currency |
-| XP scaling | Increased in higher Torment Tiers |
-| Unique Charms | Can now use Focused and Chaotic Rerolls |
-| Chromatic Tuning Prisms | Small chance to grant All Resist |
+- **[[Seasons/Season 14 - Death Awakening/index|Season 14 — Death Awakening]]** *(June 30, 2026 — present)*
+  - Builds, War Plans, leveling routes, Pandemonium Ruptures, Corrupted Reaper
 
 ## Archived Seasons
 
-- [[Diablo 4 - Season 13 Index]] — Season of Reckoning (April–July 2026)
+- **[[Seasons/Season 13 - Reckoning/index|Season 13 — Reckoning]]** *(April 27 — July 2026)*
+  - Lord of Hatred expansion launch, Warlock/Paladin builds, Horadric Cube, Talisman system
+
+## Evergreen Mechanics
+
+- [[Mechanics/Nightmare Dungeon Affixes]] — Affix reference for all seasons
+
+## Vault Meta
+
+- [[Changelog]] — What's been added or updated
+- `sources.yaml` — Creator and site registry for attribution
 
 ## External Resources
 
-- [Maxroll D4](https://maxroll.gg/d4/) — Top-tier resource, actively updated
-- [Icy Veins D4](https://www.icy-veins.com/d4/) — Deep guides, system overviews
-- [Wowhead D4](https://www.wowhead.com/diablo-4/) — Database & quick references
+- [Maxroll D4](https://maxroll.gg/d4/) — Builds, tier lists, guides
+- [Icy Veins D4](https://www.icy-veins.com/d4/) — Deep system guides
+- [Wowhead D4](https://www.wowhead.com/diablo-4/) — Database & quick reference
 - [d4builds.gg](https://d4builds.gg/) — Community build planner
 - [Blizzard D4 Patch Notes](https://news.blizzard.com/en-us/diablo4) — Official
