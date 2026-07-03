@@ -19,14 +19,17 @@ date: 2026-07-02
 ## Build & Character
 
 - [[Guide - Season 14 Leveling 1-70]] — *2026-07-02*
+- [[Reference - Season 14 General Tips & PSAs]] — *2026-07-03*
 
 ## Endgame Systems
 
-- [[Guide - Season 14 War Plans Best Nodes]] — *2026-07-02*
+- [[Guide - Season 14 War Plans Best Nodes]] — *2026-07-03*
+- [[Guide - Season 14 Endgame Farming Meta]] — *2026-07-03*
 
 ## Loot & Economy
 
-*No notes yet*
+- [[Guide - Season 14 Horadric Cube Crafting]] — *2026-07-03*
+- [[Guide - Season 14 Gem Fragment Farming]] — *2026-07-03*
 
 ## Nightmare Dungeons
 

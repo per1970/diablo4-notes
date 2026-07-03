@@ -8,6 +8,11 @@ publish: true
 
 ## 2026-07-03
 
+- **Added:** Guide - Season 14 Horadric Cube Crafting (Mythic crafting, Transfiguration, Tuning Prisms, all recipes, material farming)
+- **Added:** Guide - Season 14 Gem Fragment Farming (S14 gem overhaul, NM Gem Reserve meta, Escalating NM Horadric chests, lossless conversion)
+- **Added:** Guide - Season 14 Endgame Farming Meta (overlapping Rifts, Paragon 300 strategy, Realmwalker/Deathtoll loop, XP/hr comparison)
+- **Added:** Reference - Season 14 General Tips & PSAs (undocumented changes, crafting traps, post-70 checklist, economy tricks — 20 tips)
+- **Updated:** Guide - Season 14 War Plans Best Nodes (day 2-3 meta: Corrupted Roots loop, Branching Pathways, Meat Brothers mindcage engine, passive mythic farming, Pit/Hordes sections, Prankster nerf)
 - **Restructured:** Moved all content into season-based folders (`Seasons/S14/`, `Seasons/S13/`) for season-aware left navigation
 - **Added:** Root `index.md` as season-agnostic hub — links to current and archived seasons
 - **Added:** `Mechanics/` folder for cross-season evergreen references (NMD affixes)
