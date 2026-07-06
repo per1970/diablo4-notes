@@ -10,6 +10,7 @@ publish: true
 
 - **Updated:** Guide - Season 14 War Plans Best Nodes (P4wnyhof July 6 video — Pit Butcher discovery, Lair of Runes, Night Terrors cross-activity synergy, threat management, Hat Rotten Feast, quantified NMD reserves, Undercity Initiative vs Trials debate, Astaroth warning, per-activity final tree setups)
 - **Fixed:** Guide - Season 14 War Plans Best Nodes — table rendering (separator column-count mismatches causing broken tables on web)
+- **Fixed:** Guide - Season 14 War Plans Best Nodes — corrected all node names against Fextralife in-game data (22 errors): Greeves Gambit→Grigoire's Gambit, removed fake "Knight Penance", Amalgam of Rage→Dog of Astaroth, Writhe and Rote→Write and Rot, Bursting Blood→Bursting Brood, Finality Tune→Finely Tuned, Cthon/Chthon→Choron, Haste Mastery→Choron's Shortcut, Orb Thieves→Damned Thieves, Hat Rotten→Headrotten, complete Hordes table rewrite (community shorthand→real names)
 
 ## 2026-07-03
 

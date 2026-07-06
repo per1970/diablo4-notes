@@ -45,7 +45,7 @@ A self-feeding farming loop discovered by P4wnyhof that generates massive elite 
 
 ### Setup
 1. Take **Corrupted Roots** in Tree of Whispers tree (first point)
-2. Take **Roots of Power** (monster power boost, Hat Rotten bosses can drop more Whisper Caches → more Roots)
+2. Take **Roots of Power** (monster power boost, Headrotten bosses can drop more Whisper Caches → more Roots)
 3. In NMD tree: take **Gauntlet** + **Nemesis** (shrine activation spawns 7 elites; shrine debuff stores souls that spawn on expiry)
 4. **Fearless Conviction** builds conviction stacks for bonus loot
 
@@ -73,8 +73,8 @@ The most important activity in S14. You'll spend most of 1-70 here, and it stays
 | Node | Tier | Effect |
 |---|---|---|
 | **Hellmouth** | Mid | Hellwyrm unleashes one of: Chaos Rift (rewards), Maggots (XP orbs), or Bloodseekers (Ancestral drops) |
-| **Writhe and Rote** | Top | Hellwyrms **always** spew Maggots (+1 Monster Power). Chance to spawn Pang of Duriel (drops Lair Keys) |
-| **Bursting Blood** | Bottom | Maggots and Pangs **explode** on death, frequently dropping Boss Trophies |
+| **Write and Rot** | Top | Hellwyrms **always** spew Maggots (+1 Monster Power). Chance to spawn Pang of Duriel (drops Lair Keys) |
+| **Bursting Brood** | Bottom | Maggots and Pangs **explode** on death, frequently dropping Boss Trophies |
 | **Meat Brothers** | Left | Replaces Hellborn with **2 Butchers** (25M XP each). Butchers drop **Profane Mindcages** (+monster power, more XP). Extremely dangerous on Hardcore |
 | **Night Terrors** | Left | Hellborn can ambush you in NMDs — any Hellborn (including Meat Brothers Butchers!) can drop Profane Mindcages. Makes Meat Brothers pay off in TWO activities |
 | **Tainted Shrines** | Left | Shrine kills grant double threat progress — use only when threat bottoms out |
@@ -86,7 +86,7 @@ The most important activity in S14. You'll spend most of 1-70 here, and it stays
 
 **Hardcore warning:** Butcher flaming chains are lethal. If you're not confident, take Hellborn (extra uniques) or Hellborn in dungeons instead.
 
-**P4wnyhof's final Helltide tree (7/7):** Hellmouth → Writhe and Rote → Meat Brothers → Night Terrors → Tainted Shrines → Hated Foe → Bursting Blood (as 7th, swap Bursting Blood out once you have hundreds of boss trophies stocked).
+**P4wnyhof's final Helltide tree (7/7):** Hellmouth → Write and Rot → Meat Brothers → Night Terrors → Tainted Shrines → Hated Foe → Bursting Brood (as 7th, swap Bursting Brood out once you have hundreds of boss trophies stocked).
 
 ### 2. Kurast Undercity (Leveling Engine Post-25)
 
@@ -100,7 +100,7 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 | **Unfortunate Souls** | Mid | Wisps attach to you — each saved Wisp rewards Forgotten Souls + crafting mats at end |
 | **Gutter Filth** | Key | Portal Pranksters + Rats from beacons/portals. **Most important Undercity node** — pranksters add chests for ANY tribute type |
 | **Jade Epiphany** | Key | XP upgrade — scales with difficulty. Higher difficulty = more XP |
-| **Finality Tune** | Mid | +1 Monster Power in Undercity → more XP |
+| **Finely Tuned** | Mid | +1 Monster Power in Undercity → more XP |
 | **Initiative** | Bottom | Reach district boss → get buff equal to remaining time. Kill boss with buff active → tribute rewards as if attunement was maxed |
 | **Trials and Tributes** | Bottom | Each Portal Prankster killed = Tribute Chest after District Boss. **Note:** P4wnyhof (July 6) says this is NOT worth it — you have to spend tributes to open the bonus chests, and you'd rather do a full tribute run |
 
@@ -152,12 +152,12 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 | Node | Tier | Effect |
 |---|---|---|
 | **Corrupted Roots** | Key | Whisper Caches have a chance to drop Corrupted Roots — plant in NMDs for elite waves |
-| **Roots of Power** | Mid | Root enemies get +Monster Power. **Hat Rotten Feast**: root monsters can spawn a Hat Rotten boss that drops a Whisper Cache (→ more Roots, self-feeds the loop) |
+| **Roots of Power** | Mid | Root enemies get +Monster Power. **Headrotten Feast**: root monsters can spawn a Headrotten boss that drops a Whisper Cache (→ more Roots, self-feeds the loop) |
 | **Grim Retribution** | Mid | Whisper ambushes drop Collections of Keys — can contain more Corrupted Roots |
 | **Colossal Foe** | Mid | Upgrades Collections to Greater Ancestral quality |
 | **Malignant Invasion** | Mid | Further upgrades Collections of Chaos quality |
 | **Tree of Plenty** | Mid | Tree offers a 4th Whisper Cache choice |
-| **Fortune or Famine** | Mid | Whisper Caches are always either Greater Quality... or Junk (binary) |
+| **Fortune of Famine** | Mid | Whisper Caches are always either Greater Quality... or Junk (binary) |
 | **Grim Mysteries** | Mid | Collections of Chaos → Collections of Mysteries (can drop anything) |
 | **Resplendent Favor** | Bottom | Each Whisper Cache has a chance to drop a **Resplendent Spark** |
 
@@ -174,18 +174,18 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 | Node | Tier | Effect |
 |---|---|---|
 | **Lair of Runes** | Left | +1 Monster Power to lair bosses → better GA chances on uniques |
-| **Layer of Plenty** | Left | Bosses get +1 Monster Power + double chest (costs 2 keys). **Main benefit is the Monster Power** — second chest does NOT spawn Ba'al |
+| **Lair of Plenty** | Left | Bosses get +1 Monster Power + double chest (costs 2 keys). **Main benefit is the Monster Power** — second chest does NOT spawn Ba'al |
 | **Out of the Cold** | Mid | NMD bosses drop a piece of Ice (Astaroth) loot — good for many builds (Bloodmane Breeches, Crown of Lucian) |
-| **Greeves Gambit** | Left | Opening a Helltide chest → Greeves Knight ambush. Drops items + can drop mythics |
-| **Knight Penance** | Mid | Beast in Ice ambushes in NMDs. Doesn't attack — just drops loot |
-| **Amalgam of Rage** (Dog of Astaroth) | Mid | NMD boss/Astaroth ambushes during escalations. Asteroth loot table is strong for multiple classes |
-| **Nemesis Lair** (Greater Nemesis) | Key | ~1 in 10-20 boss kill chance to open Nemesis portal — ridiculous mythic drop rates in S13 |
+| **Grigoire's Gambit** | Left | Opening a Helltide chest → Grigoire's knights ambush. Drops items + can drop mythics |
+| **Out of the Cold** | Mid | Beast in Ice ambushes in NMDs. Doesn't attack — just drops loot |
+| **Dog of Astaroth** | Mid | NMD boss/Astaroth ambushes during escalations. Astaroth loot table is strong for multiple classes |
+| **Greater Nemesis** | Key | ~1 in 10-20 boss kill chance to open Nemesis portal — ridiculous mythic drop rates in S13 |
 
-**The passive mythic farming setup (wudijo):** Take Greeves Gambit + Knight Penance + Amalgam of Rage as your first four points. These give you free boss loot — including mythic drop chances — while you're doing Helltides and NMDs anyway. Pure passive income.
+**The passive mythic farming setup (wudijo):** Take Grigoire's Gambit + Out of the Cold + Dog of Astaroth as your first four points. These give you free boss loot — including mythic drop chances — while you're doing Helltides and NMDs anyway. Pure passive income.
 
-**P4wnyhof's Monster Power path (July 6):** Lair of Runes → Layer of Plenty → Out of the Cold → Dog of Asteroth (Amalgam of Rage) as first four points. The +2 Monster Power (+1 from Runes, +1 from Plenty) means better GA chances on unique drops from lair bosses. Dog of Asteroth feeds Asteroth loot from NMD escalations (works for Necro Bloodmane Breeches, Crown of Lucian, and several other class builds). Finish with 2x Greater Nemesis → Ultimate Nemesis Lair.
+**P4wnyhof's Monster Power path (July 6):** Lair of Runes → Lair of Plenty → Out of the Cold → Dog of Astaroth as first four points. The +2 Monster Power (+1 from Runes, +1 from Plenty) means better GA chances on unique drops from lair bosses. Dog of Astaroth feeds Astaroth loot from NMD escalations (works for Necro Bloodmane Breeches, Crown of Lucian, and several other class builds). Finish with 2x Greater Nemesis → Ultimate Nemesis Lair.
 
-**Double chest trap:** The second chest from Layer of Plenty does NOT trigger the Nemesis Lair chance AND cannot spawn Ba'al. For Greater/Superior keys: open chest 1, check for Ba'al — if no Ba'al, skip chest 2 and respawn the boss. For standard keys (you'll have hundreds), double-chest freely.
+**Double chest trap:** The second chest from Lair of Plenty does NOT trigger the Greater Nemesis chance AND cannot spawn Ba'al. For Greater/Superior keys: open chest 1, check for Ba'al — if no Ba'al, skip chest 2 and respawn the boss. For standard keys (you'll have hundreds), double-chest freely.
 
 **Ultimate Nemesis Lair caveat:** Costs Superior Lair Keys which you'd rather use on Pandemonium Threshold for fragment farming. Only invest if you've already crafted your target Mythic.
 
@@ -195,20 +195,20 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 
 | Node | Tier | Effect |
 |---|---|---|
-| **Cthon's Haste** | Key | +2 free glyph upgrades when finishing under 5 minutes (you always will early on) |
+| **Choron's Haste** | Key | +2 free glyph upgrades when finishing under 5 minutes (you always will early on) |
 | **Heart of Stone** | Mid | More progression orbs → faster clears |
-| **Cthon's Blessing** | Mid | +1 glyph upgrade chance |
+| **Choron's Blessing** | Mid | +1 glyph upgrade chance |
 | **Pit Butcher** | Key | Butcher can spawn as a guardian anywhere in the Pit. **Killing him completes the run** — you don't need to clear the rest of the dungeon |
-| **Chthon's Favor** | Mid | Increases the frequency of special encounters (Butcher spawns) in the Pit |
-| **Orb Thieves** | Bottom | Extra progression orbs |
-| **Chthon's Soul** | Mid | Turn glyph upgrades into bonus experience (or bonus loot — but XP is scarcer, take XP) |
-| **Haste Mastery** | Mid | Another +2 free glyph upgrades (total 9 possible at max investment) |
+| **Choron's Favor** | Mid | Increases the frequency of special encounters (Butcher spawns) in the Pit |
+| **Damned Thieves** | Bottom | Extra progression orbs |
+| **Choron's Soul** | Mid | Turn glyph upgrades into bonus experience (or bonus loot — but XP is scarcer, take XP) |
+| **Choron's Shortcut** | Mid | Another +2 free glyph upgrades (total 9 possible at max investment) |
 
-**Priority order:** Haste → Heart of Stone → Blessing → **Pit Butcher** → Chthon's Favor → Orb Thieves → Chthon's Soul → Haste Mastery.
+**Priority order:** Haste → Heart of Stone → Blessing → **Pit Butcher** → Choron's Favor → Damned Thieves → Choron's Soul → Choron's Shortcut.
 
-**Pit Butcher — the glyph-pushing game-changer (P4wnyhof, July 6):** The Butcher can appear 2-3 minutes into a Pit run. Killing him instantly completes the dungeon. This means you can attempt Pits 10-15 tiers above what you'd normally clear — you only need to survive until Butcher shows, not clear the whole thing. Chthon's Favor makes Butcher spawns more frequent. For glyphs at 110+, this lets you push 120-130 Pits with 70-80% upgrade chances without needing to full-clear.
+**Pit Butcher — the glyph-pushing game-changer (P4wnyhof, July 6):** The Butcher can appear 2-3 minutes into a Pit run. Killing him instantly completes the dungeon. This means you can attempt Pits 10-15 tiers above what you'd normally clear — you only need to survive until Butcher shows, not clear the whole thing. Choron's Favor makes Butcher spawns more frequent. For glyphs at 110+, this lets you push 120-130 Pits with 70-80% upgrade chances without needing to full-clear.
 
-**Glyph pushing:** With full Pit investment, you can push glyphs 10-20 levels above your actual farming tier. Even at 4-8% upgrade chance, the 9 free upgrades per run guarantee steady progress. Once your glyphs are maxed, switch Chthon's Soul to XP mode for efficient Paragon grinding.
+**Glyph pushing:** With full Pit investment, you can push glyphs 10-20 levels above your actual farming tier. Even at 4-8% upgrade chance, the 9 free upgrades per run guarantee steady progress. Once your glyphs are maxed, switch Choron's Soul to XP mode for efficient Paragon grinding.
 
 **Pit protection bubble REMOVED in S14** (undocumented change) — you take damage immediately on load-in. Clear the area before upgrading glyphs. Hardcore: be ready to move.
 
@@ -220,15 +220,15 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 
 | Node | Tier | Effect |
 |---|---|---|
-| **Keys Waves** | Mid | More keys waves appear — can give thousands of ether instantly |
-| **Exalted Council** | Mid | Boss gets more power + more loot |
-| **Chaos Waves** | Mid | Additional chaos wave spawns — best for 6-wave speed clears |
-| **Talisman Chest** | Left | Spawns talisman chest (100-200 cost). Chance at seals — helpful for Mythic Seal hunting |
-| **Doomsayer / Conversion** | Right | **Avoid.** Doomsayer is universally considered terrible |
+| **Reign in Hell** | Mid | Extra Infernal Offering each wave, but suppresses Chaos Waves. Best for 6-wave speed clears — more ether per wave |
+| **Exalted Council** | Mid | Bartuc and Fell Council gain +1 Monster Power, drop additional items when slain |
+| **Total Chaos** | Mid | Chaos Waves appear more frequently — one less Infernal Offering each wave but more chaos ether spikes |
+| **Council Coffers** | Left | Chest of Talismans appears after defeating Council/Bartuc (100-200 cost). Chance at seals — helpful for Mythic Seal hunting |
+| **Cult of Annihilation** | Right | **Avoid.** Doomsayers appear — dangerous enemies that drop some Aether but universally considered terrible |
 
 **S14 buffs:** Gem fragment drops significantly increased. XP doubled from Hordes. Still ~33% less XP/hr than Pit at same difficulty, but better during Mother's Blessing events.
 
-**Strategy for 6-wave Hordes:** Stack chaos waves and keys waves. You can't build the full Soul Spiders / Elder Lords combo in 6 waves — just maximize ether per wave. Bartuc (Horde boss) can spawn from keys wave ether spikes.
+**Strategy for 6-wave Hordes:** Stack Total Chaos and Reign in Hell. You can't build the full Soul Spiders / Elder Lords combo in 6 waves — just maximize ether per wave. Bartuc (Horde boss) can spawn from chaos wave ether spikes.
 
 **War Plans teleport trick:** If you have Infernal Hordes selected in War Plans and click "Teleport to Dungeon," you enter WITHOUT spending a key. Free Horde entry.
 
@@ -237,7 +237,7 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 ## Leveling Priority Order (1-70)
 
 ```
-1. Helltide — Hellmouth → Writhe and Rote → Bursting Blood → Meat Brothers
+1. Helltide — Hellmouth → Write and Rot → Bursting Brood → Meat Brothers
 2. Undercity — Endless Swarm → Jade Epiphany (@25)
 3. Nightmare Dungeons — Goblinfall → Branching Pathways (when you want variety)
 4. Tree of Whispers — Corrupted Roots (when you have spare points)
@@ -247,20 +247,20 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 
 ```
 1. Helltide — Meat Brothers + overlapping Rifts (XP + mats + keys)
-2. Lair Bosses — Greeves Gambit, Knight Penance, Amalgam of Rage (passive mythics)
+2. Lair Bosses — Grigoire's Gambit, Out of the Cold, Dog of Astaroth (passive mythics)
 3. Undercity — Trials and Tributes + Jade Epiphany (XP + crafting mats)
-4. Pit — Cthon's Haste → Heart of Stone (glyph leveling)
+4. Pit — Choron's Haste → Heart of Stone (glyph leveling)
 5. Tree of Whispers — Corrupted Roots → Resplendent Favor (Roots loop + Sparks)
 6. Nightmare Dungeons — Branching Pathways + Corrupted Roots combo (material farm)
-7. Infernal Hordes — Keys waves (when you need Bartuc loot or War Plan completion)
+7. Infernal Hordes — Reign in Hell (when you need Bartuc loot or War Plan completion)
 ```
 
 ## Key Synergies
 
 - **Overlapping Rifts + Meat Brothers** → goblin chain reactions + Profane Mindcages → fastest Paragon XP
-- **Helltide Maggots → Boss Trophies (Bursting Blood)** → Lair Boss farming → Mythic Uniques
+- **Helltide Maggots → Boss Trophies (Bursting Brood)** → Lair Boss farming → Mythic Uniques
 - **Corrupted Roots + NMD shrine respawn (Gauntlet + Nemesis)** → infinite elite waves → Echoing Hatred Keys
-- **Passive mythic nodes (Greeves Gambit + Knight Penance + Amalgam)** → free mythic chances while doing other content
+- **Passive mythic nodes (Grigoire's Gambit + Out of the Cold + Dog of Astaroth)** → free mythic chances while doing other content
 - **Undercity Jade Epiphany + Helltide farming** → dual XP engines stack
 - **Party Sync + Group XP bonus + Shared cinders** → multiply each other when coordinated
 
