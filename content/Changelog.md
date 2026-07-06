@@ -9,6 +9,7 @@ publish: true
 ## 2026-07-06
 
 - **Updated:** Guide - Season 14 War Plans Best Nodes (P4wnyhof July 6 video — Pit Butcher discovery, Lair of Runes, Night Terrors cross-activity synergy, threat management, Hat Rotten Feast, quantified NMD reserves, Undercity Initiative vs Trials debate, Astaroth warning, per-activity final tree setups)
+- **Fixed:** Guide - Season 14 War Plans Best Nodes — table rendering (separator column-count mismatches causing broken tables on web)
 
 ## 2026-07-03
 

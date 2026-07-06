@@ -71,7 +71,7 @@ The most important activity in S14. You'll spend most of 1-70 here, and it stays
 **Best Path: Middle column → Meat Brothers → Left column (P4wnyhof July 6)**
 
 | Node | Tier | Effect |
-|---|---|---|---|
+|---|---|---|
 | **Hellmouth** | Mid | Hellwyrm unleashes one of: Chaos Rift (rewards), Maggots (XP orbs), or Bloodseekers (Ancestral drops) |
 | **Writhe and Rote** | Top | Hellwyrms **always** spew Maggots (+1 Monster Power). Chance to spawn Pang of Duriel (drops Lair Keys) |
 | **Bursting Blood** | Bottom | Maggots and Pangs **explode** on death, frequently dropping Boss Trophies |
@@ -95,7 +95,7 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 **Best Path: Left column**
 
 | Node | Tier | Effect |
-|---|---|---|---|
+|---|---|---|
 | **Endless Swarm** | Mid | Invasion Portals appear, enemies grant Attunement |
 | **Unfortunate Souls** | Mid | Wisps attach to you — each saved Wisp rewards Forgotten Souls + crafting mats at end |
 | **Gutter Filth** | Key | Portal Pranksters + Rats from beacons/portals. **Most important Undercity node** — pranksters add chests for ANY tribute type |
@@ -115,7 +115,7 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 **Best Path: Right column + Branching Pathways**
 
 | Node | Tier | Effect |
-|---|---|---|---|
+|---|---|---|
 | **Dread Revival** | Mid | NMD boss has a chance to resurrect when slain → double loot from boss |
 | **Recurring Nightmare** | Mid | Boss kills have a chance to drop Escalation Sigils — feeds the Obducite farming loop |
 | **Branching Pathways** | Key (MOST IMPORTANT) | Escalating NMDs give **three portal choices** (two additional portals). Mix and match: obols, gold, materials, equipment delve per floor |
@@ -150,7 +150,7 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 **Best Path: Corrupted Roots first, then middle**
 
 | Node | Tier | Effect |
-|---|---|---|---|
+|---|---|---|
 | **Corrupted Roots** | Key | Whisper Caches have a chance to drop Corrupted Roots — plant in NMDs for elite waves |
 | **Roots of Power** | Mid | Root enemies get +Monster Power. **Hat Rotten Feast**: root monsters can spawn a Hat Rotten boss that drops a Whisper Cache (→ more Roots, self-feeds the loop) |
 | **Grim Retribution** | Mid | Whisper ambushes drop Collections of Keys — can contain more Corrupted Roots |
@@ -172,7 +172,7 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 **Best Path: Two competing setups — wudijo's passive farm vs P4wnyhof's Monster Power path**
 
 | Node | Tier | Effect |
-|---|---|---|---|
+|---|---|---|
 | **Lair of Runes** | Left | +1 Monster Power to lair bosses → better GA chances on uniques |
 | **Layer of Plenty** | Left | Bosses get +1 Monster Power + double chest (costs 2 keys). **Main benefit is the Monster Power** — second chest does NOT spawn Ba'al |
 | **Out of the Cold** | Mid | NMD bosses drop a piece of Ice (Astaroth) loot — good for many builds (Bloodmane Breeches, Crown of Lucian) |
@@ -194,7 +194,7 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 **Best Path: Left side → Middle**
 
 | Node | Tier | Effect |
-|---|---|---|---|
+|---|---|---|
 | **Cthon's Haste** | Key | +2 free glyph upgrades when finishing under 5 minutes (you always will early on) |
 | **Heart of Stone** | Mid | More progression orbs → faster clears |
 | **Cthon's Blessing** | Mid | +1 glyph upgrade chance |
