@@ -9,10 +9,10 @@ tags:
 season: 14
 expansion: Lord of Hatred
 publish: true
-date: 2026-07-03
+date: 2026-07-06
 confidence: confirmed
-last_refreshed: 2026-07-03
-sources_checked: [Maxroll, Sportskeeda, AOEAH, Keengamer, wudijo, P4wnyhof]
+last_refreshed: 2026-07-06
+sources_checked: [Maxroll, Sportskeeda, AOEAH, Keengamer, wudijo, P4wnyhof, IGGM]
 ---
 
 > [!d4-s14] Season 14 War Plans
@@ -68,20 +68,25 @@ A self-feeding farming loop discovered by P4wnyhof that generates massive elite 
 
 The most important activity in S14. You'll spend most of 1-70 here, and it stays dominant in endgame for the overlapping rift XP meta.
 
-**Best Path: Middle column + Meat Brothers**
+**Best Path: Middle column → Meat Brothers → Left column (P4wnyhof July 6)**
 
 | Node | Tier | Effect |
-|---|---|---|
+|---|---|---|---|
 | **Hellmouth** | Mid | Hellwyrm unleashes one of: Chaos Rift (rewards), Maggots (XP orbs), or Bloodseekers (Ancestral drops) |
 | **Writhe and Rote** | Top | Hellwyrms **always** spew Maggots (+1 Monster Power). Chance to spawn Pang of Duriel (drops Lair Keys) |
 | **Bursting Blood** | Bottom | Maggots and Pangs **explode** on death, frequently dropping Boss Trophies |
-| **Meat Brothers** | Left | Replaces Hellborn with **2 Butchers**. Butchers drop **Profane Mindcages** (+monster power, more XP). Extremely dangerous on Hardcore |
+| **Meat Brothers** | Left | Replaces Hellborn with **2 Butchers** (25M XP each). Butchers drop **Profane Mindcages** (+monster power, more XP). Extremely dangerous on Hardcore |
+| **Night Terrors** | Left | Hellborn can ambush you in NMDs — any Hellborn (including Meat Brothers Butchers!) can drop Profane Mindcages. Makes Meat Brothers pay off in TWO activities |
+| **Tainted Shrines** | Left | Shrine kills grant double threat progress — use only when threat bottoms out |
+| **Hated Foe** | Left | Max-threat ambush enemies gain +1 Monster Power |
 
-**Why Meat Brothers matters for endgame:** Profane Mindcages stack (Rob2628 had 350+), boosting monster power → more XP and loot. Combine with overlapping Pandemonium Rifts for the fastest Paragon grind in the game.
+**Threat management:** Hellwyrm spawns become frequent only when threat is at **2/3 or higher**. Get threat up fast by doing overlapping Ruptures (2 Ruptures side by side = max threat in no time). Use **Helltides.com** for fixed Hellwyrm spawn locations (yellow/green dots). If threat bottoms out to zero, pop Tainted Shrines to refill fast.
+
+**Why Meat Brothers matters for endgame:** Profane Mindcages stack (Rob2628 had 350+), boosting monster power → more XP and loot. Combine with overlapping Pandemonium Rifts for the fastest Paragon grind in the game. **25 million XP per Meat Brother kill** — and with Night Terrors, they can appear in NMDs too for double-dipping.
 
 **Hardcore warning:** Butcher flaming chains are lethal. If you're not confident, take Hellborn (extra uniques) or Hellborn in dungeons instead.
 
-**Pro tip:** Tainted Shrines (left path) speeds threat level gain — useful if threat bottoms out to zero during rift chains. Hated Foe follows for extra monster power.
+**P4wnyhof's final Helltide tree (7/7):** Hellmouth → Writhe and Rote → Meat Brothers → Night Terrors → Tainted Shrines → Hated Foe → Bursting Blood (as 7th, swap Bursting Blood out once you have hundreds of boss trophies stocked).
 
 ### 2. Kurast Undercity (Leveling Engine Post-25)
 
@@ -90,14 +95,18 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 **Best Path: Left column**
 
 | Node | Tier | Effect |
-|---|---|---|
+|---|---|---|---|
 | **Endless Swarm** | Mid | Invasion Portals appear, enemies grant Attunement |
 | **Unfortunate Souls** | Mid | Wisps attach to you — each saved Wisp rewards Forgotten Souls + crafting mats at end |
-| **Gutter Filth** | Mid | Portal Pranksters + Rats from beacons/portals |
-| **Trials and Tributes** | Bottom | Each Portal Prankster killed = Tribute Chest after District Boss |
+| **Gutter Filth** | Key | Portal Pranksters + Rats from beacons/portals. **Most important Undercity node** — pranksters add chests for ANY tribute type |
 | **Jade Epiphany** | Key | XP upgrade — scales with difficulty. Higher difficulty = more XP |
+| **Finality Tune** | Mid | +1 Monster Power in Undercity → more XP |
+| **Initiative** | Bottom | Reach district boss → get buff equal to remaining time. Kill boss with buff active → tribute rewards as if attunement was maxed |
+| **Trials and Tributes** | Bottom | Each Portal Prankster killed = Tribute Chest after District Boss. **Note:** P4wnyhof (July 6) says this is NOT worth it — you have to spend tributes to open the bonus chests, and you'd rather do a full tribute run |
 
-**Prankster nerf:** In S14, Portal Pranksters no longer guarantee mythic drops from Tribute of Armaments. wudijo estimates ~25-50% mythic chance now (was 100% in S13 bug). Still very good — just not broken. P4wnyhof recommends Jade Epiphany first, then left path.
+**Prankster nerf:** In S14, Portal Pranksters no longer guarantee mythic drops from Tribute of Armaments. wudijo estimates ~25-50% mythic chance now (was 100% in S13 bug). Still very good — just not broken.
+
+**Trials and Tributes debate:** wudijo and written guides recommend it. P4wnyhof (July 6) disagrees — argues you waste tributes opening bonus chests instead of running full tribute dungeons. He takes Initiative instead (kill boss with buff → max attunement rewards regardless of actual attunement). Pathfinder (portal to final floor) is bad — you want to hit every beacon for Prankster spawns.
 
 **Right path (post-pranksters):** Goblins → Prisms → Six Inhumans for more tribute reward multipliers. Good if you have a stockpile of rare/legendary tributes.
 
@@ -106,16 +115,29 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 **Best Path: Right column + Branching Pathways**
 
 | Node | Tier | Effect |
-|---|---|---|
+|---|---|---|---|
+| **Dread Revival** | Mid | NMD boss has a chance to resurrect when slain → double loot from boss |
+| **Recurring Nightmare** | Mid | Boss kills have a chance to drop Escalation Sigils — feeds the Obducite farming loop |
+| **Branching Pathways** | Key (MOST IMPORTANT) | Escalating NMDs give **three portal choices** (two additional portals). Mix and match: obols, gold, materials, equipment delve per floor |
 | **Goblinfall** | Mid | Treasure Goblins can drop Nightmare Sigils with Treasure Breach affix |
 | **Horadric Hunter** | Mid | Kill 25 Elites → Horadric Altar spawns. Random outcome: Elites, Goblins, The Butcher, Riches, or Terrible Misfortune |
 | **Altar of Avarice** | Top | Horadric Altars → Goblin Altars (only summon Treasure Goblins) |
 | **Greed is Good** | Bottom | Killing a Goblin in NMD has small chance to spawn portal to Goblin's Retreat |
-| **Branching Pathways** | Mid (NEW — most important NMD node) | Escalating NMDs give **two portal choices** instead of one. Mix and match: obols, gold, materials, equipment delve per floor |
 
-**Branching Pathways is the single most important NMD node per wudijo.** It lets you choose what rewards you want per escalation floor. Gold as third choice in a deep escalation = millions/billions of gold.
+**Branching Pathways is the single most important NMD node per wudijo and P4wnyhof.** It gives three choices instead of one. Quantified reserves per escalation floor:
 
-**NMD Escalation reward scaling:** Floor 3 of an escalation gives roughly **2x the rewards** of Floor 1 for the same affix. If you have "Materials Reserve" on Floor 3, it drops dramatically more Tuning Prisms and dust than on Floor 1.
+| Reserve Type | Floor 1 | Floor 2 | Floor 3 |
+|---|---|---|---|
+| Gem Reserve | ~10k fragments | ~20-30k | ~30-40k |
+| Gold Reserve | ~50M | ~100M | ~200M (400M+ if you hit two Gold Reserves) |
+| Obducite Reserve | ~3-5k | ~5-10k | ~10-15k |
+| Material Reserve | Base | ~2x | ~3x Tuning Prisms + dust |
+
+**NMD War Plans efficiency trick:** Each escalation floor counts as an individual NMD completion for War Plans objectives. A 3-floor escalation = 3 NMD completions towards your War Plan. Check your War Plan before escalating — if you need 2 NMDs, one escalation covers it.
+
+**Dread Revival + Recurring Nightmare** (middle path start): P4wnyhof recommends these as the first two NMD points — more boss loot + sigil sustain feeds the escalation loop.
+
+**Astaroth warning:** Escalating NMD Astaroth is exceptionally strong. Drop Torment by 2 tiers for your first attempt.
 
 **Corrupted Roots combo:** Pair with Gauntlet + Nemesis + Fearless Conviction for the shrine-respawn farm loop (see Corrupted Roots section above). Swap to this setup once you have a stockpile of Corrupted Roots.
 
@@ -128,10 +150,12 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 **Best Path: Corrupted Roots first, then middle**
 
 | Node | Tier | Effect |
-|---|---|---|
+|---|---|---|---|
 | **Corrupted Roots** | Key | Whisper Caches have a chance to drop Corrupted Roots — plant in NMDs for elite waves |
-| **Roots of Power** | Mid | Root enemies get +Monster Power. Hat Rotten bosses can drop Whisper Caches (→ more Roots) |
+| **Roots of Power** | Mid | Root enemies get +Monster Power. **Hat Rotten Feast**: root monsters can spawn a Hat Rotten boss that drops a Whisper Cache (→ more Roots, self-feeds the loop) |
 | **Grim Retribution** | Mid | Whisper ambushes drop Collections of Keys — can contain more Corrupted Roots |
+| **Colossal Foe** | Mid | Upgrades Collections to Greater Ancestral quality |
+| **Malignant Invasion** | Mid | Further upgrades Collections of Chaos quality |
 | **Tree of Plenty** | Mid | Tree offers a 4th Whisper Cache choice |
 | **Fortune or Famine** | Mid | Whisper Caches are always either Greater Quality... or Junk (binary) |
 | **Grim Mysteries** | Mid | Collections of Chaos → Collections of Mysteries (can drop anything) |
@@ -145,43 +169,50 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 
 ### 5. Lair Bosses (Endgame + Passive Mythic Farming)
 
-**Best Path: Passive nodes first, then middle**
+**Best Path: Two competing setups — wudijo's passive farm vs P4wnyhof's Monster Power path**
 
 | Node | Tier | Effect |
-|---|---|---|
-| **Nemesis Lair** (Greater Nemesis) | Key | ~1 in 10-20 boss kill chance to open Nemesis portal — ridiculous mythic drop rates in S13 |
+|---|---|---|---|
+| **Lair of Runes** | Left | +1 Monster Power to lair bosses → better GA chances on uniques |
+| **Layer of Plenty** | Left | Bosses get +1 Monster Power + double chest (costs 2 keys). **Main benefit is the Monster Power** — second chest does NOT spawn Ba'al |
+| **Out of the Cold** | Mid | NMD bosses drop a piece of Ice (Astaroth) loot — good for many builds (Bloodmane Breeches, Crown of Lucian) |
 | **Greeves Gambit** | Left | Opening a Helltide chest → Greeves Knight ambush. Drops items + can drop mythics |
 | **Knight Penance** | Mid | Beast in Ice ambushes in NMDs. Doesn't attack — just drops loot |
-| **Amalgam of Rage** | Mid | NMD boss ambushes — more passive loot during escalations |
-| **Layer of Plenty** | Left | Bosses get +monster power + double chest (costs 2 keys) |
+| **Amalgam of Rage** (Dog of Astaroth) | Mid | NMD boss/Astaroth ambushes during escalations. Asteroth loot table is strong for multiple classes |
+| **Nemesis Lair** (Greater Nemesis) | Key | ~1 in 10-20 boss kill chance to open Nemesis portal — ridiculous mythic drop rates in S13 |
 
 **The passive mythic farming setup (wudijo):** Take Greeves Gambit + Knight Penance + Amalgam of Rage as your first four points. These give you free boss loot — including mythic drop chances — while you're doing Helltides and NMDs anyway. Pure passive income.
 
-**Double chest trap:** The second chest does NOT trigger the Nemesis Lair chance. If you want maximum Nemesis portal procs per key, skip Layer of Plenty. But realistically, burning through keys faster is better for most players.
+**P4wnyhof's Monster Power path (July 6):** Lair of Runes → Layer of Plenty → Out of the Cold → Dog of Asteroth (Amalgam of Rage) as first four points. The +2 Monster Power (+1 from Runes, +1 from Plenty) means better GA chances on unique drops from lair bosses. Dog of Asteroth feeds Asteroth loot from NMD escalations (works for Necro Bloodmane Breeches, Crown of Lucian, and several other class builds). Finish with 2x Greater Nemesis → Ultimate Nemesis Lair.
 
-**Rune drops** from boss kills help with Jeweler mythic crafting (3 Resplendent Sparks + 18 runes).
+**Double chest trap:** The second chest from Layer of Plenty does NOT trigger the Nemesis Lair chance AND cannot spawn Ba'al. For Greater/Superior keys: open chest 1, check for Ba'al — if no Ba'al, skip chest 2 and respawn the boss. For standard keys (you'll have hundreds), double-chest freely.
 
-**P4wnyhof's alternative:** Dog of Astaroth in NMD escalations for passive unique drops.
+**Ultimate Nemesis Lair caveat:** Costs Superior Lair Keys which you'd rather use on Pandemonium Threshold for fragment farming. Only invest if you've already crafted your target Mythic.
 
 ### 6. Pit (Glyph Leveling)
 
 **Best Path: Left side → Middle**
 
 | Node | Tier | Effect |
-|---|---|---|
+|---|---|---|---|
 | **Cthon's Haste** | Key | +2 free glyph upgrades when finishing under 5 minutes (you always will early on) |
 | **Heart of Stone** | Mid | More progression orbs → faster clears |
 | **Cthon's Blessing** | Mid | +1 glyph upgrade chance |
+| **Pit Butcher** | Key | Butcher can spawn as a guardian anywhere in the Pit. **Killing him completes the run** — you don't need to clear the rest of the dungeon |
+| **Chthon's Favor** | Mid | Increases the frequency of special encounters (Butcher spawns) in the Pit |
 | **Orb Thieves** | Bottom | Extra progression orbs |
+| **Chthon's Soul** | Mid | Turn glyph upgrades into bonus experience (or bonus loot — but XP is scarcer, take XP) |
 | **Haste Mastery** | Mid | Another +2 free glyph upgrades (total 9 possible at max investment) |
 
-**Priority order:** Haste → Heart of Stone → Blessing → Orb Thieves. Take Haste before Blessing because early Pit clears are always under 5 min (functionally identical to Blessing, and it leads to Heart of Stone).
+**Priority order:** Haste → Heart of Stone → Blessing → **Pit Butcher** → Chthon's Favor → Orb Thieves → Chthon's Soul → Haste Mastery.
 
-**Glyph pushing:** With full Pit investment, you can push glyphs 10-20 levels above your actual farming tier. Even at 4-8% upgrade chance, the 9 free upgrades per run guarantee steady progress.
+**Pit Butcher — the glyph-pushing game-changer (P4wnyhof, July 6):** The Butcher can appear 2-3 minutes into a Pit run. Killing him instantly completes the dungeon. This means you can attempt Pits 10-15 tiers above what you'd normally clear — you only need to survive until Butcher shows, not clear the whole thing. Chthon's Favor makes Butcher spawns more frequent. For glyphs at 110+, this lets you push 120-130 Pits with 70-80% upgrade chances without needing to full-clear.
+
+**Glyph pushing:** With full Pit investment, you can push glyphs 10-20 levels above your actual farming tier. Even at 4-8% upgrade chance, the 9 free upgrades per run guarantee steady progress. Once your glyphs are maxed, switch Chthon's Soul to XP mode for efficient Paragon grinding.
 
 **Pit protection bubble REMOVED in S14** (undocumented change) — you take damage immediately on load-in. Clear the area before upgrading glyphs. Hardcore: be ready to move.
 
-**Special events** (middle path) are worth taking after the core four points. Cursed machines now appear on the minimap (S14 change) and can drop Trace of Echoes and other valuable loot.
+**Special events** (middle path) are worth taking after the core nodes. Cursed machines now appear on the minimap (S14 change) and can drop Trace of Echoes and other valuable loot.
 
 ### 7. Infernal Hordes (Situational)
 
@@ -235,9 +266,11 @@ Unlocks at level 25. Becomes the primary XP source after you unlock Jade Epiphan
 
 ## Sources
 
-- wudijo — "BEST WAR PLANS TREES FOR ENDGAME" (July 1, 2026)
-- P4wnyhof — "Grab This War Plan Point EARLY for Massive Loot" (June 30, 2026)
-- Sportskeeda — "Best War Plans setup in Diablo 4 Season 14" (July 1, 2026)
-- AOEAH — "S14 Best War Plans Builds & Activities Skill Tree Upgrades" (June 2026)
+- wudijo — BEST WAR PLANS TREES FOR ENDGAME (July 1, 2026)
+- P4wnyhof — Grab This War Plan Point EARLY for Massive Loot (June 30, 2026)
+- P4wnyhof — Season 14 War Plan Meta is BROKEN right now! (July 6, 2026) — Pit Butcher discovery, Night Terrors, quantified reserves, per-activity final trees
+- IGGM — Diablo 4 Season 14 War Plans Complete Activity Guide (July 4, 2026)
+- Sportskeeda — Best War Plans setup in Diablo 4 Season 14 (July 1, 2026)
+- AOEAH — S14 Best War Plans Builds & Activities Skill Tree Upgrades (June 2026)
 - Maxroll — Speed Leveling Guide S14 (reviewed by wudijo, June 30, 2026)
 - Cross-referenced with official 3.1.0 PTR patch notes (Blizzard, June 2, 2026)
