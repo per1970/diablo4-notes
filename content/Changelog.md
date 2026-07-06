@@ -8,6 +8,7 @@ publish: true
 
 ## 2026-07-06
 
+- **Added:** Guide - Season 14 Gold Farming (overlapping ruptures as new gold king, Hordes direct gold, sell-vs-salvage for S14, War Plan setup, optimal gold loop)
 - **Added:** Guide - Season 14 Echoing Hatred (wave-survival arena — access, Overwhelm mechanics, S14 changes, build tier list, strategy)
 - **Updated:** Guide - Season 14 War Plans Best Nodes (P4wnyhof July 6 video — Pit Butcher discovery, Lair of Runes, Night Terrors cross-activity synergy, threat management, Hat Rotten Feast, quantified NMD reserves, Undercity Initiative vs Trials debate, Astaroth warning, per-activity final tree setups)
 - **Fixed:** Guide - Season 14 War Plans Best Nodes — table rendering (separator column-count mismatches causing broken tables on web)

@@ -29,6 +29,7 @@ date: 2026-07-02
 
 ## Loot & Economy
 
+- [[Guide - Season 14 Gold Farming]] — *2026-07-06*
 - [[Guide - Season 14 Horadric Cube Crafting]] — *2026-07-03*
 - [[Guide - Season 14 Gem Fragment Farming]] — *2026-07-03*
 
