@@ -23,6 +23,7 @@ date: 2026-07-02
 
 ## Endgame Systems
 
+- [[Guide - Season 14 Echoing Hatred]] — *2026-07-06*
 - [[Guide - Season 14 War Plans Best Nodes]] — *2026-07-03*
 - [[Guide - Season 14 Endgame Farming Meta]] — *2026-07-03*
 
