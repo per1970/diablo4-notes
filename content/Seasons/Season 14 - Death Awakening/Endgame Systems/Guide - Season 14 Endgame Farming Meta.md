@@ -14,10 +14,10 @@ tags:
 season: 14
 expansion: Lord of Hatred
 publish: true
-date: 2026-07-03
+date: 2026-07-07
 confidence: confirmed
-last_refreshed: 2026-07-03
-sources_checked: [Rob2628, RageGamingVideos, Maxroll, Icy Veins]
+last_refreshed: 2026-07-07
+sources_checked: [Rob2628, RageGamingVideos, Maxroll, Icy Veins, wudijo]
 ---
 
 > [!d4-s14] Season 14 Endgame Farming
@@ -115,6 +115,25 @@ Rob2628 hit **Paragon 300 in 56h 50m** using Whirlwind Barb. This is the fastest
 
 **Optimal endgame loop:** Popular Helltide zone → overlapping rifts on minimap → blast rifts → Roots for extra density → Whisper Caches → open at T1+ → Lair Keys on bosses → Deathtoll for Superior Keys → Belial/Corrupted Reaper for Mythics.
 
+### Rupture + Helltide Stacking Strategy (Icy Veins, Jul 6)
+
+The community has refined the War Plan setup for maximum Rupture rewards during Helltides:
+
+**Tree of Whispers nodes:**
+- **Corrupted Roots** — consumable that attracts nearby enemies when planted
+- **Roots of Power** — increased rewards from spawned enemies in Helltides
+- **Headrotten Feast** — further boosts Helltide Root rewards
+
+**Helltide nodes:**
+- **Hellmouth** — at Threat Level 2, Hellwyrms spawn and spew maggots (massive XP + Boss Trophies)
+- **Writhe and Rot** — maggots drop Lair Keys and Gem Fragments
+- **Bursting Brood** — increased maggot spawns
+- **Tainted Shrines** — faster Threat progression
+- **Hated Foe** — increased rewards at max Threat
+- **Meat Brothers** — two Butchers spawn at max Threat (drop Profaned Mindcages)
+
+**Execution:** Find 2+ overlapping Ruptures in a Helltide → activate both → plant Corrupted Roots → activate Profaned Mindcages → Threat fills → Hellwyrms + maggots + Butchers chain. wudijo confirms this is the best simultaneous XP + key farm in the game — he amassed 700+ Greater Lair Keys mainly from maggots.
+
 ---
 
 ## "Infinite Mats" — How It Works
@@ -155,9 +174,11 @@ Divine Lance Paladin, Flurry Rogue, Lunging Strike Barb, Cataclysm Druid, Minion
 
 ## Sources
 
-- Rob2628 — "INFINITE MATS & CRAZY XP - Paragon 300 FASTEST SEASON EVER" (July 3, 2026)
-- Rob2628 — "NEW S14 FARMING META" (July 2, 2026)
-- RageGamingVideos — "Realmwalkers & Deathtoll Chambers = OP" (July 1, 2026)
+- Rob2628 — INFINITE MATS & CRAZY XP (July 3, 2026)
+- Rob2628 — NEW S14 FARMING META (July 2, 2026)
+- wudijo — How to farm Mythics, Gems, Gold & more (July 5, 2026)
+- RageGamingVideos — Realmwalkers & Deathtoll Chambers = OP (July 1, 2026)
+- Icy Veins — Stack Ruptures and Helltides for Big Season 14 Rewards (July 6, 2026)
 - Maxroll.gg — Optimal Farming Guide (updated July 3, 2026)
 - Maxroll.gg — Paragon Experience Guide (updated April 25, 2026)
 - Maxroll.gg — Speedfarming Tier List S14 (updated June 28, 2026)

@@ -11,10 +11,10 @@ tags:
 season: 14
 expansion: Lord of Hatred
 publish: true
-date: 2026-07-03
+date: 2026-07-07
 confidence: confirmed
-last_refreshed: 2026-07-03
-sources_checked: [wudijo, cliptis86]
+last_refreshed: 2026-07-07
+sources_checked: [wudijo, cliptis86, Icy Veins, Rob2628]
 ---
 
 > [!d4-s14] Season 14 Tips & PSAs
@@ -117,11 +117,42 @@ The obol vendor (Cerrigar) is the only place to **target-farm specific item slot
 | Cube upgrade is random | Output ≠ input item — don't feed your BiS unique |
 | Gem crafting costs 2 mats | Down from 3; Escalating NM drops 250k+ fragments |
 
+---
+
+## Mythic 3.0 System Problems ⚠️
+
+Mythic acquisition has become the #1 community pain point in S14. Multiple independent sources confirm significant nerfs and design issues:
+
+### Drop Rate Nerfs
+- **Mythic Tributes gutted:** From guaranteed mythic per tribute in S13 to ~30% or worse. Players report 12 chests with zero mythics. wudijo: "giga nerfed."
+- **Boss mythic drops nerfed across the board.** Even with farming hundreds of keys, mythic drops are sparse.
+- **Rank 1 HC SSF player breakdown (Jul 6):** 46h playtime, Paragon 252, ~100 keys + 100 caches → only **9 Pandemonium Fragments** (not enough for ONE craft). Six Mythic tributes on T12 with Trials and Tributes node → one off-build mythic drop. The season built around Mythic rework makes its centerpiece nearly inaccessible through both crafting AND drops.
+
+### The Resplendent Spark Problem
+- Once you craft your **one** mythic (Cube/Jeweler/Blacksmith all share the limit), Resplendent Sparks pile up with no use
+- Old system: 2 Sparks = guaranteed mythic. New system: Sparks only used at Jeweler/Blacksmith, which also counts toward the crafted limit
+- Salvaging a mythic returns a Spark — but excess Sparks are dead inventory
+
+### Crafted Mythic Confusion
+- The "Crafted" tag applies to ALL three sources: Cube, Jeweler, Blacksmith
+- **Different mythic pools:** Cube and Jeweler give random class/general mythics. **Blacksmith only** gives Iconic mythics (the old ones: Shako, Grandfather, Starless Skies, etc.)
+- You cannot get a Starless Skies from Cube/Jeweler — Blacksmith is the only path
+- wudijo confirms: played most of the season without any mythic equipped. Crafted ~30 times at Blacksmith trying for a specific iconic — still unsuccessful
+
+### Practical Takeaway
+- Don't hoard Sparks waiting to craft multiple mythics — you can't
+- Choose your single crafted mythic wisely: biggest multiplier for your build
+- If you need an Iconic mythic (old ones), the Blacksmith is your only crafting path
+- Drop mythics can be equipped alongside one crafted — but drop rates are low and random
+- This system may be revisited in a hotfix or future season — community pressure is building
+
 ## Sources
 
-- wudijo — "Season 14 UNDOCUMENTED CHANGES" (July 2, 2026)
-- cliptis86 — "Your Loot Filter Could Be Hiding Mythics!" (July 2, 2026)
-- cliptis86 — "DO NOT SALVAGE MYTHIC TRIBUTES!" (July 2, 2026)
-- cliptis86 — "Enchanter Hack" (July 1, 2026)
-- cliptis86 — "Level 70? Here's Exactly What To Do Next!" (July 1, 2026)
-- Community testing and Reddit PSAs
+- wudijo — Season 14 UNDOCUMENTED CHANGES (July 2, 2026)
+- wudijo — How to farm Mythics, Gems, Gold & more (July 5, 2026)
+- cliptis86 — Your Loot Filter Could Be Hiding Mythics (July 2, 2026)
+- cliptis86 — DO NOT SALVAGE MYTHIC TRIBUTES (July 2, 2026)
+- cliptis86 — Enchanter Hack (July 1, 2026)
+- cliptis86 — Level 70? Here's Exactly What To Do Next (July 1, 2026)
+- Icy Veins — Rank 1 Hardcore Player Breaks Down Mythic Issues (July 6, 2026)
+- Icy Veins — Do Not Waste Resplendent Sparks (July 6, 2026)

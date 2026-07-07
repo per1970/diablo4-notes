@@ -6,6 +6,13 @@ publish: true
 
 # Vault Changelog
 
+## 2026-07-07
+
+- **Updated:** Guide - Season 14 Horadric Cube Crafting — S14 stealth change: +All Skills on amulet guaranteed method (3x Adept's Prism), All Resistance force trick (2x Chromatic Prism), enchanter lock trick to protect GAs
+- **Updated:** Guide - Season 14 Endgame Farming Meta — added Icy Veins Rupture+Helltide War Plan stacking strategy with full node list (Hellmouth, Writhe and Rot, Corrupted Roots, etc.), confirmed best simultaneous XP+key farm
+- **Updated:** Guide - Season 14 Gem Fragment Farming — wudijo confirms ~2.5M fragments per Escalation NMD run, T2/T3 escalation scaling
+- **Updated:** Reference - Season 14 General Tips & PSAs — new Mythic 3.0 System Problems section: drop rate nerfs (tributes ~30%, bosses nerfed), Rank 1 HC SSF testimony (9 Fragments from 100 keys), Resplendent Spark dead-end, Crafted mythic pool confusion, Iconic mythics only from Blacksmith
+
 ## 2026-07-06
 
 - **Added:** Guide - Season 14 Gold Farming (overlapping ruptures as new gold king, Hordes direct gold, sell-vs-salvage for S14, War Plan setup, optimal gold loop)

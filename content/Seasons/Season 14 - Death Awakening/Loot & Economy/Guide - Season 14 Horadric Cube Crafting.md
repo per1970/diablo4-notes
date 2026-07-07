@@ -11,10 +11,10 @@ tags:
 season: 14
 expansion: Lord of Hatred
 publish: true
-date: 2026-07-03
+date: 2026-07-07
 confidence: confirmed
-last_refreshed: 2026-07-03
-sources_checked: [cliptis86, RageGamingVideos, Maxroll, Icy Veins, Dot Esports]
+last_refreshed: 2026-07-07
+sources_checked: [cliptis86, RageGamingVideos, Maxroll, Icy Veins, Dot Esports, wudijo]
 ---
 
 > [!d4-s14] Season 14 Horadric Cube
@@ -54,7 +54,7 @@ Tuning Prisms bias Cube recipes toward chosen stat categories. **Not consumed on
 | **Protector's** | Armor, DR, Dodge, Fortify Gen, Life on Hit/Kill, Max Life, All Res, Specific Res |
 | **Resourceful** | Lucky Hit Restore Resource, Max Resource, Cost Reduction, Resource on Kill, Resource Regen |
 | **Adept's** | Mainstat, Skill Ranks |
-| **Chromatic** | Specific Resistances — **S14 change:** can now also target **All Resistance** (small chance) |
+| **Chromatic** | Specific Resistances — **S14 change:** can target **All Resistance**. Stealth change (Jul 2026): force All Res by stacking 2 Chromatic prisms (see Advanced Tech below). |
 | **Entropic** | **Transfiguration** — removes worst AND best outcomes; 100% locks item |
 | **Kullean** | **Transfiguration (Amulet only)** — adds bonus legendary aspect; does NOT lock item |
 
@@ -209,8 +209,33 @@ Input 5x of something to upgrade:
 5. **Charm optimization:** Reroll Set Charm until +3 desired skills + GAs
 6. **Boss trophy amalgamation:** 5x trophies = target-farm uniques from specific bosses
 
+## S14 Stealth Changes & Advanced Tech
+
+### +All Skills on Amulet — Guaranteed Method
+
+S14 stealth change: **All Skills** is now in the Adept's Tuning Prism pool. This means you can force it onto any amulet with 100% consistency:
+
+1. Use **3x Adept's Tuning Prism** in sequence
+2. 1st adds a random skill category, 2nd adds another, **3rd is always +All Skills** (no other stat competes once main stat + one skill category are present)
+3. If it rolls +1, just Focus Reroll — All Skills can now reroll into itself (another S14 stealth change: stats no longer block themselves)
+4. Remove other unwanted affixes until only All Skills remains
+
+**Protecting GAs:** Enchant a stat at the Occultist and select "no change" → the Cube cannot touch that stat. Use this to lock your GA affix while forcing +All Skills onto the remaining slots.
+
+### All Resistance — Same Trick
+
+Chromatic Prism was updated in S14 to include **All Resistance** (previously single resistances only). Same force method:
+
+1. Add Chromatic Prism → random single res or All Res
+2. If single res, add Chromatic Prism again → **second is always All Res** (competes with nothing else)
+3. Remove the single res → 50/50 to keep All Res
+4. Repeat until clean
+
+This makes All Res — historically the hardest defensive stat to roll — trivially targetable.
+
 ## Sources
 
+- wudijo — "Insane New Crafting Tech for GG Amulets!" (July 6, 2026)
 - cliptis86 — "The Horadric Cube Changes EVERYTHING" (July 3, 2026)
 - RageGamingVideos — "S14 Horadric Cube Crafting Guide" (July 2, 2026)
 - Maxroll.gg — Horadric Cube guide by Icytroll (updated June 30, 2026)

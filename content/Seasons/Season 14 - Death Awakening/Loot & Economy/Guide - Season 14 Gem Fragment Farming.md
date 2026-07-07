@@ -12,9 +12,9 @@ tags:
 season: 14
 expansion: Lord of Hatred
 publish: true
-date: 2026-07-03
+date: 2026-07-07
 confidence: confirmed
-last_refreshed: 2026-07-03
+last_refreshed: 2026-07-07
 sources_checked: [wudijo, cliptis86, Icy Veins, d4gold.com]
 ---
 
@@ -88,6 +88,7 @@ Rubies are best for: Overpower builds, Strength-stacking (Barbarian, Paladin), F
 - The deeper the escalation floor → larger the payout
 - Escalating NM + Branching Pathways War Plan node = pick your reward type per floor
 - One quarter of a Grand Gem (100k needed) from ONE chest
+- **wudijo (Jul 5):** ~2.5 million fragments from a single Escalation NMD run with targeted Reserve affix — enough for 2.5 Grand Gems in one dungeon. Tier 1 numbers look low, but T2/T3 escalation drops scale dramatically.
 
 ### Method 3: Combined
 - Run Escalating NMD with Gem Reserve affix
@@ -135,8 +136,9 @@ The old S13 meta (run the same dungeon 2000+ times) is dead. NM Reserves + Escal
 
 ## Sources
 
-- wudijo — "INSANE Ruby Fragments" (July 3, 2026, YouTube Short)
-- cliptis86 — "New Gem Fragment META Farm" (July 2, 2026, YouTube Short)
+- wudijo — INSANE Ruby Fragments (July 3, 2026, YouTube Short)
+- wudijo — How to farm Mythics, Gems, Gold & more (July 5, 2026)
+- cliptis86 — New Gem Fragment META Farm (July 2, 2026, YouTube Short)
 - Icy Veins — Jeweler Guide for Season 14 (updated June 30, 2026)
 - d4gold.com — "Stop Farming Gems the Hard Way!" (July 1, 2026)
 - Community testing and r/diablo4
