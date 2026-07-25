@@ -76,6 +76,15 @@ sources:
     language: unknown
     notes: Unverified — specialty, language, and reliability to be refined with use.
 
+  - name: Slither
+    platform: youtube
+    url: "https://www.youtube.com/@Slither"
+    specialties: [farming, endgame, guides]
+    reliability: medium
+    update_cadence: frequent
+    language: en
+    notes: Farming methods, exploits, gem/material optimization. Escalating Nightmare Dungeon reset farm source.
+
   # ── Web Guides & Resources ────────────────────────────────────
 
   - name: Maxroll
@@ -213,6 +222,9 @@ topics:
   economy:
     primary: [Maxroll, wudijo]
     secondary: [Wowhead, d4builds.gg]
+  farming:
+    primary: [Slither, wudijo, Maxroll]
+    secondary: [Rob2628, Rhykker]
   "patch-notes":
     primary: [Blizzard News]
     secondary: [Rhykker, Wowhead]
