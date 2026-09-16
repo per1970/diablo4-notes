@@ -11,7 +11,7 @@ tags:
 season: 13
 expansion: Lord of Hatred
 publish: true
-updated: 2026-05-03
+date: 2026-05-03
 ---
 
 # Nightmare Dungeon Affixes — Season 13

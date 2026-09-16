@@ -2,9 +2,26 @@
 title: Vault Changelog
 description: Tracking additions and updates to the D4 knowledge vault.
 publish: true
+date: 2026-09-16
 ---
 
 # Vault Changelog
+
+## 2026-09-16
+
+- **Added:** Season 15 folder scaffold (`Seasons/Season 15 - Hell's Legacy/`) with a hub index — Season of Hell's Legacy, patch 3.2.1 build 73552, launched 2026-09-15. S14 rolled to Previous Season.
+- **Added:** Guide - Season 15 Leveling 1-70 (War-Plan Helltide 1–24 → Undercity Jade Epiphany to 70, the 3.2.1 Helltide-opening nerf, starter picks; Maxroll has no S15 route yet)
+- **Added:** Guide - Season 15 Tier List & Starters (Maxroll / Icy Veins / Mobalytics / Rob2628 side by side, all disagreements named, class-level-vs-build-level methodology gap)
+- **Added:** Reference - Season 15 Class Changes 3.2.1 (all eight classes quantified; core stat scalar Barbarian 1.1 → 0.8, Druid/Necro/Paladin/Sorcerer 1.25 → 1.625; item, drop-rate and economy deltas; the four documented PTR-versus-launch reversals)
+- **Added:** Guide - Season 15 War Plans & Progression (account-wide shared reputation, node priorities still valid from S13/S14, first-week activity order, Pit T150 1800% → 2700%, Tower unchanged, Whispers gold ≈35M → ≈100M at Torment XII)
+- **Added:** Guide - Season 15 Prime Evils & Splinter Lanes (Diablo/Baal/Mephisto encounters and locations, the Splinter of Evil choice, per-lane activity amplification, named reputation nodes)
+- **Added:** Guide - Season 15 Waking Nightmares (three dungeon types, ~1 min overworld portals, brazier-based difficulty; the season's least-documented system, confidence: speculation)
+- **Added:** Reference - Season 15 New Systems (Rebirth, Horadric Post, all nine Legacy Uniques, 16 new Unique Charms, the shadow-dropped Runewords that appear in no patch note)
+- **Added:** Reference - Season 15 Soul Splinters (all eight splinters with boons and drawbacks, max 3 in jewellery, Amalgamation, and the upgrade costs that are unpublished everywhere)
+- **Added:** Guide - Season 15 Mythic Crafting & Loot Economy (three Mythic routes, Upgrade Direct 1:1, Iconic Mythic launch reversal, 3.2.1 drop-rate changes, gem/fragment cost cuts, sell-versus-salvage, SSF still disabled)
+- **Updated:** `Templates/Diablo 4 Note.md` — season 15 / season15 tag
+- **Fixed:** Root `index.md` — Current Season now points at Season 15, Season 14 moved to Archived
+- **Note:** Season 15 content is day-2 data. Tier lists and the Waking Nightmares note carry a refresh due ≈2026-09-30.
 
 ## 2026-07-07
 

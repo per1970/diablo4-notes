@@ -14,17 +14,20 @@ date: 2026-07-03
 
 ## Current Season
 
-- **[[Seasons/Season 14 - Death Awakening/index|Season 14 — Death Awakening]]** *(June 30, 2026 — present)*
-  - Builds, War Plans, leveling routes, Pandemonium Ruptures, Corrupted Reaper
+- **[[Seasons/Season 15 - Hell's Legacy/index|Season 15 — Hell's Legacy]]** *(September 15, 2026 — present)*
+  - Prime Evils, Soul Splinters, Waking Nightmares, Rebirth, Legacy Uniques, Horadric Post
 
 ## Archived Seasons
 
+- **[[Seasons/Season 14 - Death Awakening/index|Season 14 — Death Awakening]]** *(June 30 — September 2026)*
+  - Builds, War Plans, leveling routes, Pandemonium Ruptures, Corrupted Reaper
 - **[[Seasons/Season 13 - Reckoning/index|Season 13 — Reckoning]]** *(April 27 — July 2026)*
   - Lord of Hatred expansion launch, Warlock/Paladin builds, Horadric Cube, Talisman system
 
 ## Evergreen Mechanics
 
 - [[Mechanics/Nightmare Dungeon Affixes]] — Affix reference for all seasons
+- [[Build & Character/Guide - Adapting Build Guides to Your Character]] — How to read planners, adapt gear, and understand damage mechanics
 
 ## Vault Meta
 

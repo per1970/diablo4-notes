@@ -3,8 +3,8 @@ title:
 description: 
 tags:
   - diablo4
-  - season14
-season: 14
+  - season15
+season: 15
 expansion: Lord of Hatred
 publish: true
 date: 
