@@ -62,28 +62,40 @@ sources:
     platform: youtube
     url: "https://www.youtube.com/@cliptis86"
     specialties: [builds]
-    reliability: unverified
+    reliability: medium
     update_cadence: unknown
     language: en
-    notes: Build creator. Specialty and reliability to be refined with use.
+    notes: >-
+      Resolved 2026-09-16 — "Cliptis" (channel UCTNiHLvyyV1r4-OLb8xaL5g), a Mobalytics-curated
+      creator (listed alongside M1PY, Goblin Inc., Imortilize) and a d4builds/Mobalytics build
+      author. Stays in topics[builds].primary.
 
   - name: aoinomiku
     platform: youtube
     url: "https://www.youtube.com/@aoinomiku"
-    specialties: [general]
-    reliability: unverified
+    specialties: [builds, barbarian, paladin]
+    reliability: medium
     update_cadence: unknown
-    language: unknown
-    notes: Unverified — specialty, language, and reliability to be refined with use.
+    language: en
+    notes: >-
+      Resolved 2026-09-16 — also a Maxroll build-guide author (channel UCawxuE9UZYkrx7Fyj-3wpnA):
+      credited for Zeal / Divine Lance / Zenith / Blessed Hammer Paladin and Lunging Strike /
+      Whirlwind Barbarian, updated Sep 15. On YouTube an English-language, Barbarian-focused VTuber
+      (#vtuberen). Prefer Maxroll directly for his credited guides.
 
   - name: Slither
     platform: youtube
-    url: "https://www.youtube.com/@Slither"
+    url: unknown
     specialties: [farming, endgame, guides]
-    reliability: medium
-    update_cadence: frequent
+    reliability: unverified
+    update_cadence: unknown
     language: en
-    notes: Farming methods, exploits, gem/material optimization. Escalating Nightmare Dungeon reset farm source.
+    notes: >-
+      UNRESOLVABLE 2026-09-16 — the handle is a collision. @Slither points to channel
+      UCsn8Dg8iIYiqvJwF7bz3NeQ, whose RSS feed is titled "Slither" and holds a single 2007 entry
+      (Kamelot, Casey Grillo drum solo); @SlitherD4 is 404; a channel search returns no D4 channel.
+      Removed from topics[farming].primary.
+      Evidence: d4-s15-sweep/06-source-access-report.md §4.3
 
   # ── Web Guides & Resources ────────────────────────────────────
 
@@ -169,22 +181,32 @@ sources:
     notes: Boosting site with blog guides. S13 Talisman guide. Cross-reference claims — lower editorial bar.
 
   - name: Vortex Gaming
-    platform: youtube
+    platform: none
     url: unknown
     specialties: [guides, war-plans]
     reliability: low
     update_cadence: unknown
     language: en
-    notes: Referenced in S13 War Plans note. YouTube channel — URL to be added.
+    retired: true
+    notes: >-
+      RETIRED 2026-09-16 — not usable. vortexgaming.io is a Korean gaming-community platform
+      (볼텍스게이밍), not an English D4 guide site, and the YouTube handles @vortexgaming-e5j /
+      @vortexgamingyt-e6l carry no D4 content. The S13 War Plans citation is unverifiable.
+      Removed from topics[war-plans].secondary.
+      Evidence: d4-s15-sweep/06-source-access-report.md §4.1
 
   - name: Switchblade Gaming
-    platform: youtube
-    url: unknown
+    platform: web
+    url: "https://switchbladegaming.com/diablo-4/"
     specialties: [guides, war-plans]
     reliability: low
     update_cadence: unknown
     language: en
-    notes: Referenced in S13 War Plans note. YouTube channel — URL to be added.
+    notes: >-
+      Website, not a YouTube channel (corrected 2026-09-16). Live WordPress guide site; carries
+      the S13 War Plans citation at /diablo-4/war-plans-guide. Content is still S13-era — no S15
+      coverage observed. Verify before citing.
+      Evidence: d4-s15-sweep/06-source-access-report.md §4.2
 
   - name: AOEAH
     platform: web
@@ -209,7 +231,7 @@ topics:
     secondary: [Rob2628, Icy Veins, Mobalytics, Keengamer]
   "war-plans":
     primary: [Maxroll, Keengamer]
-    secondary: [wudijo, Mobalytics, Vortex Gaming, Switchblade Gaming, AOEAH]
+    secondary: [wudijo, Mobalytics, Switchblade Gaming, AOEAH]
   crafting:
     primary: [Maxroll, Icy Veins]
     secondary: [wudijo, Wowhead]
@@ -223,7 +245,7 @@ topics:
     primary: [Maxroll, wudijo]
     secondary: [Wowhead, d4builds.gg]
   farming:
-    primary: [Slither, wudijo, Maxroll]
+    primary: [wudijo, Maxroll]
     secondary: [Rob2628, Rhykker]
   "patch-notes":
     primary: [Blizzard News]
